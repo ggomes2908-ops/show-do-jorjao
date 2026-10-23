@@ -2,8 +2,8 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101323"><meta name="description" content="Quiz de almoço: jogue com colegas, teste conhecimentos e dispute o ranking.">
-  <title>Show do Jorjão — Desafio do Almoço</title><link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#101323"><meta name="description" content="Show do Jorjão V6: quiz de conhecimentos difíceis, nível gênio e Duelo Dourado.">
+  <title>Show do Jorjão V6 — Duelo Dourado</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
@@ -18,11 +18,14 @@
         <div id="themes" class="theme-grid">
           <label class="theme-card selected"><input type="checkbox" value="Conhecimento geral" checked><span class="theme-icon">🧠</span><span class="theme-name">Conhecimento geral</span><span class="theme-check">✓</span></label>
           <label class="theme-card selected"><input type="checkbox" value="Geopolítica e atualidades" checked><span class="theme-icon">🌎</span><span class="theme-name">Geopolítica e atualidades</span><span class="theme-check">✓</span></label>
-          <label class="theme-card selected"><input type="checkbox" value="Futebol e esportes" checked><span class="theme-icon">⚽</span><span class="theme-name">Futebol e esportes</span><span class="theme-check">✓</span></label>
           <label class="theme-card selected"><input type="checkbox" value="Brasil" checked><span class="theme-icon">🇧🇷</span><span class="theme-name">Brasil</span><span class="theme-check">✓</span></label>
-          <label class="theme-card selected"><input type="checkbox" value="Entretenimento" checked><span class="theme-icon">🎬</span><span class="theme-name">Entretenimento</span><span class="theme-check">✓</span></label>
           <label class="theme-card selected"><input type="checkbox" value="Ciência e tecnologia" checked><span class="theme-icon">🔬</span><span class="theme-name">Ciência e tecnologia</span><span class="theme-check">✓</span></label>
           <label class="theme-card selected"><input type="checkbox" value="História e geografia" checked><span class="theme-icon">🗺️</span><span class="theme-name">História e geografia</span><span class="theme-check">✓</span></label>
+          <label class="theme-card selected"><input type="checkbox" value="Política" checked><span class="theme-icon">🏛️</span><span class="theme-name">Política</span><span class="theme-check">✓</span></label>
+          <label class="theme-card selected"><input type="checkbox" value="Química" checked><span class="theme-icon">⚗️</span><span class="theme-name">Química</span><span class="theme-check">✓</span></label>
+          <label class="theme-card selected"><input type="checkbox" value="Lógica e enigmas" checked><span class="theme-icon">🧩</span><span class="theme-name">Lógica e enigmas</span><span class="theme-check">✓</span></label>
+          <label class="theme-card selected"><input type="checkbox" value="Economia e negócios" checked><span class="theme-icon">💼</span><span class="theme-name">Economia e negócios</span><span class="theme-check">✓</span></label>
+          <label class="theme-card selected"><input type="checkbox" value="Matemática e raciocínio" checked><span class="theme-icon">➗</span><span class="theme-name">Matemática e raciocínio</span><span class="theme-check">✓</span></label>
         </div>
         <div class="rounds-row"><div><span class="step">03</span><div><h2>Rodadas da partida</h2><p>Uma pergunta para cada rodada.</p></div></div><div class="round-control"><button id="round-minus" aria-label="Diminuir rodadas">−</button><strong id="round-value">10</strong><button id="round-plus" aria-label="Aumentar rodadas">＋</button></div></div>
         <div class="rules-note"><span>⚡</span><p><b>Como funciona a pontuação?</b><br>Acertou: 1 ponto. Errou: 0 ponto. Sem bônus de velocidade: aqui vale conhecimento, não rapidez.</p></div>
@@ -30,8 +33,24 @@
       </div>
     </section>
     <section id="screen-pass" class="screen"><div class="game-top"><button class="btn btn-ghost btn-small" id="quit-game">← Sair da partida</button><span id="round-label" class="round-label">RODADA 1 DE 10</span><span id="score-mini" class="score-mini">0 respostas</span></div><div class="progress-track"><div id="progress-bar"></div></div><div class="pass-card panel"><div class="pass-icon">🤫</div><div class="eyebrow">VEZ DE RESPONDER</div><h1>Passa o dispositivo para</h1><div id="active-player-name" class="active-player-name">Jogador 1</div><p>Quando estiver com o dispositivo, toque abaixo para ver a pergunta. Os outros jogadores não devem olhar!</p><button id="show-question" class="btn btn-primary">Estou pronto para responder <span>→</span></button><div class="turn-list" id="turn-list"></div></div></section>
-    <section id="screen-question" class="screen"><div class="game-top"><button class="btn btn-ghost btn-small" id="back-to-pass">← Voltar</button><span id="question-round" class="round-label">RODADA 1 DE 10</span><span id="question-category" class="category-chip">Conhecimento geral</span></div><div class="question-wrap"><div class="question-kicker"><span>PERGUNTA</span><span id="question-number">01 / 10</span></div><h1 id="question-text">Carregando pergunta…</h1><div id="answers" class="answers-grid"></div><div id="answer-feedback" class="answer-feedback" aria-live="polite"></div><div class="question-foot"><span>Escolha uma alternativa</span><span>⚡ Bônus por rapidez</span></div></div></section>
+    <section id="screen-question" class="screen"><div class="game-top"><button class="btn btn-ghost btn-small" id="back-to-pass">← Voltar</button><span id="question-round" class="round-label">RODADA 1 DE 10</span><span id="question-category" class="category-chip">Conhecimento geral</span></div><div class="question-wrap"><div class="question-kicker"><span>PERGUNTA</span><span id="question-number">01 / 10</span></div><h1 id="question-text">Carregando pergunta…</h1><div id="answers" class="answers-grid"></div><div id="answer-feedback" class="answer-feedback" aria-live="polite"></div><div class="question-foot"><span>Escolha uma alternativa</span><span>Sem bônus por rapidez</span></div></div></section>
     <section id="screen-reveal" class="screen"><div class="reveal-head"><div class="eyebrow">FIM DA RODADA</div><h1>Hora da <span>revelação!</span></h1><p>Confira a resposta correta e veja quem pontuou.</p></div><div class="reveal-question panel"><span id="reveal-category" class="category-chip">Tema</span><h2 id="reveal-question-text"></h2><div id="reveal-correct" class="correct-answer"></div><div id="round-results" class="round-results"></div></div><div class="reveal-bottom"><div class="mini-leaderboard" id="mini-leaderboard"></div><button id="next-round" class="btn btn-primary">Próxima rodada <span>→</span></button></div></section>
+
+    <section id="screen-duel" class="screen">
+      <div class="duel-hero">
+        <img class="duel-art" src="duelo-dourado.png" alt="Jorjão apresentando o duelo final entre os participantes">
+        <div class="duel-content panel">
+          <div class="eyebrow">SHOW DO JORJÃO APRESENTA</div>
+          <h1>EMPATE? <span>ENTÃO É DUELO!</span></h1>
+          <p id="duel-intro">Jorjão convoca os finalistas para o confronto decisivo.</p>
+          <div id="duel-finalists" class="duel-finalists"></div>
+          <div id="duel-stage">
+            <button id="duel-start" class="btn btn-primary">Começar confronto final →</button>
+          </div>
+          <p class="duel-rule">Todos respondem à mesma pergunta, um por vez e sem cronômetro. Quem errar é eliminado se alguém acertar. Se todos errarem, todos continuam; se só um acertar, ele é campeão.</p>
+        </div>
+      </div>
+    </section>
     <section id="screen-results" class="screen"><div class="final-hero"><div class="eyebrow">SHOW DO JORJÃO APRESENTA</div><div id="jorjao-reveal" class="jorjao-reveal"><div class="jorjao-placeholder" id="jorjao-placeholder"><img id="jorjao-photo" src="jorjao-esqueceu.png" alt="Jorjão pensando no resultado"></div><h2 id="jorjao-line">Calma, não esqueci o resultado não!</h2><div class="loading-line"><span></span><span></span><span></span></div><button id="reveal-winner" class="btn btn-primary">Toque para o Jorjão Lembrar o Resultado →</button><p class="winner-announcement" id="winner-announcement" hidden></p></div><div class="trophy">🏆</div><h1>Temos um <span>campeão!</span></h1><p id="final-subtitle">Mandaram bem no desafio.</p></div><div class="podium" id="podium"></div><div class="final-table panel"><div class="section-heading"><div><span class="step">★</span><h2>Placar final</h2></div><span class="count-chip">10 rodadas</span></div><div id="final-ranking"></div></div><div class="final-actions"><button id="play-again" class="btn btn-primary">Jogar revanche <span>↻</span></button><button id="new-game" class="btn btn-ghost">Nova partida</button></div><p class="privacy-note">Seu histórico de perguntas usadas permanece neste navegador para reduzir repetições.</p></section>
   </main><footer><span>SHOW DO JORJÃO</span><span>O conhecimento vale ouro ☕</span></footer><div id="toast" class="toast" role="status"></div><script src="questions.js"></script><script src="app.js"></script>
 </body></html>

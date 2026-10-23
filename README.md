@@ -1,45 +1,50 @@
-# Show do Jorjão — Desafio do Almoço
+# Show do Jorjão — V6 Final para o almoço
 
-Primeiro protótipo estático do quiz para GitHub Pages, em português. Feito com HTML, CSS e JavaScript puro, sem build ou dependências de runtime.
+## Banco de perguntas
+- **Total: 202 perguntas**.
+- 10 categorias, todas com pelo menos 20 perguntas disponíveis.
+- Todas as perguntas estão marcadas como `genio` para serem elegíveis no jogo.
+- Cada pergunta tem quatro alternativas, gabarito e explicação curta.
+- O jogo continua com 2–10 participantes, modo de passar o dispositivo, sem temporizador e sem bônus por velocidade.
+- O histórico local evita repetir perguntas já usadas no mesmo navegador até esgotar o conjunto selecionado; ao esgotar, o jogo reinicia o conjunto para permitir novas partidas.
 
-## O que funciona nesta versão
-- Cadastro de 2 a 10 jogadores em um computador compartilhado.
-- Seleção de 7 temas e configuração de 1 a 20 rodadas.
-- Banco inicial com perguntas de nível avançado/genial, com explicação da resposta. O jogo seleciona questões marcadas como `genio`.
-- Passagem de vez: a pergunta é exibida apenas quando o jogador ativo confirma que está pronto.
-- Revelação da resposta e pontos somente depois de todos responderem à pergunta.
-- 1 ponto por acerto e zero por erro. Sem bônus de velocidade e sem cronômetro eliminatório.
-- Ranking final, número de acertos e opção de revanche.
-- Histórico local das perguntas usadas para reduzir repetições entre partidas neste navegador.
-- Layout responsivo para computador e celular.
+## Distribuição
+| Categoria | Perguntas |
+|---|---:|
+| Conhecimento geral | 20 |
+| Geopolítica e atualidades | 21 |
+| Brasil | 20 |
+| Ciência e tecnologia | 21 |
+| História e geografia | 20 |
+| Política | 20 |
+| Química | 20 |
+| Lógica e enigmas | 20 |
+| Economia e negócios | 20 |
+| Matemática e raciocínio | 20 |
+| **Total** | **202** |
 
-## Limitações importantes do MVP
-- Esta versão é local e não cria salas sincronizadas entre dispositivos. O modo de uso selecionado é um único computador compartilhado.
-- A memória de perguntas usadas fica no `localStorage` do navegador, não em um banco compartilhado. Limpar os dados do navegador apaga esse histórico.
-- O banco de perguntas é inicial e estático. As perguntas difíceis do banco inicial são estáticas. “Geopolítica e atualidades” não é um feed ao vivo: atualização automática exige uma API/fontes e backend com validação editorial.
-- O bônus usa o tempo entre exibir a pergunta e a escolha de cada pessoa. Não há limite de tempo nem penalidade por demora.
+## Como abrir
+Extraia o ZIP e abra `index.html` no navegador. Não é necessário instalar nada nem ter internet para jogar localmente.
 
-## Publicar no GitHub Pages
-1. Crie um repositório no GitHub, por exemplo `quiz-da-firma`.
-2. Envie `index.html`, `style.css`, `app.js`, `questions.js` e `README.md` para a raiz do repositório.
-3. Abra **Settings → Pages**.
-4. Em **Build and deployment**, escolha **Deploy from a branch**, selecione `main` e `/ (root)`, e salve.
-5. Aguarde o GitHub publicar o site. A URL aparecerá em Settings → Pages.
+## Limitações importantes
+- O banco é estático; perguntas de atualidades não se atualizam sozinhas e precisam de revisão periódica.
+- O histórico é salvo apenas no navegador usado para jogar.
+- A sintaxe JavaScript foi validada, e a estrutura do banco foi conferida. Ainda assim, esta entrega não equivale a um teste completo em todos os navegadores/dispositivos.
 
-## Próxima etapa para salas reais e atualidades
-Para códigos de sala, sincronização multi-dispositivo, controle confiável de respostas e histórico partilhado, integrar um backend como Supabase Realtime (Postgres + Realtime + políticas de acesso). Para notícias recentes, criar uma rotina de servidor/Edge Function que recolha de fontes confiáveis, gere perguntas com fonte e data, valide respostas e grave-as no banco. Não colocar chaves secretas no JavaScript público do GitHub Pages.
+## Desempate — Duelo Dourado
+Quando dois ou mais participantes terminam empatados na maior pontuação, Jorjão anuncia o confronto final usando a arte `duelo-dourado.png`. Todos os finalistas respondem à mesma pergunta, um por vez, sem cronômetro. Se exatamente um acertar, é declarado campeão. Se ninguém acertar, todos continuam; se mais de um acertar, apenas os que acertaram seguem para a próxima pergunta. As perguntas de desempate não repetem as perguntas usadas na partida até o conjunto disponível se esgotar.
 
-## Final com frase do Jorjão
-A tela final inclui a brincadeira “Calma, não esqueci o resultado não!” e o botão “Lembrei agora!” para revelar o nome do vencedor. Para a animação usar a foto triste real do Jorjão, substitua o espaço reservado pela imagem fornecida pelo usuário quando disponível.
+## V6 Final — regras de eliminação do Duelo Dourado
+- Ao fim das rodadas, se houver empate na maior pontuação, todos os participantes empatados entram no duelo.
+- Cada finalista responde individualmente à mesma pergunta, sem cronômetro.
+- Se pelo menos uma pessoa acertar, quem errar é eliminado.
+- Se ninguém acertar, todos os finalistas restantes continuam.
+- Se apenas uma pessoa acertar uma pergunta, ela é declarada campeã.
+- Se mais de uma pessoa acertar, somente essas pessoas avançam para a próxima pergunta.
+- As perguntas do duelo são sorteadas do banco de nível gênio e não repetem as perguntas da partida até o conjunto se esgotar.
 
-
-Atualização: o botão da animação final agora diz “Toque para o Jorjão Lembrar o Resultado”.
-
-
-## Versão 4
-- Tela inicial mais chamativa, com a logo ampliada como imagem de fundo e visual de programa de quiz.
-- Identidade azul e dourada reforçada, com chamada de desafio nível gênio.
-- Mantém o banco de perguntas e o histórico local para reduzir repetições.
-
-### Atualização de perguntas e atualidades
-O histórico local evita repetir perguntas já utilizadas neste navegador, desde que haja perguntas novas disponíveis no banco. Isso não equivale a atualização automática de notícias. Para publicar perguntas atuais de geopolítica/notícias de forma confiável, a próxima integração deve usar uma fonte de notícias e um backend/API que gere e valide perguntas, registrando IDs e datas; não é seguro colocar chaves privadas diretamente no GitHub Pages.
+## V6.1 — correções de estabilidade e justiça
+- Corrigido o fluxo do fim da partida: a tela de resultados não sobrescreve mais a tela de confronto.
+- Após o duelo, o campeão e a mensagem de vitória aparecem automaticamente, sem depender do botão de revelação do Jorjão.
+- As alternativas são embaralhadas a cada exibição, tanto na partida quanto no duelo, mantendo o gabarito correto.
+- Encurtadas 50 alternativas corretas que estavam muito mais longas que as demais, para reduzir pistas visuais de tamanho. A revisão editorial do banco pode ser continuada para equilibrar todos os enunciados e alternativas.
