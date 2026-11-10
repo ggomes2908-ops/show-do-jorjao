@@ -1,4 +1,4 @@
-// Show do Jorjão V6 corrigido — opções revisadas para reduzir pistas de tamanho.
+// Show do Jorjão V10 — banco com 400 perguntas, 40 por categoria.
 window.QUIZ_QUESTIONS = [
   {
     "id": "gen01",
@@ -2827,5 +2827,2777 @@ window.QUIZ_QUESTIONS = [
     ],
     "correct": 1,
     "explanation": "Há 9 opções para o primeiro algarismo e depois 9, 8 e 7 opções: 9×9×8×7=4.536."
+  },
+  {
+    "id": "v10001",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Na filosofia de Kant, qual distinção separa juízos analíticos de sintéticos?",
+    "a": [
+      "Os analíticos ampliam o conhecimento; os sintéticos apenas esclarecem conceitos",
+      "Nos analíticos, o predicado está contido no conceito do sujeito; nos sintéticos, acrescenta informação",
+      "Os analíticos dependem da experiência; os sintéticos são sempre a priori",
+      "Não há distinção lógica entre eles"
+    ],
+    "correct": 1,
+    "explanation": "Em um juízo analítico, a análise do conceito do sujeito já contém o predicado; o sintético acrescenta conteúdo."
+  },
+  {
+    "id": "v10002",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Em linguística, o que caracteriza um morfema?",
+    "a": [
+      "A menor unidade sonora capaz de distinguir palavras",
+      "A menor unidade da língua dotada de significado ou função gramatical",
+      "Uma sequência obrigatória de duas sílabas",
+      "Uma regra de formação de frases"
+    ],
+    "correct": 1,
+    "explanation": "Morfemas são unidades mínimas significativas, como raízes, prefixos e desinências."
+  },
+  {
+    "id": "v10003",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Qual obra de Max Weber analisa a relação entre certas formas de ética protestante e o desenvolvimento do capitalismo moderno?",
+    "a": [
+      "A ética protestante e o espírito do capitalismo",
+      "Economia e sociedade",
+      "A condição humana",
+      "O capital"
+    ],
+    "correct": 0,
+    "explanation": "Weber investiga afinidades históricas entre ascetismo protestante e condutas econômicas capitalistas."
+  },
+  {
+    "id": "v10004",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Na semiótica de Charles Peirce, um índice se relaciona ao seu objeto principalmente por:",
+    "a": [
+      "Semelhança formal",
+      "Convenção arbitrária",
+      "Conexão factual ou causal",
+      "Relação puramente sintática"
+    ],
+    "correct": 2,
+    "explanation": "Fumaça como índice de fogo exemplifica uma conexão factual entre signo e objeto."
+  },
+  {
+    "id": "v10005",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Qual é a principal diferença entre validade e solidez em um argumento dedutivo?",
+    "a": [
+      "Validade exige premissas verdadeiras; solidez não",
+      "Solidez é validade com premissas verdadeiras",
+      "Validade depende da conclusão ser provável",
+      "Solidez exige apenas coerência retórica"
+    ],
+    "correct": 1,
+    "explanation": "Um argumento sólido é válido e possui premissas verdadeiras."
+  },
+  {
+    "id": "v10006",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Na teoria musical, uma escala menor harmônica difere da menor natural por:",
+    "a": [
+      "Elevar o sexto grau",
+      "Abaixar o segundo grau",
+      "Elevar o sétimo grau",
+      "Abaixar o quinto grau"
+    ],
+    "correct": 2,
+    "explanation": "A elevação do sétimo grau cria a sensível e altera a estrutura intervalar."
+  },
+  {
+    "id": "v10007",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Em estatística, o que significa dizer que um estimador é não viesado?",
+    "a": [
+      "Sua variância é necessariamente zero",
+      "Seu valor esperado coincide com o parâmetro estimado",
+      "Ele sempre produz o valor exato em uma amostra",
+      "Sua distribuição é necessariamente normal"
+    ],
+    "correct": 1,
+    "explanation": "A esperança matemática do estimador é igual ao parâmetro populacional."
+  },
+  {
+    "id": "v10008",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Qual princípio da ética deontológica de Kant fundamenta a exigência de tratar pessoas como fins em si mesmas?",
+    "a": [
+      "Princípio da utilidade marginal",
+      "Fórmula da humanidade do imperativo categórico",
+      "Vontade geral",
+      "Princípio da diferença"
+    ],
+    "correct": 1,
+    "explanation": "A fórmula da humanidade exige tratar a humanidade, em si e nos outros, sempre também como fim."
+  },
+  {
+    "id": "v10009",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Na retórica clássica, qual apelo está ligado à credibilidade percebida de quem fala?",
+    "a": [
+      "Ethos",
+      "Pathos",
+      "Logos",
+      "Kairos"
+    ],
+    "correct": 0,
+    "explanation": "Ethos diz respeito ao caráter e à credibilidade do orador."
+  },
+  {
+    "id": "v10010",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "O que é um palíndromo?",
+    "a": [
+      "Uma palavra sem vogais",
+      "Uma sequência que permanece igual quando lida nos dois sentidos",
+      "Uma palavra com sílabas repetidas",
+      "Um verso com métrica irregular"
+    ],
+    "correct": 1,
+    "explanation": "Palíndromos preservam a sequência de caracteres na leitura inversa, desconsideradas convenções de escrita."
+  },
+  {
+    "id": "v10011",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Na teoria dos jogos, um equilíbrio de Nash ocorre quando:",
+    "a": [
+      "Todos os jogadores obtêm o mesmo pagamento",
+      "Nenhum jogador pode melhorar unilateralmente seu resultado, dadas as estratégias dos demais",
+      "A estratégia dominante é escolhida por todos",
+      "O resultado maximiza necessariamente o bem-estar social"
+    ],
+    "correct": 1,
+    "explanation": "No equilíbrio de Nash, nenhuma mudança unilateral de estratégia melhora o pagamento do jogador."
+  },
+  {
+    "id": "v10012",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Qual conceito de Hannah Arendt descreve a incapacidade de pensar criticamente sobre os próprios atos em contextos burocráticos?",
+    "a": [
+      "Véu da ignorância",
+      "Banalidade do mal",
+      "Contrato social",
+      "Alienação do trabalho"
+    ],
+    "correct": 1,
+    "explanation": "A banalidade do mal examina como a ausência de reflexão crítica pode acompanhar atos terríveis."
+  },
+  {
+    "id": "v10013",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Em paleografia, o que se estuda?",
+    "a": [
+      "A formação de fósseis",
+      "Sistemas de escrita e formas antigas de manuscritos",
+      "A origem das espécies",
+      "A classificação de moedas"
+    ],
+    "correct": 1,
+    "explanation": "Paleografia estuda escritas antigas, seus traçados, suportes e evolução."
+  },
+  {
+    "id": "v10014",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Qual é a função central de uma cláusula pétrea na Constituição brasileira?",
+    "a": [
+      "Impedir qualquer emenda constitucional",
+      "Restringir emendas tendentes a abolir determinados núcleos constitucionais",
+      "Permitir decretos autônomos do Executivo",
+      "Substituir o controle de constitucionalidade"
+    ],
+    "correct": 1,
+    "explanation": "O art. 60, §4º, protege certos conteúdos contra propostas de emenda tendentes a aboli-los."
+  },
+  {
+    "id": "v10015",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Na lógica modal, uma proposição necessária é aquela que:",
+    "a": [
+      "É verdadeira apenas por acaso",
+      "É verdadeira em todos os mundos possíveis do sistema considerado",
+      "É verdadeira em pelo menos um mundo possível",
+      "Não pode ser expressa por símbolos"
+    ],
+    "correct": 1,
+    "explanation": "Necessidade modal corresponde à verdade em todos os mundos possíveis relevantes."
+  },
+  {
+    "id": "v10016",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Qual fenômeno explica por que duas pessoas podem perceber cores de modo diferente sob iluminação distinta, mesmo diante do mesmo objeto?",
+    "a": [
+      "Constância de cor imperfeita e adaptação cromática",
+      "Efeito Doppler",
+      "Ressonância magnética",
+      "Refração total"
+    ],
+    "correct": 0,
+    "explanation": "A percepção cromática depende da iluminação, da adaptação visual e do contexto."
+  },
+  {
+    "id": "v10017",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Na biblioteconomia, o que é uma classificação facetada?",
+    "a": [
+      "Organização baseada em um único alfabeto",
+      "Sistema que combina diferentes características ou facetas para organizar assuntos",
+      "Catalogação exclusiva por autor",
+      "Ordenação cronológica de publicações"
+    ],
+    "correct": 1,
+    "explanation": "A classificação facetada representa assuntos por múltiplas dimensões combináveis."
+  },
+  {
+    "id": "v10018",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "O que distingue uma correlação espúria?",
+    "a": [
+      "É uma correlação necessariamente negativa",
+      "A associação observada decorre de coincidência ou de uma variável subjacente, sem relação causal direta",
+      "É uma relação causal comprovada",
+      "Ocorre apenas em amostras pequenas"
+    ],
+    "correct": 1,
+    "explanation": "Uma terceira variável ou coincidência pode produzir associação sem causalidade direta."
+  },
+  {
+    "id": "v10019",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Em antropologia, o relativismo cultural recomenda:",
+    "a": [
+      "Avaliar todas as culturas por um único padrão externo",
+      "Compreender práticas em seus próprios contextos culturais",
+      "Negar que culturas possam ser estudadas comparativamente",
+      "Considerar toda prática cultural imutável"
+    ],
+    "correct": 1,
+    "explanation": "O relativismo cultural busca interpretar práticas considerando seus contextos e significados."
+  },
+  {
+    "id": "v10020",
+    "difficulty": "genio",
+    "category": "Conhecimento geral",
+    "q": "Qual é a diferença entre falácia formal e informal?",
+    "a": [
+      "A formal depende da estrutura lógica; a informal envolve conteúdo, linguagem ou contexto",
+      "A formal só aparece em textos científicos",
+      "A informal é sempre intencional",
+      "Não existe diferença reconhecida"
+    ],
+    "correct": 0,
+    "explanation": "Falácias formais têm forma inferencial inválida; informais dependem de fatores semânticos ou pragmáticos."
+  },
+  {
+    "id": "v10021",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Na computação, por que o problema da parada é considerado indecidível?",
+    "a": [
+      "Porque exige memória infinita em qualquer máquina",
+      "Porque não existe algoritmo geral que decida corretamente, para todo programa e entrada, se ele termina",
+      "Porque todos os programas entram em loop",
+      "Porque só pode ser resolvido por computadores quânticos"
+    ],
+    "correct": 1,
+    "explanation": "A prova de Turing mostra por diagonalização que não há decisor universal para a parada."
+  },
+  {
+    "id": "v10022",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Em redes, qual é a função principal do protocolo BGP?",
+    "a": [
+      "Criptografar o tráfego de ponta a ponta",
+      "Trocar informações de roteamento entre sistemas autônomos",
+      "Atribuir endereços MAC",
+      "Resolver nomes de domínio localmente"
+    ],
+    "correct": 1,
+    "explanation": "BGP é o protocolo de roteamento interdomínios que permite sistemas autônomos anunciar rotas."
+  },
+  {
+    "id": "v10023",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Na arquitetura de computadores, o que caracteriza uma memória cache inclusiva?",
+    "a": [
+      "Nunca armazena dados da RAM",
+      "Todo bloco presente em um nível superior também está presente no nível inferior definido pela política",
+      "É composta exclusivamente por memória flash",
+      "Armazena apenas instruções, nunca dados"
+    ],
+    "correct": 1,
+    "explanation": "Em uma hierarquia inclusiva, o conteúdo do cache menor está contido no cache de nível inferior."
+  },
+  {
+    "id": "v10024",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Qual propriedade de uma função hash criptográfica é essencial para resistir a ataques de colisão?",
+    "a": [
+      "Ser reversível com chave pública",
+      "Ser computacionalmente inviável encontrar dois valores distintos com o mesmo hash",
+      "Produzir saídas de tamanho variável",
+      "Gerar sempre caracteres alfanuméricos"
+    ],
+    "correct": 1,
+    "explanation": "Resistência a colisões dificulta encontrar entradas distintas que produzam o mesmo resumo."
+  },
+  {
+    "id": "v10025",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Em aprendizado de máquina, o que é data leakage?",
+    "a": [
+      "A perda física de dados em um disco",
+      "O uso inadvertido de informação indisponível no momento da previsão, contaminando o treinamento ou avaliação",
+      "A compressão de dados sem perdas",
+      "A redução de dimensionalidade"
+    ],
+    "correct": 1,
+    "explanation": "Vazamento de dados faz o modelo acessar informação futura ou indevidamente disponível, inflando resultados."
+  },
+  {
+    "id": "v10026",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Na física de partículas, qual bóson medeia a interação forte entre quarks?",
+    "a": [
+      "Fóton",
+      "Glúon",
+      "Bóson Z",
+      "Bóson de Higgs"
+    ],
+    "correct": 1,
+    "explanation": "Glúons são os bósons mediadores da interação forte na cromodinâmica quântica."
+  },
+  {
+    "id": "v10027",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "O que estabelece o princípio da incerteza de Heisenberg para posição e momento?",
+    "a": [
+      "A impossibilidade tecnológica de medir partículas pequenas",
+      "Um limite fundamental para o produto das incertezas dessas grandezas",
+      "A igualdade exata entre posição e momento",
+      "A conservação simultânea de posição e velocidade"
+    ],
+    "correct": 1,
+    "explanation": "As incertezas obedecem a Δx·Δp ≥ ℏ/2."
+  },
+  {
+    "id": "v10028",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Em biologia molecular, qual enzima sintetiza RNA usando DNA como molde?",
+    "a": [
+      "DNA ligase",
+      "RNA polimerase",
+      "Transcriptase reversa",
+      "Helicase"
+    ],
+    "correct": 1,
+    "explanation": "A RNA polimerase catalisa a transcrição de DNA em RNA."
+  },
+  {
+    "id": "v10029",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Qual mecanismo de edição genética utiliza uma RNA-guia para direcionar uma nuclease a uma sequência específica?",
+    "a": [
+      "PCR",
+      "CRISPR-Cas9",
+      "Eletroforese de proteínas",
+      "Sequenciamento Sanger"
+    ],
+    "correct": 1,
+    "explanation": "O RNA-guia direciona Cas9 ao alvo complementar, onde a nuclease pode cortar o DNA."
+  },
+  {
+    "id": "v10030",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Na engenharia de software, o que caracteriza uma condição de corrida?",
+    "a": [
+      "Uma falha causada por excesso de comentários",
+      "O resultado depende da ordem ou temporização de acessos concorrentes a recursos compartilhados",
+      "Uma execução sem paralelismo",
+      "Um erro exclusivo de compilação"
+    ],
+    "correct": 1,
+    "explanation": "Condições de corrida surgem quando operações concorrentes acessam estado compartilhado sem sincronização adequada."
+  },
+  {
+    "id": "v10031",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Qual é a principal diferença entre TCP e UDP?",
+    "a": [
+      "TCP é orientado à conexão e oferece entrega ordenada confiável; UDP não garante esses serviços",
+      "UDP sempre criptografa pacotes; TCP não",
+      "TCP funciona apenas em redes locais",
+      "UDP exige estabelecimento de conexão"
+    ],
+    "correct": 0,
+    "explanation": "TCP oferece controle de fluxo, retransmissão e ordenação; UDP envia datagramas sem essas garantias."
+  },
+  {
+    "id": "v10032",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Em astronomia, o limite de Chandrasekhar está relacionado à massa máxima aproximada de:",
+    "a": [
+      "Uma estrela de nêutrons antes de virar buraco negro",
+      "Uma anã branca sustentada por pressão de degenerescência eletrônica",
+      "Qualquer estrela da sequência principal",
+      "Um planeta rochoso"
+    ],
+    "correct": 1,
+    "explanation": "O limite é cerca de 1,4 massas solares, acima do qual uma anã branca não pode manter esse equilíbrio."
+  },
+  {
+    "id": "v10033",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Na teoria da informação, a entropia de Shannon mede:",
+    "a": [
+      "A energia térmica de um sistema",
+      "A incerteza média associada a uma fonte de informação",
+      "A velocidade de transmissão física",
+      "A quantidade de bits redundantes apenas"
+    ],
+    "correct": 1,
+    "explanation": "A entropia quantifica a incerteza média dos resultados de uma fonte probabilística."
+  },
+  {
+    "id": "v10034",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Qual fenômeno permite que um supercondutor expulse o campo magnético de seu interior?",
+    "a": [
+      "Efeito fotoelétrico",
+      "Efeito Meissner",
+      "Efeito Compton",
+      "Efeito Hall quântico"
+    ],
+    "correct": 1,
+    "explanation": "O efeito Meissner caracteriza a expulsão do campo magnético ao entrar no estado supercondutor."
+  },
+  {
+    "id": "v10035",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Em bancos de dados relacionais, qual propriedade ACID garante que uma transação seja concluída integralmente ou não produza efeito?",
+    "a": [
+      "Consistência",
+      "Isolamento",
+      "Atomicidade",
+      "Durabilidade"
+    ],
+    "correct": 2,
+    "explanation": "Atomicidade trata a transação como uma unidade indivisível: tudo ou nada."
+  },
+  {
+    "id": "v10036",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Qual estrutura de dados é normalmente usada para implementar uma fila de prioridade eficiente?",
+    "a": [
+      "Pilha simples",
+      "Heap",
+      "Lista circular sem ordenação",
+      "Árvore de sintaxe abstrata"
+    ],
+    "correct": 1,
+    "explanation": "Heaps binários permitem inserir e extrair o elemento prioritário em O(log n)."
+  },
+  {
+    "id": "v10037",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Na ecologia, o que representa a capacidade de suporte de um ambiente?",
+    "a": [
+      "A taxa máxima de mutação de uma população",
+      "O tamanho populacional que o ambiente consegue sustentar dadas suas condições e recursos",
+      "O número de espécies invasoras",
+      "A quantidade total de energia solar incidente"
+    ],
+    "correct": 1,
+    "explanation": "A capacidade de suporte depende de recursos, espaço, competição e outras condições ambientais."
+  },
+  {
+    "id": "v10038",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Qual técnica de microscopia utiliza elétrons em vez de luz visível para obter imagens de alta resolução?",
+    "a": [
+      "Microscopia de campo claro",
+      "Microscopia eletrônica",
+      "Microscopia de contraste de fase",
+      "Microscopia confocal de fluorescência"
+    ],
+    "correct": 1,
+    "explanation": "Microscópios eletrônicos usam feixes de elétrons, cujo comprimento de onda permite maior resolução."
+  },
+  {
+    "id": "v10039",
+    "difficulty": "genio",
+    "category": "Ciência e tecnologia",
+    "q": "Em inteligência artificial, o que é overfitting?",
+    "a": [
+      "O modelo não consegue aprender nem o padrão de treino",
+      "O modelo ajusta-se excessivamente aos dados de treinamento e generaliza mal",
+      "O modelo usa poucos parâmetros",
+      "O conjunto de teste é maior que o de treino"
+    ],
+    "correct": 1,
+    "explanation": "O sobreajuste captura ruído e particularidades do treino, prejudicando dados não vistos."
+  },
+  {
+    "id": "v10040",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual princípio da Carta das Nações Unidas proíbe, em regra, a ameaça ou o uso da força contra a integridade territorial ou independência política de um Estado?",
+    "a": [
+      "Autodeterminação econômica",
+      "Artigo 2(4)",
+      "Princípio da subsidiariedade",
+      "Cláusula de nação mais favorecida"
+    ],
+    "correct": 1,
+    "explanation": "O art. 2(4) da Carta da ONU estabelece a proibição geral do uso ou ameaça da força."
+  },
+  {
+    "id": "v10041",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "O que diferencia uma convenção-quadro internacional de um protocolo adicional?",
+    "a": [
+      "A convenção-quadro estabelece princípios e estrutura geral; protocolos podem detalhar obrigações específicas",
+      "O protocolo sempre substitui todos os tratados anteriores",
+      "A convenção-quadro não pode ser ratificada",
+      "Não há diferença jurídica possível"
+    ],
+    "correct": 0,
+    "explanation": "Convenções-quadro criam uma arquitetura de cooperação, enquanto protocolos podem estabelecer compromissos adicionais."
+  },
+  {
+    "id": "v10042",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual órgão da ONU tem responsabilidade primária pela manutenção da paz e segurança internacionais?",
+    "a": [
+      "Assembleia Geral",
+      "Conselho de Segurança",
+      "Secretariado",
+      "Conselho Econômico e Social"
+    ],
+    "correct": 1,
+    "explanation": "A Carta da ONU atribui ao Conselho de Segurança a responsabilidade primária nessa matéria."
+  },
+  {
+    "id": "v10043",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "No sistema de Bretton Woods original, qual instituição foi criada para apoiar a reconstrução e o desenvolvimento no pós-guerra?",
+    "a": [
+      "Organização Mundial do Comércio",
+      "Banco Internacional para Reconstrução e Desenvolvimento",
+      "OPEP",
+      "Banco de Compensações Internacionais"
+    ],
+    "correct": 1,
+    "explanation": "O BIRD, núcleo inicial do Banco Mundial, financiaria reconstrução e desenvolvimento."
+  },
+  {
+    "id": "v10044",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "O que significa o princípio da não intervenção nas relações internacionais?",
+    "a": [
+      "Proibir toda crítica pública a governos estrangeiros",
+      "Impedir ingerência coercitiva em matérias essencialmente da jurisdição interna de outro Estado",
+      "Obrigar Estados a manter relações diplomáticas",
+      "Impedir tratados multilaterais"
+    ],
+    "correct": 1,
+    "explanation": "O princípio protege a autonomia estatal contra intervenções coercitivas em assuntos internos."
+  },
+  {
+    "id": "v10045",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual estreito conecta o Golfo Pérsico ao Golfo de Omã e é estratégico para o transporte mundial de petróleo?",
+    "a": [
+      "Bósforo",
+      "Ormuz",
+      "Malaca",
+      "Bab el-Mandeb"
+    ],
+    "correct": 1,
+    "explanation": "O estreito de Ormuz é uma passagem marítima estratégica na saída do Golfo Pérsico."
+  },
+  {
+    "id": "v10046",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "A Convenção de Montego Bay, de 1982, é conhecida por regular principalmente:",
+    "a": [
+      "O comércio internacional de patentes",
+      "O direito do mar",
+      "A proteção de refugiados",
+      "O uso de armas químicas"
+    ],
+    "correct": 1,
+    "explanation": "A Convenção das Nações Unidas sobre o Direito do Mar define zonas marítimas e direitos e deveres dos Estados."
+  },
+  {
+    "id": "v10047",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual é a função central do Tribunal Internacional de Justiça?",
+    "a": [
+      "Julgar indivíduos por crimes de guerra",
+      "Resolver controvérsias jurídicas entre Estados e emitir pareceres consultivos",
+      "Aplicar sanções econômicas automaticamente",
+      "Fiscalizar eleições nacionais"
+    ],
+    "correct": 1,
+    "explanation": "O TIJ é o principal órgão judicial da ONU e julga casos entre Estados."
+  },
+  {
+    "id": "v10048",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Em geopolítica, o termo 'talassocracia' designa uma potência cuja influência se apoia especialmente:",
+    "a": [
+      "No domínio marítimo e naval",
+      "No controle de desertos interiores",
+      "Na produção de cereais",
+      "Na neutralidade militar"
+    ],
+    "correct": 0,
+    "explanation": "Talassocracias estruturam poder e projeção estratégica a partir do mar e das rotas marítimas."
+  },
+  {
+    "id": "v10049",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual organização reúne países exportadores de petróleo e coordena políticas de produção entre seus membros?",
+    "a": [
+      "OCDE",
+      "OPEP",
+      "AIEA",
+      "UNCTAD"
+    ],
+    "correct": 1,
+    "explanation": "A OPEP é uma organização intergovernamental de países exportadores de petróleo."
+  },
+  {
+    "id": "v10050",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "O que caracteriza uma zona econômica exclusiva segundo o direito do mar?",
+    "a": [
+      "Soberania plena sobre todo o espaço aéreo e marítimo",
+      "Direitos soberanos do Estado costeiro sobre recursos naturais até, em regra, 200 milhas náuticas",
+      "Proibição de navegação estrangeira",
+      "Território terrestre anexado ao mar"
+    ],
+    "correct": 1,
+    "explanation": "Na ZEE, o Estado costeiro tem direitos soberanos sobre recursos, mas não soberania plena sobre a navegação."
+  },
+  {
+    "id": "v10051",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual tratado estabeleceu a União Europeia em sua configuração política contemporânea, incluindo a cidadania da União?",
+    "a": [
+      "Tratado de Roma de 1957",
+      "Tratado de Maastricht de 1992",
+      "Tratado de Lisboa de 2007",
+      "Tratado de Versalhes de 1919"
+    ],
+    "correct": 1,
+    "explanation": "O Tratado de Maastricht criou formalmente a União Europeia e introduziu a cidadania europeia."
+  },
+  {
+    "id": "v10052",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual conceito descreve a dependência estratégica de um país em relação a outro para insumos críticos, tecnologia ou infraestrutura?",
+    "a": [
+      "Autarquia perfeita",
+      "Interdependência assimétrica",
+      "Neutralidade ativa",
+      "Equilíbrio de terror"
+    ],
+    "correct": 1,
+    "explanation": "A interdependência é assimétrica quando os custos de ruptura e as opções de substituição são desiguais."
+  },
+  {
+    "id": "v10053",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "O que é 'soft power', conceito associado a Joseph Nye?",
+    "a": [
+      "Capacidade de impor sanções militares",
+      "Capacidade de influenciar por atração cultural, valores e legitimidade",
+      "Domínio exclusivo de recursos minerais",
+      "Controle direto de territórios estrangeiros"
+    ],
+    "correct": 1,
+    "explanation": "Soft power é a capacidade de obter resultados por atração, em vez de coerção ou pagamento."
+  },
+  {
+    "id": "v10054",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual princípio do direito internacional exige que tratados em vigor sejam cumpridos de boa-fé?",
+    "a": [
+      "Pacta sunt servanda",
+      "Jus soli",
+      "Res communis",
+      "Uti possidetis"
+    ],
+    "correct": 0,
+    "explanation": "Pacta sunt servanda determina que tratados em vigor vinculam as partes e devem ser executados de boa-fé."
+  },
+  {
+    "id": "v10055",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual é o objetivo central do Tratado de Não Proliferação de Armas Nucleares?",
+    "a": [
+      "Eliminar imediatamente toda energia nuclear civil",
+      "Conter a disseminação de armas nucleares, promover desarmamento e permitir usos pacíficos sob salvaguardas",
+      "Proibir qualquer pesquisa em física nuclear",
+      "Criar uma força nuclear da ONU"
+    ],
+    "correct": 1,
+    "explanation": "O TNP articula não proliferação, desarmamento e uso pacífico da energia nuclear."
+  },
+  {
+    "id": "v10056",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Em relações internacionais, o que é um Estado-tampão?",
+    "a": [
+      "Estado sem reconhecimento diplomático",
+      "País situado entre potências rivais, cuja posição pode reduzir contato direto entre elas",
+      "Estado que controla um canal marítimo",
+      "País que não participa de organizações internacionais"
+    ],
+    "correct": 1,
+    "explanation": "Estados-tampão ocupam posição geográfica entre potências e podem funcionar como zona intermediária."
+  },
+  {
+    "id": "v10057",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "Qual agência especializada da ONU coordena a cooperação internacional em saúde pública?",
+    "a": [
+      "UNESCO",
+      "OMS",
+      "FAO",
+      "OMI"
+    ],
+    "correct": 1,
+    "explanation": "A Organização Mundial da Saúde dirige e coordena a saúde internacional no sistema das Nações Unidas."
+  },
+  {
+    "id": "v10058",
+    "difficulty": "genio",
+    "category": "Geopolítica e atualidades",
+    "q": "O que caracteriza uma sanção secundária?",
+    "a": [
+      "Medida aplicada apenas a empresas estatais",
+      "Restrição dirigida a terceiros que mantenham determinadas relações com o alvo principal das sanções",
+      "Sanção imposta por tribunal doméstico",
+      "Medida exclusivamente simbólica"
+    ],
+    "correct": 1,
+    "explanation": "Sanções secundárias procuram pressionar atores de terceiros países a não negociar com o alvo sancionado."
+  },
+  {
+    "id": "v10059",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Na Constituição de 1988, qual instituição exerce a função de guardiã da Constituição em última instância no controle concentrado e em diversos casos de controle difuso?",
+    "a": [
+      "Superior Tribunal de Justiça",
+      "Supremo Tribunal Federal",
+      "Tribunal de Contas da União",
+      "Conselho Nacional de Justiça"
+    ],
+    "correct": 1,
+    "explanation": "O STF é o órgão de cúpula do Judiciário e exerce papel central no controle de constitucionalidade."
+  },
+  {
+    "id": "v10060",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual revolta regencial teve como principal cenário a província do Grão-Pará e resultou em grande mobilização popular?",
+    "a": [
+      "Sabinada",
+      "Cabanagem",
+      "Balaiada",
+      "Farroupilha"
+    ],
+    "correct": 1,
+    "explanation": "A Cabanagem ocorreu no Grão-Pará entre 1835 e 1840, com participação popular ampla."
+  },
+  {
+    "id": "v10061",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "O Tratado de Petrópolis, de 1903, incorporou ao Brasil o território do atual:",
+    "a": [
+      "Amapá",
+      "Acre",
+      "Roraima",
+      "Tocantins"
+    ],
+    "correct": 1,
+    "explanation": "O acordo com a Bolívia formalizou a incorporação do Acre ao Brasil."
+  },
+  {
+    "id": "v10062",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual movimento artístico brasileiro teve como marco a exposição de Anita Malfatti em 1917, que provocou debate sobre a arte moderna?",
+    "a": [
+      "Concretismo",
+      "Modernismo",
+      "Neoconcretismo",
+      "Tropicalismo"
+    ],
+    "correct": 1,
+    "explanation": "A exposição de 1917 foi um episódio decisivo na recepção do modernismo no Brasil."
+  },
+  {
+    "id": "v10063",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "No federalismo brasileiro, os municípios são:",
+    "a": [
+      "Entes subordinados aos estados",
+      "Entes federativos autônomos, ao lado da União e dos estados",
+      "Órgãos administrativos da União",
+      "Entidades sem competência legislativa"
+    ],
+    "correct": 1,
+    "explanation": "A Constituição de 1988 reconhece União, estados, Distrito Federal e municípios como entes federativos."
+  },
+  {
+    "id": "v10064",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual documento de 1824 instituiu o Poder Moderador no Brasil imperial?",
+    "a": [
+      "Constituição de 1891",
+      "Constituição de 1824",
+      "Ato Adicional de 1834",
+      "Constituição de 1934"
+    ],
+    "correct": 1,
+    "explanation": "A Constituição de 1824 estabeleceu quatro poderes, incluindo o Poder Moderador exercido pelo imperador."
+  },
+  {
+    "id": "v10065",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual foi a principal consequência institucional da Revolução de 1930?",
+    "a": [
+      "Restauração do Poder Moderador",
+      "Fim da Primeira República e ascensão de Getúlio Vargas",
+      "Proclamação imediata da República",
+      "Adoção do parlamentarismo"
+    ],
+    "correct": 1,
+    "explanation": "A Revolução de 1930 encerrou a ordem política da Primeira República e levou Vargas ao poder."
+  },
+  {
+    "id": "v10066",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "A política dos governadores, consolidada na Primeira República, articulava principalmente:",
+    "a": [
+      "Intervenção militar estrangeira e federalismo",
+      "Apoio recíproco entre governo federal e oligarquias estaduais",
+      "Voto secreto universal e partidos nacionais",
+      "Autonomia sindical e reforma agrária"
+    ],
+    "correct": 1,
+    "explanation": "O arranjo sustentava a estabilidade oligárquica por meio de alianças entre presidência e governos estaduais."
+  },
+  {
+    "id": "v10067",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual bioma brasileiro é reconhecido por sua elevada biodiversidade e por possuir a maior planície inundável contínua do planeta?",
+    "a": [
+      "Caatinga",
+      "Pantanal",
+      "Pampa",
+      "Mata de Araucárias"
+    ],
+    "correct": 1,
+    "explanation": "O Pantanal é uma extensa planície sazonalmente inundável, com grande diversidade ecológica."
+  },
+  {
+    "id": "v10068",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual instituição brasileira é responsável pela produção oficial das estatísticas demográficas e econômicas nacionais?",
+    "a": [
+      "IPEA",
+      "IBGE",
+      "Banco Central",
+      "FGV"
+    ],
+    "correct": 1,
+    "explanation": "O IBGE produz estatísticas oficiais, pesquisas geográficas e censos demográficos."
+  },
+  {
+    "id": "v10069",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "A Lei Áurea, assinada em 13 de maio de 1888, foi precedida por qual lei que declarou livres os filhos de mulheres escravizadas nascidos a partir de sua promulgação?",
+    "a": [
+      "Lei Eusébio de Queirós",
+      "Lei do Ventre Livre",
+      "Lei dos Sexagenários",
+      "Lei de Terras"
+    ],
+    "correct": 1,
+    "explanation": "A Lei do Ventre Livre, de 1871, declarou livres os filhos de mulheres escravizadas nascidos após sua vigência."
+  },
+  {
+    "id": "v10070",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual conflito do período colonial ficou conhecido pela resistência de comunidades quilombolas na Serra da Barriga?",
+    "a": [
+      "Guerra dos Emboabas",
+      "Resistência de Palmares",
+      "Confederação dos Tamoios",
+      "Revolta de Beckman"
+    ],
+    "correct": 1,
+    "explanation": "O Quilombo dos Palmares resistiu por décadas na região da atual Alagoas."
+  },
+  {
+    "id": "v10071",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "A Constituição de 1934 introduziu no Brasil, entre outras inovações:",
+    "a": [
+      "Voto censitário e Poder Moderador",
+      "Justiça Eleitoral e direitos trabalhistas constitucionais",
+      "Monarquia parlamentar",
+      "Abolição do federalismo"
+    ],
+    "correct": 1,
+    "explanation": "A Constituição de 1934 incorporou avanços como Justiça Eleitoral e direitos sociais e trabalhistas."
+  },
+  {
+    "id": "v10072",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual movimento de 1817, de caráter republicano e separatista, eclodiu em Pernambuco?",
+    "a": [
+      "Revolução Praieira",
+      "Revolução Pernambucana",
+      "Confederação do Equador",
+      "Revolta dos Malês"
+    ],
+    "correct": 1,
+    "explanation": "A Revolução Pernambucana de 1817 proclamou um governo republicano na região."
+  },
+  {
+    "id": "v10073",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "No Brasil, a competência para emitir moeda é atribuída:",
+    "a": [
+      "Aos bancos comerciais autorizados",
+      "À União, exercida exclusivamente pelo Banco Central",
+      "Aos estados, em conjunto",
+      "Ao Conselho Monetário Nacional diretamente"
+    ],
+    "correct": 1,
+    "explanation": "A União detém a competência, e o Banco Central exerce a emissão de moeda conforme a legislação."
+  },
+  {
+    "id": "v10074",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual foi o principal objetivo do Plano de Metas do governo Juscelino Kubitschek?",
+    "a": [
+      "Reduzir a industrialização e priorizar exportação agrícola",
+      "Acelerar o desenvolvimento em áreas como energia, transporte e indústria",
+      "Implantar o padrão-ouro",
+      "Descentralizar a capital para o Nordeste"
+    ],
+    "correct": 1,
+    "explanation": "O Plano de Metas buscou acelerar a industrialização e infraestrutura, sintetizado em '50 anos em 5'."
+  },
+  {
+    "id": "v10075",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "A Guerra de Canudos ocorreu no interior de qual atual estado brasileiro?",
+    "a": [
+      "Bahia",
+      "Ceará",
+      "Sergipe",
+      "Piauí"
+    ],
+    "correct": 0,
+    "explanation": "Canudos localizava-se no sertão baiano e foi destruído por expedições militares entre 1896 e 1897."
+  },
+  {
+    "id": "v10076",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual órgão brasileiro tem a atribuição de fiscalizar a aplicação de recursos federais e auxiliar o Congresso no controle externo?",
+    "a": [
+      "Controladoria-Geral da União exclusivamente",
+      "Tribunal de Contas da União",
+      "Supremo Tribunal Federal",
+      "Conselho Monetário Nacional"
+    ],
+    "correct": 1,
+    "explanation": "O TCU auxilia o Congresso Nacional no exercício do controle externo da administração pública federal."
+  },
+  {
+    "id": "v10077",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "A chamada Marcha para o Oeste, intensificada no Estado Novo, tinha como objetivo estratégico:",
+    "a": [
+      "Concentrar a população no litoral",
+      "Promover ocupação e integração econômica de áreas do interior",
+      "Transferir a capital para o Sul",
+      "Substituir a agricultura por mineração exclusivamente"
+    ],
+    "correct": 1,
+    "explanation": "A política buscava integrar e ocupar o interior, associada à expansão territorial e econômica."
+  },
+  {
+    "id": "v10078",
+    "difficulty": "genio",
+    "category": "Brasil",
+    "q": "Qual rio forma, em grande parte, a fronteira natural entre Brasil e Paraguai na região da usina de Itaipu?",
+    "a": [
+      "Rio Paraná",
+      "Rio Paraguai",
+      "Rio Uruguai",
+      "Rio Iguaçu"
+    ],
+    "correct": 0,
+    "explanation": "Itaipu está no rio Paraná, na fronteira entre Brasil e Paraguai."
+  },
+  {
+    "id": "v10079",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual tratado encerrou formalmente a Guerra dos Trinta Anos em 1648?",
+    "a": [
+      "Tratado de Utrecht",
+      "Paz de Vestfália",
+      "Tratado de Tordesilhas",
+      "Congresso de Viena"
+    ],
+    "correct": 1,
+    "explanation": "A Paz de Vestfália, em 1648, encerrou a guerra e reorganizou relações políticas no Sacro Império e na Europa."
+  },
+  {
+    "id": "v10080",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "A Revolução Gloriosa de 1688, na Inglaterra, resultou principalmente:",
+    "a": [
+      "Na restauração do absolutismo católico",
+      "Na deposição de Jaime II e fortalecimento da monarquia parlamentar",
+      "Na execução de Oliver Cromwell",
+      "Na independência das Treze Colônias"
+    ],
+    "correct": 1,
+    "explanation": "A mudança dinástica consolidou limites parlamentares ao poder monárquico."
+  },
+  {
+    "id": "v10081",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual civilização mesoamericana desenvolveu o sistema de escrita hieroglífica mais elaborado da região e um calendário de longa contagem?",
+    "a": [
+      "Inca",
+      "Maia",
+      "Asteca",
+      "Olmeca tardia"
+    ],
+    "correct": 1,
+    "explanation": "Os maias desenvolveram escrita hieroglífica e sistemas calendáricos sofisticados."
+  },
+  {
+    "id": "v10082",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "O que foi a Querela das Investiduras, conflito medieval entre papado e imperadores?",
+    "a": [
+      "Disputa pelo controle das rotas de especiarias",
+      "Disputa sobre quem tinha autoridade para nomear bispos e abades",
+      "Conflito entre cidades italianas e otomanos",
+      "Debate sobre a tradução da Bíblia"
+    ],
+    "correct": 1,
+    "explanation": "A disputa envolveu a nomeação de autoridades eclesiásticas e os limites entre poder espiritual e temporal."
+  },
+  {
+    "id": "v10083",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual conferência de 1884–1885 regulamentou a partilha colonial europeia da África, sem participação africana efetiva?",
+    "a": [
+      "Conferência de Bandung",
+      "Conferência de Berlim",
+      "Congresso de Viena",
+      "Conferência de Yalta"
+    ],
+    "correct": 1,
+    "explanation": "A Conferência de Berlim estabeleceu regras para reivindicações coloniais europeias na África."
+  },
+  {
+    "id": "v10084",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "O meridiano de Greenwich corresponde à longitude:",
+    "a": [
+      "90° leste",
+      "0°",
+      "180°",
+      "23,5° norte"
+    ],
+    "correct": 1,
+    "explanation": "O meridiano de Greenwich é a referência de longitude zero."
+  },
+  {
+    "id": "v10085",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual corrente oceânica fria contribui para a aridez do deserto do Atacama?",
+    "a": [
+      "Corrente do Golfo",
+      "Corrente de Humboldt",
+      "Corrente de Kuroshio",
+      "Corrente das Agulhas"
+    ],
+    "correct": 1,
+    "explanation": "A corrente fria de Humboldt reduz a evaporação e contribui para a estabilidade atmosférica na costa do Chile e Peru."
+  },
+  {
+    "id": "v10086",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "A Rota da Seda conectava historicamente a China a regiões do Mediterrâneo por meio de:",
+    "a": [
+      "Uma única estrada pavimentada contínua",
+      "Uma rede de rotas terrestres e marítimas de comércio e intercâmbio",
+      "Um canal construído pelo Império Romano",
+      "Uma rota exclusivamente militar"
+    ],
+    "correct": 1,
+    "explanation": "A Rota da Seda era uma rede plural de rotas e centros comerciais, não uma única estrada."
+  },
+  {
+    "id": "v10087",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual evento é frequentemente associado ao início da Reforma Protestante em 1517?",
+    "a": [
+      "Concílio de Trento",
+      "Publicação das 95 teses de Martinho Lutero",
+      "Cisma do Oriente",
+      "Queda de Constantinopla"
+    ],
+    "correct": 1,
+    "explanation": "As 95 teses de Lutero, tradicionalmente datadas de 1517, criticavam práticas da Igreja, especialmente indulgências."
+  },
+  {
+    "id": "v10088",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual império tinha sua capital em Tenochtitlán antes da conquista espanhola?",
+    "a": [
+      "Inca",
+      "Asteca",
+      "Bizantino",
+      "Mali"
+    ],
+    "correct": 1,
+    "explanation": "Tenochtitlán era a capital do Império Asteca, no atual México."
+  },
+  {
+    "id": "v10089",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "A Batalha de Hastings, em 1066, marcou:",
+    "a": [
+      "A conquista normanda da Inglaterra",
+      "O fim do Império Carolíngio",
+      "A expulsão dos mouros da Península Ibérica",
+      "A queda de Constantinopla"
+    ],
+    "correct": 0,
+    "explanation": "Guilherme, duque da Normandia, venceu Harold II e tornou-se rei da Inglaterra."
+  },
+  {
+    "id": "v10090",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual processo geológico explica principalmente a formação de cadeias montanhosas como os Andes?",
+    "a": [
+      "Erosão eólica isolada",
+      "Subducção de placa oceânica sob placa continental",
+      "Expansão de fundo oceânico sem colisão",
+      "Sedimentação fluvial recente"
+    ],
+    "correct": 1,
+    "explanation": "A placa de Nazca subducta sob a placa Sul-Americana, contribuindo para o soerguimento andino."
+  },
+  {
+    "id": "v10091",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "O que caracteriza um clima mediterrâneo típico?",
+    "a": [
+      "Chuvas concentradas no verão e inverno seco",
+      "Verões quentes e secos e invernos amenos e chuvosos",
+      "Temperaturas negativas durante todo o ano",
+      "Chuvas uniformes e temperaturas equatoriais"
+    ],
+    "correct": 1,
+    "explanation": "O clima mediterrâneo apresenta verão seco e inverno mais chuvoso."
+  },
+  {
+    "id": "v10092",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual rio atravessa ou margeia mais países do que qualquer outro na Europa?",
+    "a": [
+      "Reno",
+      "Danúbio",
+      "Volga",
+      "Ródano"
+    ],
+    "correct": 1,
+    "explanation": "O Danúbio percorre ou faz fronteira com dez países europeus."
+  },
+  {
+    "id": "v10093",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "A Revolução Haitiana culminou na independência do Haiti em 1804 após uma revolta liderada inicialmente por:",
+    "a": [
+      "Toussaint Louverture e outros líderes revolucionários",
+      "Simón Bolívar",
+      "José de San Martín",
+      "Francisco Pizarro"
+    ],
+    "correct": 0,
+    "explanation": "Toussaint Louverture foi figura central da revolução, embora tenha morrido antes da independência formal."
+  },
+  {
+    "id": "v10094",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual era a função histórica do sistema de enclosures na Inglaterra?",
+    "a": [
+      "Redistribuir terras comunais aos camponeses",
+      "Cercar e consolidar terras, alterando a propriedade e o uso agrícola",
+      "Criar feudos controlados por mosteiros",
+      "Impedir a criação de ovinos"
+    ],
+    "correct": 1,
+    "explanation": "Os cercamentos privatizaram terras comuns e transformaram a estrutura agrária inglesa."
+  },
+  {
+    "id": "v10095",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "O ponto mais profundo conhecido dos oceanos está localizado na:",
+    "a": [
+      "Fossa de Tonga",
+      "Fossa das Marianas",
+      "Fossa de Java",
+      "Dorsal Mesoatlântica"
+    ],
+    "correct": 1,
+    "explanation": "O Challenger Deep, na Fossa das Marianas, é o ponto oceânico mais profundo conhecido."
+  },
+  {
+    "id": "v10096",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual cidade foi capital do Império Bizantino por mais de mil anos, até sua conquista otomana em 1453?",
+    "a": [
+      "Atenas",
+      "Constantinopla",
+      "Alexandria",
+      "Antioquia"
+    ],
+    "correct": 1,
+    "explanation": "Constantinopla foi a capital bizantina até ser conquistada pelos otomanos em 1453."
+  },
+  {
+    "id": "v10097",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "O que é um istmo em geografia física?",
+    "a": [
+      "Uma cadeia de ilhas vulcânicas",
+      "Uma faixa estreita de terra que conecta duas massas terrestres e separa corpos d'água",
+      "Um vale glacial profundo",
+      "Uma planície aluvial costeira"
+    ],
+    "correct": 1,
+    "explanation": "Um istmo é uma ligação terrestre estreita entre áreas maiores, como o istmo do Panamá."
+  },
+  {
+    "id": "v10098",
+    "difficulty": "genio",
+    "category": "História e geografia",
+    "q": "Qual acordo de 1494 dividiu entre Portugal e Espanha áreas de exploração ultramarina por uma linha imaginária?",
+    "a": [
+      "Tratado de Paris",
+      "Tratado de Tordesilhas",
+      "Tratado de Saragoça",
+      "Paz de Augsburgo"
+    ],
+    "correct": 1,
+    "explanation": "O Tratado de Tordesilhas estabeleceu uma linha de demarcação no Atlântico entre as coroas ibéricas."
+  },
+  {
+    "id": "v10099",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Na teoria da separação de poderes de Montesquieu, qual é o principal objetivo da distribuição das funções estatais?",
+    "a": [
+      "Eliminar o Poder Judiciário",
+      "Impedir a concentração do poder por meio de controles recíprocos",
+      "Subordinar o Legislativo ao Executivo",
+      "Transferir soberania a entidades privadas"
+    ],
+    "correct": 1,
+    "explanation": "A separação com freios e contrapesos limita abusos decorrentes da concentração de poder."
+  },
+  {
+    "id": "v10100",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "O que caracteriza o sistema eleitoral proporcional de lista aberta adotado para eleições legislativas no Brasil?",
+    "a": [
+      "O eleitor vota apenas em listas fechadas partidárias",
+      "Votos nominais e de legenda compõem o cálculo de cadeiras, e candidatos concorrem dentro das listas partidárias",
+      "As cadeiras são distribuídas exclusivamente por maioria simples nacional",
+      "Cada partido recebe cadeiras iguais"
+    ],
+    "correct": 1,
+    "explanation": "O sistema combina votação nominal e de legenda para calcular quocientes e distribuir cadeiras."
+  },
+  {
+    "id": "v10101",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Em teoria democrática, o que é accountability horizontal?",
+    "a": [
+      "Controle exercido por eleitores apenas nas eleições",
+      "Fiscalização e controle entre instituições estatais autônomas",
+      "Prestação de contas de empresas a consumidores",
+      "Controle de mídia sobre redes sociais"
+    ],
+    "correct": 1,
+    "explanation": "Accountability horizontal ocorre quando órgãos estatais fiscalizam e limitam outros órgãos do Estado."
+  },
+  {
+    "id": "v10102",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Qual conceito de Robert Dahl descreve a competição política com participação inclusiva e contestação pública?",
+    "a": [
+      "Poliarquia",
+      "Oclocracia",
+      "Timocracia",
+      "Anarquia"
+    ],
+    "correct": 0,
+    "explanation": "Dahl utiliza poliarquia para descrever regimes com contestação pública e inclusão política em alto grau."
+  },
+  {
+    "id": "v10103",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "O que distingue uma federação de um Estado unitário descentralizado?",
+    "a": [
+      "A federação não possui Constituição",
+      "Na federação, entes subnacionais têm autonomia constitucionalmente garantida e competências próprias",
+      "No Estado unitário não existem municípios",
+      "A federação não possui governo central"
+    ],
+    "correct": 1,
+    "explanation": "A autonomia dos entes federados decorre da Constituição e não apenas de delegação administrativa."
+  },
+  {
+    "id": "v10104",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "No presidencialismo de coalizão brasileiro, a governabilidade depende frequentemente de:",
+    "a": [
+      "Extinção dos partidos minoritários",
+      "Formação de alianças legislativas para sustentar a agenda do Executivo",
+      "Nomeação de todos os parlamentares pelo presidente",
+      "Suspensão das eleições proporcionais"
+    ],
+    "correct": 1,
+    "explanation": "A fragmentação partidária torna relevantes negociações e coalizões no Congresso."
+  },
+  {
+    "id": "v10105",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Qual é a função típica de uma corte constitucional em um sistema de controle concentrado?",
+    "a": [
+      "Criar políticas públicas por decreto",
+      "Examinar a compatibilidade de normas com a Constituição em processos próprios",
+      "Administrar eleições municipais",
+      "Substituir o Parlamento em votações orçamentárias"
+    ],
+    "correct": 1,
+    "explanation": "O controle concentrado examina diretamente a constitucionalidade de normas perante a Constituição."
+  },
+  {
+    "id": "v10106",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "O que é gerrymandering?",
+    "a": [
+      "Ato de limitar mandatos presidenciais",
+      "Manipulação do desenho de distritos eleitorais para favorecer um grupo ou partido",
+      "Financiamento público de campanhas",
+      "Proibição de coligações eleitorais"
+    ],
+    "correct": 1,
+    "explanation": "Gerrymandering altera limites distritais estrategicamente para distorcer a representação."
+  },
+  {
+    "id": "v10107",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Na teoria política, o princípio da subsidiariedade sustenta que decisões devem ser tomadas:",
+    "a": [
+      "Sempre no nível central",
+      "No nível mais próximo possível dos cidadãos, salvo quando instâncias superiores forem necessárias",
+      "Exclusivamente por tribunais",
+      "Por organizações internacionais em todos os casos"
+    ],
+    "correct": 1,
+    "explanation": "A subsidiariedade privilegia instâncias próximas, reservando níveis superiores para tarefas que exigem escala ou coordenação."
+  },
+  {
+    "id": "v10108",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Qual é a diferença entre legitimidade e legalidade no exercício do poder?",
+    "a": [
+      "Legalidade é aceitação social; legitimidade é conformidade normativa",
+      "Legalidade refere-se à conformidade com normas; legitimidade envolve reconhecimento justificável da autoridade",
+      "São sinônimos absolutos",
+      "Legitimidade depende apenas de força coercitiva"
+    ],
+    "correct": 1,
+    "explanation": "Uma decisão pode ser legal e ainda enfrentar questionamentos sobre sua legitimidade política ou social."
+  },
+  {
+    "id": "v10109",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "O que caracteriza uma moção de censura em sistemas parlamentaristas?",
+    "a": [
+      "A convocação automática de eleições presidenciais",
+      "Manifestação parlamentar de retirada de confiança do governo",
+      "A anulação de uma decisão judicial",
+      "A aprovação do orçamento anual"
+    ],
+    "correct": 1,
+    "explanation": "A moção de censura pode levar à queda do governo quando perde a confiança parlamentar."
+  },
+  {
+    "id": "v10110",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Qual pensador formulou a ideia de soberania popular como fundamento da vontade geral em O contrato social?",
+    "a": [
+      "Thomas Hobbes",
+      "Jean-Jacques Rousseau",
+      "John Locke",
+      "Edmund Burke"
+    ],
+    "correct": 1,
+    "explanation": "Rousseau associa soberania à vontade geral do corpo político."
+  },
+  {
+    "id": "v10111",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Em sistemas bicamerais, qual é a justificativa institucional clássica para uma segunda câmara?",
+    "a": [
+      "Duplicar necessariamente a população representada",
+      "Oferecer representação territorial ou revisão legislativa adicional",
+      "Eliminar o controle judicial",
+      "Impedir a tramitação de leis orçamentárias"
+    ],
+    "correct": 1,
+    "explanation": "Câmaras altas frequentemente representam unidades territoriais e revisam propostas legislativas."
+  },
+  {
+    "id": "v10112",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "O que é uma cláusula de barreira partidária?",
+    "a": [
+      "Regra que impede partidos de disputar eleições municipais",
+      "Exigência de desempenho eleitoral mínimo para acesso a determinados recursos ou funcionamento parlamentar",
+      "Proibição de partidos regionais",
+      "Mecanismo que garante cadeira a todos os partidos"
+    ],
+    "correct": 1,
+    "explanation": "Cláusulas de desempenho condicionam certos direitos partidários a um patamar de votos ou representação."
+  },
+  {
+    "id": "v10113",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Na ciência política, o conceito de 'janela de oportunidade' descreve:",
+    "a": [
+      "O período obrigatório entre eleições",
+      "Momento em que problemas, soluções e condições políticas se alinham para viabilizar mudança de política pública",
+      "A duração de uma sessão parlamentar",
+      "O prazo de validade de uma Constituição"
+    ],
+    "correct": 1,
+    "explanation": "A janela de oportunidade ocorre quando fluxos de problemas, propostas e política convergem."
+  },
+  {
+    "id": "v10114",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Qual é o papel típico de uma agência reguladora independente?",
+    "a": [
+      "Substituir o Congresso na criação de crimes",
+      "Regular e fiscalizar setores específicos com autonomia técnica e competências legais",
+      "Executar sentenças judiciais",
+      "Definir a política externa do país"
+    ],
+    "correct": 1,
+    "explanation": "Agências reguladoras exercem competências técnicas de regulação e fiscalização dentro dos limites legais."
+  },
+  {
+    "id": "v10115",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "O que caracteriza o voto distrital majoritário em comparação ao proporcional?",
+    "a": [
+      "A distribuição de cadeiras por quociente partidário",
+      "A eleição de um representante por distrito, geralmente vencida pelo candidato mais votado",
+      "A escolha exclusiva de listas partidárias nacionais",
+      "A inexistência de circunscrições territoriais"
+    ],
+    "correct": 1,
+    "explanation": "No modelo distrital majoritário, cada distrito elege representante por regra majoritária."
+  },
+  {
+    "id": "v10116",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Qual conceito de Antonio Gramsci se refere à liderança cultural e intelectual que ajuda um grupo a manter direção social?",
+    "a": [
+      "Hegemonia",
+      "Anomia",
+      "Mais-valia absoluta",
+      "Contrato sinalagmático"
+    ],
+    "correct": 0,
+    "explanation": "Hegemonia envolve direção intelectual e moral, não apenas coerção."
+  },
+  {
+    "id": "v10117",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "Em políticas públicas, o que é avaliação ex ante?",
+    "a": [
+      "Análise realizada antes da implementação para estimar viabilidade, custos e impactos",
+      "Auditoria feita dez anos após o encerramento",
+      "Consulta exclusivamente judicial",
+      "Avaliação que dispensa indicadores"
+    ],
+    "correct": 0,
+    "explanation": "A avaliação ex ante antecipa efeitos e subsidia a decisão de implementar uma política."
+  },
+  {
+    "id": "v10118",
+    "difficulty": "genio",
+    "category": "Política",
+    "q": "O que significa bicameralismo incongruente?",
+    "a": [
+      "As duas câmaras possuem composição e representação idênticas",
+      "As câmaras são formadas por bases representativas ou regras eleitorais diferentes",
+      "Uma das câmaras não pode votar leis",
+      "O sistema não possui partidos"
+    ],
+    "correct": 1,
+    "explanation": "A incongruência decorre de diferenças na composição, representação ou método de seleção das câmaras."
+  },
+  {
+    "id": "v10119",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual é a geometria molecular do íon triiodeto, I3−, segundo o modelo VSEPR?",
+    "a": [
+      "Angular",
+      "Linear",
+      "Trigonal plana",
+      "Tetraédrica"
+    ],
+    "correct": 1,
+    "explanation": "O átomo central possui cinco regiões eletrônicas; três pares isolados deixam os átomos ligados em arranjo linear."
+  },
+  {
+    "id": "v10120",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Na eletrólise aquosa de NaCl concentrado, quais produtos são tipicamente obtidos em condições industriais?",
+    "a": [
+      "Sódio metálico e oxigênio",
+      "Cloro no ânodo e hidrogênio no cátodo, com formação de NaOH",
+      "Oxigênio no ânodo e sódio no cátodo",
+      "Hidrogênio no ânodo e cloro no cátodo"
+    ],
+    "correct": 1,
+    "explanation": "Na eletrólise de salmoura concentrada, cloreto é oxidado a cloro e água é reduzida a hidrogênio e hidróxido."
+  },
+  {
+    "id": "v10121",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual é o número de oxidação do manganês no íon permanganato, MnO4−?",
+    "a": [
+      "+3",
+      "+5",
+      "+7",
+      "+2"
+    ],
+    "correct": 2,
+    "explanation": "Quatro oxigênios somam −8; para a carga total −1, o manganês deve ser +7."
+  },
+  {
+    "id": "v10122",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual efeito do aumento de pressão favorece, em equilíbrio gasoso, o lado com menor número de mols gasosos?",
+    "a": [
+      "Princípio de Le Chatelier",
+      "Regra de Hund",
+      "Lei de Beer-Lambert",
+      "Princípio de Aufbau"
+    ],
+    "correct": 0,
+    "explanation": "Pelo princípio de Le Chatelier, o sistema tende a reduzir a pressão deslocando-se para o lado com menos mols gasosos."
+  },
+  {
+    "id": "v10123",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual é a hibridização do carbono no etino (acetileno), HC≡CH?",
+    "a": [
+      "sp3",
+      "sp2",
+      "sp",
+      "d2sp3"
+    ],
+    "correct": 2,
+    "explanation": "Cada carbono do etino possui duas regiões de densidade eletrônica e geometria linear, associadas à hibridização sp."
+  },
+  {
+    "id": "v10124",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Em espectroscopia infravermelha, uma banda intensa próxima de 1.700 cm−1 costuma indicar:",
+    "a": [
+      "Ligação C=O",
+      "Ligação C–H aromática",
+      "Ligação O–H livre",
+      "Ligação C–Cl"
+    ],
+    "correct": 0,
+    "explanation": "A vibração de estiramento da carbonila aparece frequentemente na região aproximada de 1.650–1.800 cm−1."
+  },
+  {
+    "id": "v10125",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual propriedade coligativa depende do número de partículas de soluto, e não da identidade química delas?",
+    "a": [
+      "Índice de refração",
+      "Elevação do ponto de ebulição",
+      "Cor da solução",
+      "Condutividade específica"
+    ],
+    "correct": 1,
+    "explanation": "A elevação ebuliométrica é uma propriedade coligativa proporcional à concentração efetiva de partículas."
+  },
+  {
+    "id": "v10126",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "O que caracteriza um ácido de Lewis?",
+    "a": [
+      "Doador de prótons",
+      "Aceitador de par de elétrons",
+      "Doador de par de elétrons",
+      "Substância que libera exclusivamente OH−"
+    ],
+    "correct": 1,
+    "explanation": "Ácidos de Lewis aceitam pares eletrônicos para formar ligações coordenadas."
+  },
+  {
+    "id": "v10127",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Na química orgânica, qual intermediário é estabilizado por hiperconjugação e efeito indutivo de grupos alquila?",
+    "a": [
+      "Carbocátion terciário",
+      "Carbânion metílico",
+      "Radical nitrato",
+      "Ânion cloreto"
+    ],
+    "correct": 0,
+    "explanation": "Carbocátions terciários são relativamente estabilizados por doação eletrônica de grupos alquila."
+  },
+  {
+    "id": "v10128",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual técnica separa componentes com base na distribuição entre uma fase estacionária e uma fase móvel?",
+    "a": [
+      "Titulação ácido-base",
+      "Cromatografia",
+      "Calorimetria diferencial",
+      "Gravimetria por precipitação"
+    ],
+    "correct": 1,
+    "explanation": "Na cromatografia, os componentes migram de forma diferente conforme suas interações com as fases."
+  },
+  {
+    "id": "v10129",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Em uma reação de primeira ordem, qual relação descreve a meia-vida?",
+    "a": [
+      "Depende diretamente da concentração inicial",
+      "É constante e igual a ln 2 dividido pela constante de velocidade",
+      "É inversamente proporcional ao quadrado da concentração",
+      "É sempre igual a 1/k2"
+    ],
+    "correct": 1,
+    "explanation": "Para primeira ordem, t1/2 = ln(2)/k, independente da concentração inicial."
+  },
+  {
+    "id": "v10130",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual espécie apresenta maior caráter aromático segundo a regra de Hückel?",
+    "a": [
+      "Ciclobutadieno",
+      "Benzeno",
+      "Ciclooctatetraeno não planar",
+      "Ciclopentadienil catiônico"
+    ],
+    "correct": 1,
+    "explanation": "O benzeno possui seis elétrons π, satisfazendo 4n+2 com n=1."
+  },
+  {
+    "id": "v10131",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Na teoria do estado de transição, o catalisador acelera uma reação principalmente porque:",
+    "a": [
+      "Aumenta a energia livre dos produtos",
+      "Oferece um caminho alternativo com menor energia de ativação",
+      "Desloca o equilíbrio para os produtos",
+      "Aumenta a temperatura do sistema sem fornecimento de energia"
+    ],
+    "correct": 1,
+    "explanation": "O catalisador oferece um mecanismo alternativo com barreira de ativação menor, sem alterar a constante de equilíbrio."
+  },
+  {
+    "id": "v10132",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Na eletroquímica, o potencial padrão de redução mais positivo indica, em geral:",
+    "a": [
+      "Maior tendência da espécie a ser reduzida",
+      "Maior tendência a perder elétrons",
+      "Menor afinidade por elétrons em qualquer solvente",
+      "Que a reação é sempre lenta"
+    ],
+    "correct": 0,
+    "explanation": "Potenciais de redução mais positivos indicam maior tendência termodinâmica a ganhar elétrons nas condições padrão."
+  },
+  {
+    "id": "v10133",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual ligação é responsável pela estrutura primária de uma proteína?",
+    "a": [
+      "Ligação peptídica",
+      "Ligação dissulfeto exclusivamente",
+      "Ligação de hidrogênio entre folhas β",
+      "Interação hidrofóbica"
+    ],
+    "correct": 0,
+    "explanation": "A sequência de aminoácidos é conectada por ligações peptídicas."
+  },
+  {
+    "id": "v10134",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Em soluções tampão, a equação de Henderson-Hasselbalch relaciona pH a:",
+    "a": [
+      "Produto das concentrações de ácido e base",
+      "pKa e razão entre base conjugada e ácido fraco",
+      "Massa molar do solvente",
+      "Potencial de redução padrão"
+    ],
+    "correct": 1,
+    "explanation": "A equação é pH = pKa + log([base conjugada]/[ácido])."
+  },
+  {
+    "id": "v10135",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual é o produto orgânico típico da oxidação branda de um álcool primário?",
+    "a": [
+      "Cetona",
+      "Aldeído",
+      "Éter",
+      "Alcano"
+    ],
+    "correct": 1,
+    "explanation": "Oxidação branda de álcool primário pode produzir aldeído; condições mais fortes podem levar a ácido carboxílico."
+  },
+  {
+    "id": "v10136",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "O que ocorre com a solubilidade de muitos gases em líquidos quando a temperatura aumenta, a pressão constante?",
+    "a": [
+      "Aumenta necessariamente",
+      "Diminui geralmente",
+      "Permanece invariável",
+      "Torna-se independente da natureza do gás"
+    ],
+    "correct": 1,
+    "explanation": "A dissolução de gases costuma ser exotérmica, e o aquecimento tende a reduzir sua solubilidade."
+  },
+  {
+    "id": "v10137",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Qual é a configuração eletrônica fundamental do ferro neutro (Z=26)?",
+    "a": [
+      "[Ar] 3d6 4s2",
+      "[Ar] 3d8",
+      "[Ar] 3d5 4s3",
+      "[Ne] 3s2 3p6 4s2"
+    ],
+    "correct": 0,
+    "explanation": "O ferro possui configuração [Ar] 3d6 4s2 no estado fundamental."
+  },
+  {
+    "id": "v10138",
+    "difficulty": "genio",
+    "category": "Química",
+    "q": "Em química nuclear, uma emissão beta menos transforma um nêutron em:",
+    "a": [
+      "Próton, elétron e antineutrino eletrônico",
+      "Próton e pósitron",
+      "Dois prótons e um elétron",
+      "Partícula alfa e fóton"
+    ],
+    "correct": 0,
+    "explanation": "No decaimento β−, um nêutron converte-se em próton, elétron e antineutrino eletrônico."
+  },
+  {
+    "id": "v10139",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Se todos os A são B e nenhum B é C, qual conclusão é necessariamente válida?",
+    "a": [
+      "Alguns A são C",
+      "Nenhum A é C",
+      "Todos C são A",
+      "Nenhum C existe"
+    ],
+    "correct": 1,
+    "explanation": "Se A está contido em B e B é disjunto de C, A também é disjunto de C."
+  },
+  {
+    "id": "v10140",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Uma proposição é condição suficiente para outra quando:",
+    "a": [
+      "A segunda implica necessariamente a primeira",
+      "A verdade da primeira garante a verdade da segunda",
+      "Ambas são sempre equivalentes",
+      "A primeira e a segunda são mutuamente exclusivas"
+    ],
+    "correct": 1,
+    "explanation": "Se P é suficiente para Q, então P → Q."
+  },
+  {
+    "id": "v10141",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Qual é a negação lógica de 'Todos os candidatos foram aprovados'?",
+    "a": [
+      "Nenhum candidato foi aprovado",
+      "Pelo menos um candidato não foi aprovado",
+      "Todos os candidatos foram reprovados",
+      "A maioria foi aprovada"
+    ],
+    "correct": 1,
+    "explanation": "A negação de um quantificador universal é a existência de ao menos um contraexemplo."
+  },
+  {
+    "id": "v10142",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Em uma sequência definida por a(n)=2a(n−1)+1, com a(1)=1, qual é o quinto termo?",
+    "a": [
+      "15",
+      "16",
+      "31",
+      "32"
+    ],
+    "correct": 2,
+    "explanation": "A sequência é 1, 3, 7, 15, 31."
+  },
+  {
+    "id": "v10143",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Três caixas estão rotuladas 'maçãs', 'laranjas' e 'mistas', mas todos os rótulos estão errados. Retirando uma fruta de uma única caixa, de qual caixa se deve retirar para identificar todas?",
+    "a": [
+      "Da caixa rotulada 'maçãs'",
+      "Da caixa rotulada 'laranjas'",
+      "Da caixa rotulada 'mistas'",
+      "É impossível com uma retirada"
+    ],
+    "correct": 2,
+    "explanation": "Como o rótulo 'mistas' está errado, essa caixa contém apenas um tipo; a fruta retirada identifica seu conteúdo e permite deduzir as demais."
+  },
+  {
+    "id": "v10144",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Se P implica Q e Q é falsa, o que se conclui validamente?",
+    "a": [
+      "P é verdadeira",
+      "P é falsa",
+      "Q implica P",
+      "Nada pode ser concluído"
+    ],
+    "correct": 1,
+    "explanation": "Por modus tollens, de P→Q e ¬Q conclui-se ¬P."
+  },
+  {
+    "id": "v10145",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Em um problema de 5 pessoas apertando as mãos uma única vez entre cada par, quantos apertos ocorrem?",
+    "a": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correct": 1,
+    "explanation": "Cada aperto corresponde a um par: C(5,2)=10."
+  },
+  {
+    "id": "v10146",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Qual é o menor número de pessoas necessário para garantir que pelo menos duas façam aniversário no mesmo mês?",
+    "a": [
+      "12",
+      "13",
+      "24",
+      "25"
+    ],
+    "correct": 1,
+    "explanation": "Com 12 meses, 13 pessoas garantem uma repetição pelo princípio da casa dos pombos."
+  },
+  {
+    "id": "v10147",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Uma moeda honesta é lançada três vezes. Qual a probabilidade de obter exatamente duas caras?",
+    "a": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "correct": 1,
+    "explanation": "Há três sequências favoráveis entre oito resultados equiprováveis: 3/8."
+  },
+  {
+    "id": "v10148",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Se a afirmação 'Se chove, então a rua molha' é verdadeira, qual situação a contradiz?",
+    "a": [
+      "Chove e a rua molha",
+      "Não chove e a rua não molha",
+      "Chove e a rua não molha",
+      "Não chove e a rua molha"
+    ],
+    "correct": 2,
+    "explanation": "Uma condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso."
+  },
+  {
+    "id": "v10149",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Qual é o próximo número da sequência 2, 6, 12, 20, 30, ...?",
+    "a": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
+    "correct": 2,
+    "explanation": "Os termos são n(n+1): 1×2, 2×3, ..., 6×7=42."
+  },
+  {
+    "id": "v10150",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Em uma ilha, cada habitante sempre diz a verdade ou sempre mente. A pessoa afirma: 'Eu sou mentiroso'. O que se pode concluir no modelo clássico?",
+    "a": [
+      "Ela necessariamente diz a verdade",
+      "Ela necessariamente mente",
+      "A afirmação é paradoxal e não pode ser consistente para nenhum dos dois tipos",
+      "Ela alterna entre verdade e mentira"
+    ],
+    "correct": 2,
+    "explanation": "Se verdadeira, seria mentirosa; se falsa, a pessoa não seria mentirosa e estaria dizendo a verdade, gerando contradição."
+  },
+  {
+    "id": "v10151",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Se 4 máquinas produzem 4 peças em 4 minutos, mantendo a mesma taxa individual, quanto tempo 100 máquinas levam para produzir 100 peças?",
+    "a": [
+      "4 minutos",
+      "25 minutos",
+      "100 minutos",
+      "400 minutos"
+    ],
+    "correct": 0,
+    "explanation": "Cada máquina produz uma peça em quatro minutos; 100 máquinas produzem 100 peças simultaneamente nesse intervalo."
+  },
+  {
+    "id": "v10152",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Qual conectivo lógico é verdadeiro apenas quando exatamente uma das duas proposições é verdadeira?",
+    "a": [
+      "Conjunção",
+      "Disjunção exclusiva (XOR)",
+      "Bicondicional",
+      "Implicação"
+    ],
+    "correct": 1,
+    "explanation": "XOR é verdadeiro quando os valores de verdade são diferentes."
+  },
+  {
+    "id": "v10153",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Uma pessoa percorre metade de uma distância, depois metade do restante, e assim sucessivamente. No modelo ideal, qual distância resta após n etapas se a distância inicial é D?",
+    "a": [
+      "D/n",
+      "D/2^n",
+      "D−n/2",
+      "D×n/2"
+    ],
+    "correct": 1,
+    "explanation": "Cada etapa reduz o restante pela metade; após n etapas resta D/2^n."
+  },
+  {
+    "id": "v10154",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Se a soma de dois números é 30 e a diferença entre eles é 8, qual é o produto?",
+    "a": [
+      "161",
+      "209",
+      "221",
+      "240"
+    ],
+    "correct": 1,
+    "explanation": "Os números são 19 e 11; o produto é 209."
+  },
+  {
+    "id": "v10155",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Em uma sala há 10 pessoas. Cada pessoa cumprimenta todas as outras uma única vez. Quantos cumprimentos ocorrem?",
+    "a": [
+      "45",
+      "50",
+      "90",
+      "100"
+    ],
+    "correct": 0,
+    "explanation": "O total de pares distintos é C(10,2)=45."
+  },
+  {
+    "id": "v10156",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Qual é a negação de 'P e Q' pela lei de De Morgan?",
+    "a": [
+      "Não P e não Q",
+      "Não P ou não Q",
+      "P ou Q",
+      "Não P implica Q"
+    ],
+    "correct": 1,
+    "explanation": "¬(P∧Q) equivale a (¬P∨¬Q)."
+  },
+  {
+    "id": "v10157",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Um relógio adianta 5 minutos a cada hora real. Após 12 horas reais, quanto terá adiantado?",
+    "a": [
+      "30 minutos",
+      "50 minutos",
+      "60 minutos",
+      "65 minutos"
+    ],
+    "correct": 2,
+    "explanation": "O relógio adianta 5×12=60 minutos no período."
+  },
+  {
+    "id": "v10158",
+    "difficulty": "genio",
+    "category": "Lógica e enigmas",
+    "q": "Em um código, cada letra é substituída pela letra três posições à frente no alfabeto, com retorno após Z. Como fica 'LUA'?",
+    "a": [
+      "OXD",
+      "NVC",
+      "OYC",
+      "PXD"
+    ],
+    "correct": 0,
+    "explanation": "L→O, U→X e A→D, portanto OXD."
+  },
+  {
+    "id": "v10159",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Na teoria microeconômica, um bem de Giffen é aquele cuja demanda:",
+    "a": [
+      "Cai quando seu preço aumenta",
+      "Pode aumentar quando seu preço aumenta, devido a forte efeito renda negativo",
+      "É perfeitamente elástica",
+      "Não depende da renda"
+    ],
+    "correct": 1,
+    "explanation": "Em casos raros, o efeito renda negativo supera o efeito substituição, gerando demanda positivamente inclinada."
+  },
+  {
+    "id": "v10160",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "O que mede o índice de Herfindahl-Hirschman (HHI)?",
+    "a": [
+      "Inflação acumulada",
+      "Concentração de mercado pela soma dos quadrados das participações",
+      "Produtividade total dos fatores",
+      "Desigualdade de renda entre países"
+    ],
+    "correct": 1,
+    "explanation": "O HHI soma os quadrados das parcelas de mercado e é usado em análises concorrenciais."
+  },
+  {
+    "id": "v10161",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Em contabilidade, o que representa o EBITDA?",
+    "a": [
+      "Lucro líquido após impostos e juros",
+      "Resultado antes de juros, impostos, depreciação e amortização",
+      "Fluxo de caixa livre descontado",
+      "Receita bruta menos tributos indiretos"
+    ],
+    "correct": 1,
+    "explanation": "EBITDA é uma medida de resultado operacional antes desses itens, embora não seja fluxo de caixa."
+  },
+  {
+    "id": "v10162",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Qual é o efeito típico de uma política monetária contracionista?",
+    "a": [
+      "Reduzir juros e expandir crédito",
+      "Elevar juros ou restringir liquidez para conter pressões inflacionárias",
+      "Aumentar automaticamente gastos públicos",
+      "Fixar preços de todos os bens"
+    ],
+    "correct": 1,
+    "explanation": "A contração monetária busca reduzir demanda agregada e pressões inflacionárias."
+  },
+  {
+    "id": "v10163",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Quando há um imposto pigouviano ideal sobre uma atividade poluidora, sua alíquota tende a refletir:",
+    "a": [
+      "O custo privado médio da empresa",
+      "O dano marginal externo no nível socialmente eficiente",
+      "A receita total do setor",
+      "O custo fixo irrecuperável"
+    ],
+    "correct": 1,
+    "explanation": "O imposto pigouviano busca internalizar o custo marginal externo associado à atividade."
+  },
+  {
+    "id": "v10164",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Na análise de investimentos, o VPL é positivo quando:",
+    "a": [
+      "A taxa interna de retorno é necessariamente negativa",
+      "O valor presente dos fluxos de caixa supera o investimento inicial",
+      "O payback é infinito",
+      "A receita bruta é igual ao custo fixo"
+    ],
+    "correct": 1,
+    "explanation": "VPL positivo indica criação de valor à taxa de desconto adotada."
+  },
+  {
+    "id": "v10165",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Em contratos de seguro, qual mecanismo pode reduzir o risco moral associado ao uso excessivo do serviço segurado?",
+    "a": [
+      "Eliminar toda franquia e coparticipação",
+      "Adotar franquias, coparticipações e monitoramento proporcional",
+      "Garantir cobertura ilimitada sem auditoria",
+      "Remunerar o segurado pelo valor integral do sinistro"
+    ],
+    "correct": 1,
+    "explanation": "Franquias e coparticipações fazem o usuário internalizar parte do custo, reduzindo incentivos a usos excessivos."
+  },
+  {
+    "id": "v10166",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "O que representa a taxa de sacrifício na literatura de desinflação?",
+    "a": [
+      "A perda acumulada de produto associada à redução da inflação",
+      "A razão entre exportações e importações",
+      "O custo fiscal de emitir moeda",
+      "A diferença entre juros nominais e reais"
+    ],
+    "correct": 0,
+    "explanation": "A taxa de sacrifício relaciona a perda de produto ou emprego ao processo de redução da inflação."
+  },
+  {
+    "id": "v10167",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Em finanças, duration de um título de renda fixa está relacionada principalmente:",
+    "a": [
+      "Ao prazo legal de vencimento apenas",
+      "À sensibilidade do preço do título a mudanças nas taxas de juros",
+      "À taxa de inadimplência do emissor exclusivamente",
+      "Ao valor nominal do cupom"
+    ],
+    "correct": 1,
+    "explanation": "Duration mede prazo médio ponderado dos fluxos e aproxima a sensibilidade do preço a juros."
+  },
+  {
+    "id": "v10168",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "O que é uma curva de Lorenz?",
+    "a": [
+      "Representação da relação entre inflação e desemprego",
+      "Gráfico usado para representar a distribuição acumulada de renda ou riqueza",
+      "Curva de oferta de moeda",
+      "Diagrama de fluxo de caixa empresarial"
+    ],
+    "correct": 1,
+    "explanation": "A curva compara a participação acumulada da população com a participação acumulada da renda."
+  },
+  {
+    "id": "v10169",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Qual é o objetivo central de uma operação de hedge?",
+    "a": [
+      "Eliminar toda possibilidade de perda",
+      "Reduzir exposição a riscos de preço, taxa ou câmbio por meio de posições compensatórias",
+      "Aumentar a alavancagem sem limite",
+      "Garantir lucro acima do mercado"
+    ],
+    "correct": 1,
+    "explanation": "Hedge busca compensar variações adversas, embora possa ter custos e riscos residuais."
+  },
+  {
+    "id": "v10170",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Na teoria dos custos, o custo marginal corresponde:",
+    "a": [
+      "Ao custo total dividido pela produção",
+      "À variação do custo total ao produzir uma unidade adicional",
+      "Ao custo fixo médio",
+      "À receita obtida pela última unidade"
+    ],
+    "correct": 1,
+    "explanation": "Custo marginal mede o acréscimo de custo decorrente de uma unidade adicional de produção."
+  },
+  {
+    "id": "v10171",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "O que é seleção adversa em mercados com assimetria de informação?",
+    "a": [
+      "Agentes bem informados saem sempre do mercado",
+      "A assimetria faz com que tipos de maior risco tenham maior propensão a participar, distorcendo a composição do mercado",
+      "Ocorre apenas após a assinatura do contrato",
+      "É sinônimo de risco moral"
+    ],
+    "correct": 1,
+    "explanation": "A seleção adversa ocorre antes do contrato, quando informação privada afeta quem participa e em quais condições."
+  },
+  {
+    "id": "v10172",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Qual indicador representa o valor monetário de todos os bens e serviços finais produzidos dentro de um território em determinado período?",
+    "a": [
+      "Renda nacional bruta",
+      "Produto Interno Bruto",
+      "Índice de Gini",
+      "Balanço de pagamentos"
+    ],
+    "correct": 1,
+    "explanation": "O PIB mede a produção final realizada dentro das fronteiras econômicas do país."
+  },
+  {
+    "id": "v10173",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Em estratégia empresarial, o conceito de custo de oportunidade representa:",
+    "a": [
+      "Somente o desembolso financeiro registrado",
+      "O valor da melhor alternativa sacrificada ao tomar uma decisão",
+      "O custo histórico de aquisição",
+      "A soma de todos os custos fixos"
+    ],
+    "correct": 1,
+    "explanation": "O custo de oportunidade expressa o benefício da melhor opção não escolhida."
+  },
+  {
+    "id": "v10174",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "O que é uma estratégia de preço de penetração?",
+    "a": [
+      "Lançar com preço alto para capturar consumidores menos sensíveis",
+      "Entrar com preço relativamente baixo para conquistar participação de mercado",
+      "Cobrar preço idêntico ao custo marginal em todos os casos",
+      "Alterar preços apenas por leilão"
+    ],
+    "correct": 1,
+    "explanation": "A estratégia usa preço inicial baixo para acelerar adoção e participação."
+  },
+  {
+    "id": "v10175",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Na macroeconomia, a curva de Phillips original descrevia uma relação empírica inversa entre:",
+    "a": [
+      "Inflação e crescimento populacional",
+      "Desemprego e crescimento dos salários nominais",
+      "Juros reais e exportações",
+      "Déficit público e produtividade"
+    ],
+    "correct": 1,
+    "explanation": "A formulação original relacionava desemprego e variação dos salários nominais; versões posteriores tratam inflação."
+  },
+  {
+    "id": "v10176",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "O que caracteriza uma estrutura de mercado de concorrência monopolística?",
+    "a": [
+      "Produto homogêneo e uma única empresa",
+      "Muitas empresas, diferenciação de produtos e relativa liberdade de entrada",
+      "Poucos vendedores com cartel obrigatório",
+      "Ausência de poder de mercado em qualquer horizonte"
+    ],
+    "correct": 1,
+    "explanation": "A diferenciação confere algum poder de mercado, embora haja muitas firmas e entrada relativamente livre."
+  },
+  {
+    "id": "v10177",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Qual é a função de uma provisão para perdas esperadas em instituições financeiras?",
+    "a": [
+      "Registrar somente lucros futuros",
+      "Reconhecer antecipadamente perdas de crédito estimadas",
+      "Eliminar a necessidade de capital regulatório",
+      "Garantir que todos os empréstimos sejam pagos"
+    ],
+    "correct": 1,
+    "explanation": "A provisão reconhece perdas de crédito esperadas conforme modelos e regras contábeis aplicáveis."
+  },
+  {
+    "id": "v10178",
+    "difficulty": "genio",
+    "category": "Economia e negócios",
+    "q": "Em comércio internacional, o que significa vantagem comparativa?",
+    "a": [
+      "Produzir tudo com menor custo absoluto",
+      "Ter menor custo de oportunidade na produção de determinado bem",
+      "Exportar apenas produtos industrializados",
+      "Manter superávit comercial em todos os anos"
+    ],
+    "correct": 1,
+    "explanation": "A especialização baseada em custos de oportunidade pode gerar ganhos mútuos no comércio."
+  },
+  {
+    "id": "v10179",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é o traço da matriz [[4,−1,0],[2,3,5],[0,7,−2]]?",
+    "a": [
+      "−1",
+      "3",
+      "5",
+      "9"
+    ],
+    "correct": 2,
+    "explanation": "O traço é a soma dos elementos diagonais principais: 4 + 3 − 2 = 5."
+  },
+  {
+    "id": "v10180",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Se f(x)=x³−3x, em quais pontos críticos a função tem máximo ou mínimo local?",
+    "a": [
+      "x=−1 é máximo e x=1 é mínimo",
+      "x=−1 é mínimo e x=1 é máximo",
+      "Ambos são máximos",
+      "Não há extremos locais"
+    ],
+    "correct": 0,
+    "explanation": "f'(x)=3x²−3 zera em ±1; f''(−1)<0 e f''(1)>0."
+  },
+  {
+    "id": "v10181",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é a soma dos ângulos internos de um polígono convexo de 15 lados?",
+    "a": [
+      "2.160°",
+      "2.340°",
+      "2.520°",
+      "2.700°"
+    ],
+    "correct": 1,
+    "explanation": "A soma é (n−2)×180° = (15−2)×180° = 2.340°."
+  },
+  {
+    "id": "v10182",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Uma variável aleatória normal padrão tem média e desvio-padrão, respectivamente:",
+    "a": [
+      "0 e 1",
+      "1 e 0",
+      "0 e 0",
+      "1 e 1"
+    ],
+    "correct": 0,
+    "explanation": "A distribuição normal padrão é N(0,1)."
+  },
+  {
+    "id": "v10183",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é o resto da divisão de 7^100 por 6?",
+    "a": [
+      "0",
+      "1",
+      "5",
+      "7"
+    ],
+    "correct": 1,
+    "explanation": "Como 7 ≡ 1 (mod 6), então 7^100 ≡ 1 (mod 6)."
+  },
+  {
+    "id": "v10184",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Se 3^(x+1)=81, qual é o valor de x?",
+    "a": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "explanation": "Como 81=3⁴, temos x+1=4 e, portanto, x=3."
+  },
+  {
+    "id": "v10185",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Em um triângulo retângulo, os catetos medem 9 e 12. Qual é o raio da circunferência circunscrita?",
+    "a": [
+      "6",
+      "7,5",
+      "9",
+      "15"
+    ],
+    "correct": 1,
+    "explanation": "A hipotenusa mede 15; em triângulo retângulo, o raio circunscrito é metade da hipotenusa: 7,5."
+  },
+  {
+    "id": "v10186",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é a derivada de ln(x²+1)?",
+    "a": [
+      "1/(x²+1)",
+      "2x/(x²+1)",
+      "2/(x²+1)",
+      "ln(2x)"
+    ],
+    "correct": 1,
+    "explanation": "Pela regra da cadeia, a derivada é 2x/(x²+1)."
+  },
+  {
+    "id": "v10187",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Quantas diagonais possui um polígono convexo de 12 lados?",
+    "a": [
+      "48",
+      "54",
+      "60",
+      "66"
+    ],
+    "correct": 1,
+    "explanation": "O número de diagonais é n(n−3)/2 = 12×9/2 = 54."
+  },
+  {
+    "id": "v10188",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é o valor da integral definida de 0 a 2 de (3x²+1) dx?",
+    "a": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correct": 2,
+    "explanation": "Uma primitiva é x³+x; avaliando de 0 a 2, obtemos 8+2=10."
+  },
+  {
+    "id": "v10189",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é a probabilidade de obter soma 9 ao lançar dois dados honestos de seis faces?",
+    "a": [
+      "1/9",
+      "1/6",
+      "1/4",
+      "5/36"
+    ],
+    "correct": 0,
+    "explanation": "Há quatro pares favoráveis entre 36 resultados equiprováveis: 4/36 = 1/9."
+  },
+  {
+    "id": "v10190",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é o valor de i^2026, em que i é a unidade imaginária?",
+    "a": [
+      "1",
+      "−1",
+      "i",
+      "−i"
+    ],
+    "correct": 1,
+    "explanation": "As potências de i se repetem em ciclo de quatro; 2026 deixa resto 2 na divisão por 4."
+  },
+  {
+    "id": "v10191",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "A solução do sistema 2x+y=7 e x−y=2 é:",
+    "a": [
+      "x=2, y=3",
+      "x=3, y=1",
+      "x=4, y=−1",
+      "x=1, y=5"
+    ],
+    "correct": 1,
+    "explanation": "Somando as equações, 3x=9; portanto x=3 e y=1."
+  },
+  {
+    "id": "v10192",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é o limite de (1+1/n)^n quando n tende ao infinito?",
+    "a": [
+      "1",
+      "e",
+      "π",
+      "Infinito"
+    ],
+    "correct": 1,
+    "explanation": "Esse limite fundamental define o número de Euler e."
+  },
+  {
+    "id": "v10193",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Se a mediana de cinco números distintos em ordem crescente é 12, o que necessariamente se pode afirmar?",
+    "a": [
+      "A média é 12",
+      "O terceiro número é 12",
+      "A soma é 60",
+      "O maior número é 24"
+    ],
+    "correct": 1,
+    "explanation": "Com cinco valores ordenados, a mediana é o terceiro elemento."
+  },
+  {
+    "id": "v10194",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é a área de um setor circular de raio 6 e ângulo central de 60°?",
+    "a": [
+      "3π",
+      "6π",
+      "9π",
+      "12π"
+    ],
+    "correct": 1,
+    "explanation": "A área é (60/360)×π×6² = 6π."
+  },
+  {
+    "id": "v10195",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Uma urna contém 4 bolas vermelhas e 6 azuis. Retiram-se duas sem reposição. Qual a probabilidade de ambas serem vermelhas?",
+    "a": [
+      "2/15",
+      "4/25",
+      "1/5",
+      "4/15"
+    ],
+    "correct": 0,
+    "explanation": "A probabilidade é (4/10)×(3/9)=12/90=2/15."
+  },
+  {
+    "id": "v10196",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é a solução real de x²−5x+6=0?",
+    "a": [
+      "x=1 e x=6",
+      "x=2 e x=3",
+      "x=−2 e x=−3",
+      "x=−1 e x=−6"
+    ],
+    "correct": 1,
+    "explanation": "A fatoração é (x−2)(x−3)=0."
+  },
+  {
+    "id": "v10197",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Se a escala de um mapa é 1:250.000, uma distância de 4 cm no mapa representa:",
+    "a": [
+      "1 km",
+      "5 km",
+      "10 km",
+      "25 km"
+    ],
+    "correct": 2,
+    "explanation": "4 cm×250.000=1.000.000 cm, equivalentes a 10 km."
+  },
+  {
+    "id": "v10198",
+    "difficulty": "genio",
+    "category": "Matemática e raciocínio",
+    "q": "Qual é o coeficiente angular da reta que passa por (−2, 5) e (4, −7)?",
+    "a": [
+      "−3",
+      "−2",
+      "2",
+      "3"
+    ],
+    "correct": 1,
+    "explanation": "m=(−7−5)/(4−(−2))=−12/6=−2."
   }
 ];
