@@ -1,0 +1,26 @@
+{
+  "total": 800,
+  "categories": {
+    "Conhecimento geral": 80,
+    "Ciência e tecnologia": 80,
+    "Geopolítica e atualidades": 80,
+    "Brasil": 80,
+    "História e geografia": 80,
+    "Política": 80,
+    "Química": 80,
+    "Lógica e enigmas": 80,
+    "Economia e negócios": 80,
+    "Matemática e raciocínio": 80
+  },
+  "answer_positions": {
+    "A": 200,
+    "B": 200,
+    "C": 200,
+    "D": 200
+  },
+  "unique_ids": 800,
+  "stems_over_120_chars": 3,
+  "correct_option_unique_longest": 200,
+  "correct_option_tied_longest": 88,
+  "note": "Automated editorial pass; remaining semantic/factual review required."
+}

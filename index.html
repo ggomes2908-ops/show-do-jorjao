@@ -54,6 +54,21 @@
     <section id="screen-question" class="screen"><div class="game-top"><button class="btn btn-ghost btn-small" id="back-to-pass">← Voltar</button><span id="question-round" class="round-label">RODADA 1 DE 10</span><span id="question-category" class="category-chip">Conhecimento geral</span></div><div class="question-wrap"><div class="question-kicker"><span>PERGUNTA</span><span id="question-number">01 / 10</span></div><h1 id="question-text">Carregando pergunta…</h1><div id="reading-countdown" class="reading-countdown" hidden><span>ALTERNATIVAS EM</span><strong id="reading-countdown-number">5</strong><small>Leia a pergunta com atenção</small></div><div id="answers" class="answers-grid"></div><div id="answer-feedback" class="answer-feedback" aria-live="polite"></div><div class="question-foot"><span id="question-foot-hint">Escolha uma alternativa</span><span>Pontuação conforme o modo escolhido</span></div></div></section>
     <section id="screen-reveal" class="screen"><div class="reveal-head"><div class="eyebrow">FIM DA RODADA</div><h1>Hora da <span>revelação!</span></h1><p>Confira a resposta correta e veja quem pontuou.</p></div><div class="reveal-question panel"><span id="reveal-category" class="category-chip">Tema</span><h2 id="reveal-question-text"></h2><div id="reveal-correct" class="correct-answer"></div><div id="round-results" class="round-results"></div></div><div class="reveal-bottom"><div class="mini-leaderboard" id="mini-leaderboard"></div><button id="next-round" class="btn btn-primary">Próxima rodada <span>→</span></button></div></section>
 
+    <section id="screen-roulette-draw" class="screen roulette-screen">
+      <div class="roulette-draw-card"><div class="eyebrow">MOMENTO DECISIVO</div><h1>Quem vai encarar <span>a Roleta do Jorjão?</span></h1><p>Os nomes estão na disputa. Faça suas apostas!</p><div class="name-draw-window"><div class="name-draw-glow"></div><strong id="roulette-draw-name">Preparando...</strong></div><div class="roulette-draw-status" id="roulette-draw-status">Sorteando participante...</div></div>
+    </section>
+    <section id="screen-roulette-choice" class="screen roulette-art-screen">
+      <div class="roulette-choice-art"><img src="roleta-decisao-bg.png" alt="Jorjão apresenta a escolha da roleta"><div class="roulette-hotspots"><button id="roulette-refuse" class="roulette-hotspot refuse" aria-label="Recusar e manter os pontos"></button><button id="roulette-risk" class="roulette-hotspot risk" aria-label="Arriscar tudo e girar a roleta"></button></div></div>
+    </section>
+    <section id="screen-roulette-wheel" class="screen roulette-art-screen">
+      <div class="roulette-wheel-art"><img src="roleta-jorgao-bg.png" alt="Roleta do Jorjão em ação"><div class="functional-wheel-wrap"><div id="functional-wheel" class="functional-wheel" aria-label="Roleta funcional"></div><div class="functional-wheel-pointer"></div></div><button id="roulette-spin" class="roulette-spin-button">GIRAR A ROLETA</button><div id="roulette-result" class="roulette-result" aria-live="polite"></div><aside id="roulette-outcome-summary" class="roulette-outcome-summary" aria-live="polite" hidden><strong id="roulette-summary-title">Resultado</strong><p id="roulette-summary-text"></p></aside></div>
+    </section>
+    <section id="screen-roulette-target" class="screen roulette-screen">
+      <div class="roulette-draw-card"><div class="eyebrow">SORTEIO DE ADVERSÁRIO</div><h1>Quem será o <span>escolhido?</span></h1><div class="name-draw-window"><div class="name-draw-glow"></div><strong id="roulette-target-name">Sorteando...</strong></div><div class="roulette-draw-status">A animação está escolhendo seu adversário.</div></div>
+    </section>
+    <section id="screen-roulette-theme" class="screen roulette-screen">
+      <div class="roulette-draw-card"><div class="eyebrow">PODER DA COROA</div><h1>Escolha o tema da <span>última pergunta</span></h1><p>O tema escolhido será usado na rodada final.</p><div id="roulette-theme-options" class="roulette-theme-options"></div></div>
+    </section>
     <section id="screen-duel" class="screen">
       <div class="duel-hero">
         <img class="duel-art" src="duelo-dourado.png" alt="Jorjão apresentando o duelo final entre os participantes">
@@ -82,6 +97,7 @@
       <div class="profile-detail-row"><span>Melhor sequência</span><strong id="profile-best-streak">0</strong></div><div class="profile-detail-row"><span>Desempenho geral</span><strong id="profile-answered">0 acertos em 0 respostas</strong></div>
       <div class="profile-category-section"><h3>Aproveitamento por categoria</h3><div id="profile-categories"><p class="privacy-note">As estatísticas por categoria aparecerão após as próximas partidas.</p></div></div>
       <div class="profile-achievement-section"><h3>Conquistas</h3><div id="profile-achievements"></div></div>
+      <div class="profile-insignia-section"><div class="profile-insignia-heading"><h3>Insígnias</h3><span id="profile-insignia-count">0 de 10 categorias com insígnia</span></div><div id="profile-insignias" class="insignia-grid"><p class="privacy-note">As insígnias aparecerão conforme suas conquistas forem desbloqueadas.</p></div></div>
       <p class="profile-note">O desempenho por categoria é atualizado ao final de cada partida. Partidas anteriores à instalação deste recurso não são contabilizadas retroativamente.</p>
     </section>
   </div>
