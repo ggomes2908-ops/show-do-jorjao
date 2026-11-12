@@ -1,0 +1,63 @@
+{
+  "version": "V20-Impacto-da-Roleta",
+  "base": "V18",
+  "questions": 800,
+  "categories": {
+    "Conhecimento geral": 80,
+    "Ciência e tecnologia": 80,
+    "Geopolítica e atualidades": 80,
+    "Brasil": 80,
+    "História e geografia": 80,
+    "Política": 80,
+    "Química": 80,
+    "Lógica e enigmas": 80,
+    "Economia e negócios": 80,
+    "Matemática e raciocínio": 80
+  },
+  "js_syntax": "passed",
+  "html_duplicate_ids": "none",
+  "roulette_screens": 6,
+  "assets_present": [
+    "roleta-decisao-bg.png",
+    "roleta-jorgao-bg.png"
+  ],
+  "roulette_flow": "integrated in source; browser end-to-end and live Supabase tests not completed",
+  "notes": [
+    "V19 is based on V18. Original game functions and existing assets/database files were preserved; additions are limited to roulette screens/styles/logic and Crown question selection support.",
+    "User-approved roulette rules are reflected in app.js.",
+    "Structural and isolated logic tests passed.",
+    "Full browser interaction across desktop/mobile and live Supabase integration remain outstanding; this is not a production certification.",
+    "V20 adds a score-impact screen after roulette effects and removes category insignias while retaining general profile achievements and performance statistics."
+  ],
+  "hotspot_alignment": "adjusted to independent percentage bounds matching the blue and red artwork buttons; hover/focus highlight constrained inside each hotspot",
+  "outcome_summary": "added contextual explanation panel shown after wheel stops and before effect is applied; responsive desktop side panel/mobile stacked panel",
+  "roulette_rules": {
+    "refuse": "keeps all points and proceeds to final round without penalty",
+    "neutral": "no points gained or lost; no shield or protection state",
+    "pedagio": "each other participant transfers exactly 1 point to selected player; negative balances allowed",
+    "imposto": "selected player transfers exactly 1 point to each other participant; negative balances allowed",
+    "swap": "swaps full score values, including negative balances",
+    "crown": "offers only selected categories with a question reserved in the current match; uses a question from that category",
+    "skip": "selected player is excluded from the final round only",
+    "block": "removed as redundant"
+  },
+  "roulette_outcomes": 8,
+  "removed_outcome": "BLOQUEIO",
+  "remaining_exclusion_outcome": "NÃO JOGA",
+  "automated_tests": {
+    "app_js_syntax": "passed",
+    "questions_js_syntax": "passed",
+    "question_bank": "800 valid questions; 10 categories; 80 each; four alternatives; valid correct indices; unique IDs",
+    "html_ids": "checked for duplicates",
+    "local_html_references": "checked for missing local assets",
+    "roulette_logic": "isolated tests passed for +5, -5, neutral, swap, toll with negative balances, tax with negative balances, and skip",
+    "question_selection": "category coverage guaranteed when the number of rounds/questions permits; Crown options filtered to categories with a reserved question",
+    "roulette_impact": "passed for plus, minus, neutral, swap, toll, tax, skip; score panel and confirmation gate verified",
+    "insignias": "visual and app logic removed; achievements and stats retained"
+  },
+  "browser_e2e": "not completed; local headless browser smoke test to be attempted; manual desktop/mobile validation remains necessary",
+  "supabase_live": "not completed; requires live project environment and credentials",
+  "obsolete_validation_removed": "previous stale shield/no-negative-balance assertions replaced with current approved rules",
+  "insignias": "removed from profile interface and app logic; general achievements and player statistics retained",
+  "impact_panel": "shows before/after score for every participant and per-player deltas after each roulette outcome; user confirms before final round"
+}

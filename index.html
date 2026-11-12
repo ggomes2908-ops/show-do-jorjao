@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101323"><meta name="description" content="Show do Jorjão: quiz de conhecimentos difíceis, nível gênio e Duelo Dourado.">
-  <title>Show do Jorjão — Desafio Nível Gênio</title><link rel="stylesheet" href="style.css">
+  <title>Show do Jorjão V20 — Desafio Nível Gênio</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
@@ -69,6 +69,18 @@
     <section id="screen-roulette-theme" class="screen roulette-screen">
       <div class="roulette-draw-card"><div class="eyebrow">PODER DA COROA</div><h1>Escolha o tema da <span>última pergunta</span></h1><p>O tema escolhido será usado na rodada final.</p><div id="roulette-theme-options" class="roulette-theme-options"></div></div>
     </section>
+    <section id="screen-roulette-impact" class="screen roulette-screen">
+      <div class="roulette-impact-card panel">
+        <div class="eyebrow">CONSEQUÊNCIAS DA ROLETA</div>
+        <h1>Impacto no <span>placar</span></h1>
+        <h2 id="roulette-impact-title">RESULTADO</h2>
+        <p id="roulette-impact-description"></p>
+        <div class="roulette-impact-table-head"><span>PARTICIPANTE</span><span>ANTES</span><span></span><span>AGORA</span><span>IMPACTO</span></div>
+        <div id="roulette-impact-rows" class="roulette-impact-rows"></div>
+        <p id="roulette-impact-foot" class="roulette-impact-foot" aria-live="polite"></p>
+        <button id="roulette-impact-continue" class="btn btn-primary">Continuar para a rodada final <span>→</span></button>
+      </div>
+    </section>
     <section id="screen-duel" class="screen">
       <div class="duel-hero">
         <img class="duel-art" src="duelo-dourado.png" alt="Jorjão apresentando o duelo final entre os participantes">
@@ -97,7 +109,6 @@
       <div class="profile-detail-row"><span>Melhor sequência</span><strong id="profile-best-streak">0</strong></div><div class="profile-detail-row"><span>Desempenho geral</span><strong id="profile-answered">0 acertos em 0 respostas</strong></div>
       <div class="profile-category-section"><h3>Aproveitamento por categoria</h3><div id="profile-categories"><p class="privacy-note">As estatísticas por categoria aparecerão após as próximas partidas.</p></div></div>
       <div class="profile-achievement-section"><h3>Conquistas</h3><div id="profile-achievements"></div></div>
-      <div class="profile-insignia-section"><div class="profile-insignia-heading"><h3>Insígnias</h3><span id="profile-insignia-count">0 de 10 categorias com insígnia</span></div><div id="profile-insignias" class="insignia-grid"><p class="privacy-note">As insígnias aparecerão conforme suas conquistas forem desbloqueadas.</p></div></div>
       <p class="profile-note">O desempenho por categoria é atualizado ao final de cada partida. Partidas anteriores à instalação deste recurso não são contabilizadas retroativamente.</p>
     </section>
   </div>
