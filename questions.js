@@ -1,4 +1,4 @@
-// Show do Jorjão V22 — banco revisado; alternativas antigas sinalizadas reconstruídas.
+// Show do Jorjão V23 — alternativas incorretas revisadas (coerência de tipo e tamanho).
 window.QUIZ_QUESTIONS = [
   {
     "id": "gen01",
@@ -258,10 +258,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Em sistemas parlamentaristas, qual evento costuma levar à queda de um governo antes do fim da legislatura?",
     "a": [
-      "Veto judicial automático",
-      "Perda de confiança ou voto de desconfiança",
+      "Aprovação do orçamento pelo parlamento",
+      "Voto de desconfiança do parlamento",
       "Fim do mandato do chefe de Estado",
-      "Decisão do banco central"
+      "Realização de eleições municipais"
     ],
     "correct": 1,
     "explanation": "O governo depende da confiança da maioria parlamentar e pode cair após um voto de desconfiança."
@@ -356,10 +356,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "O que é “accountability” no contexto da administração pública?",
     "a": [
-      "Eliminação dos mecanismos de auditoria",
-      "Sigilo permanente das decisões",
-      "Transferência de todas as decisões ao setor privado",
-      "Prestação de contas e responsabilização por atos e resultados"
+      "Planejamento orçamentário de longo prazo",
+      "Delegação de funções públicas a terceiros",
+      "Controle hierárquico interno entre servidores",
+      "Prestação de contas e responsabilização"
     ],
     "correct": 3,
     "explanation": "Accountability envolve transparência, prestação de contas e possibilidade de responsabilização."
@@ -1378,10 +1378,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Em aprendizado de máquina, overfitting ocorre quando o modelo…",
     "a": [
-      "Não aprende nem padrões básicos",
-      "É sempre simples demais",
+      "Aprende apenas padrões muito simples",
+      "Erra tanto no treino quanto no teste",
       "Ajusta-se demais ao treino e generaliza mal",
-      "Não usa dados rotulados"
+      "Treina somente com dados sem rótulos"
     ],
     "correct": 2,
     "explanation": "O sobreajuste captura ruído específico do treino e perde desempenho em dados novos."
@@ -1490,10 +1490,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual mecanismo da OMC permite que membros contestem medidas comerciais consideradas incompatíveis com acordos?",
     "a": [
-      "Sistema de Bretton Woods",
+      "Rodada de Doha",
       "Mecanismo de solução de controvérsias",
-      "Cláusula de defesa coletiva",
-      "Tribunal Penal Internacional"
+      "Acordo de facilitação do comércio",
+      "Mecanismo de revisão de políticas comerciais"
     ],
     "correct": 1,
     "explanation": "A OMC possui um sistema de solução de controvérsias comerciais entre membros."
@@ -1630,10 +1630,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "O que diferencia sanções direcionadas ('smart sanctions') de embargos abrangentes?",
     "a": [
-      "Eliminam a necessidade de base jurídica",
+      "Bloqueio total das trocas com o país inteiro",
       "Sanções focadas em alvos específicos",
-      "São aplicadas apenas por empresas privadas",
-      "Não possuem objetivo político"
+      "Medidas aplicadas somente pela ONU",
+      "Restrições voltadas só à população civil"
     ],
     "correct": 1,
     "explanation": "Sanções direcionadas buscam pressionar alvos específicos com menor dano colateral."
@@ -1644,10 +1644,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual é a função principal do Alto Comissariado das Nações Unidas para Refugiados (ACNUR)?",
     "a": [
-      "Administrar eleições nacionais",
+      "Coordenação de ajuda alimentar em crises",
       "Proteção a refugiados e soluções de deslocamento",
-      "Emitir moedas internacionais",
-      "Regular tarifas alfandegárias"
+      "Vigilância da saúde pública global",
+      "Julgamento de crimes de guerra"
     ],
     "correct": 1,
     "explanation": "O ACNUR lidera ações internacionais de proteção a refugiados e pessoas deslocadas abrangidas por seu mandato."
@@ -1742,13 +1742,13 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual fenômeno transporta umidade amazônica para outras regiões?",
     "a": [
-      "Atividade vulcânica amazônica",
-      "Evapotranspiração florestal e circulação dos ventos",
-      "Apenas o degelo andino",
-      "Correntes de jato exclusivamente oceânicas"
+      "El Niño",
+      "Rios voadores",
+      "Ressurgência oceânica",
+      "Inversão térmica"
     ],
     "correct": 1,
-    "explanation": "A evapotranspiração e os ventos transportam vapor d'água pela América do Sul."
+    "explanation": "Os rios voadores são massas de vapor d'água, geradas pela evapotranspiração da floresta e levadas pelos ventos a outras regiões."
   },
   {
     "id": "v5x059",
@@ -1756,10 +1756,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual foi o objetivo central do Plano Real, lançado em 1994?",
     "a": [
-      "Privatizar todos os bancos",
-      "Substituir o sistema presidencialista",
-      "Criar o Mercosul",
-      "Conter a hiperinflação e estabilizar a moeda"
+      "Confiscar a poupança da população",
+      "Congelar preços e salários por decreto",
+      "Fechar a economia às importações",
+      "Estabilizar a moeda e conter a hiperinflação"
     ],
     "correct": 3,
     "explanation": "O Plano Real estabilizou a economia após anos de inflação elevada."
@@ -1785,9 +1785,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual órgão é responsável por organizar e executar o processo eleitoral brasileiro?",
     "a": [
       "Justiça Eleitoral",
-      "Ministério Público do Trabalho",
-      "Polícia Federal exclusivamente",
-      "Conselho Monetário Nacional"
+      "Tribunal de Contas da União",
+      "Congresso Nacional",
+      "Superior Tribunal de Justiça"
     ],
     "correct": 0,
     "explanation": "A Justiça Eleitoral organiza eleições, apura resultados e regula aspectos do processo eleitoral."
@@ -1868,10 +1868,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual documento formaliza o orçamento anual federal brasileiro após aprovação legislativa e sanção?",
     "a": [
-      "Plano Diretor municipal",
-      "Lei de Diretrizes da Educação",
+      "Lei de Diretrizes Orçamentárias",
+      "Plano Plurianual",
       "Lei Orçamentária Anual",
-      "Código Civil"
+      "Lei de Responsabilidade Fiscal"
     ],
     "correct": 2,
     "explanation": "A LOA estima receitas e fixa despesas para o exercício financeiro."
@@ -1882,10 +1882,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual princípio limita a administração pública ao que a lei autoriza?",
     "a": [
-      "Impessoalidade eleitoral",
-      "Eficiência energética",
+      "Impessoalidade",
       "Publicidade",
-      "Legalidade administrativa"
+      "Eficiência",
+      "Legalidade"
     ],
     "correct": 3,
     "explanation": "A administração pública está vinculada ao princípio da legalidade."
@@ -2037,9 +2037,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual evento de 1453 é convencionalmente usado como marco do fim do Império Bizantino?",
     "a": [
       "Conquista normanda da Inglaterra",
-      "Batalha de Hastings",
       "Saque de Roma pelos visigodos",
-      "Queda de Constantinopla para os otomanos"
+      "Coroação de Carlos Magno",
+      "Queda de Constantinopla"
     ],
     "correct": 3,
     "explanation": "Constantinopla foi conquistada por Mehmed II em 1453."
@@ -2148,9 +2148,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "No presidencialismo, qual característica distingue o chefe de Estado do chefe de governo em sistemas parlamentaristas?",
     "a": [
-      "O chefe de governo é sempre monarca",
-      "Não existe poder executivo",
+      "O chefe de Estado é sempre o primeiro-ministro",
       "O presidente é sempre escolhido pelo parlamento",
+      "Os ministros respondem apenas ao parlamento",
       "O presidente acumula as chefias de Estado e de governo"
     ],
     "correct": 3,
@@ -2176,10 +2176,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual princípio veda censura prévia à imprensa?",
     "a": [
-      "Imunidade absoluta a qualquer lei",
-      "Sigilo diplomático",
+      "Devido processo legal",
+      "Inviolabilidade do domicílio",
       "Liberdade de expressão e de imprensa",
-      "Separação tributária"
+      "Presunção de inocência"
     ],
     "correct": 2,
     "explanation": "A liberdade de imprensa protege a publicação, embora abusos possam gerar responsabilização conforme a lei."
@@ -2416,8 +2416,8 @@ window.QUIZ_QUESTIONS = [
     "a": [
       "Ligar todos e entrar",
       "Usar calor residual e observar a lâmpada",
-      "Não é possível em nenhuma condição",
-      "Acionar cada um rapidamente sem entrar"
+      "Acionar cada um rapidamente sem entrar",
+      "Ligar um por vez e entrar três vezes"
     ],
     "correct": 1,
     "explanation": "A lâmpada acesa identifica um; se apagada, o calor distingue o interruptor previamente ligado."
@@ -2554,10 +2554,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Na análise de concorrência, o índice Herfindahl-Hirschman (HHI) é calculado principalmente a partir de…",
     "a": [
-      "Número de funcionários por empresa",
-      "Taxa de câmbio real",
+      "Margem de lucro média do setor",
+      "Razão de concentração das quatro maiores empresas",
       "Soma dos quadrados das fatias de mercado",
-      "Taxa de inflação anual"
+      "Elasticidade-preço da demanda"
     ],
     "correct": 2,
     "explanation": "O HHI soma os quadrados das participações de mercado e mede concentração."
@@ -2582,10 +2582,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Se o valor presente líquido (VPL) de um projeto é positivo à taxa de desconto apropriada, isso geralmente indica que…",
     "a": [
-      "O projeto destrói valor necessariamente",
-      "O prazo de retorno é sempre inferior a um ano",
-      "O projeto não tem risco",
-      "O projeto tende a criar valor acima do retorno exigido"
+      "O projeto deve ser rejeitado",
+      "O retorno é menor que o custo de capital",
+      "O prazo de retorno é imediato",
+      "O projeto tende a criar valor"
     ],
     "correct": 3,
     "explanation": "VPL positivo significa que os fluxos descontados superam o investimento inicial."
@@ -2680,10 +2680,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Quando uma empresa deve suspender a produção no curto prazo?",
     "a": [
-      "Economia de escala",
-      "Interromper produção no curto prazo",
-      "Ponto de equilíbrio contábil",
-      "Integração vertical"
+      "Quando o lucro contábil é menor que o esperado",
+      "Quando o preço fica abaixo do custo variável médio",
+      "Quando o preço fica abaixo do custo fixo médio",
+      "Quando o preço fica abaixo do custo total médio"
     ],
     "correct": 1,
     "explanation": "No modelo competitivo simples, preço abaixo do custo variável médio pode justificar suspensão no curto prazo."
@@ -3380,10 +3380,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual artigo da Carta da ONU proíbe, em regra, ameaça ou uso da força contra outro Estado?",
     "a": [
-      "Autodeterminação econômica",
+      "Artigo 51",
       "Artigo 2(4)",
-      "Cláusula de nação mais favorecida",
-      "Princípio da subsidiariedade"
+      "Artigo 2(7)",
+      "Artigo 33"
     ],
     "correct": 1,
     "explanation": "O art. 2(4) da Carta da ONU estabelece a proibição geral do uso ou ameaça da força."
@@ -3394,10 +3394,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "O que diferencia uma convenção-quadro internacional de um protocolo adicional?",
     "a": [
-      "A convenção define princípios gerais; protocolos detalham obrigações",
-      "A convenção-quadro não pode ser ratificada",
-      "O protocolo sempre substitui todos os tratados anteriores",
-      "Não há diferença jurídica possível"
+      "A convenção fixa princípios gerais; o protocolo detalha obrigações",
+      "O protocolo fixa princípios gerais; a convenção detalha obrigações",
+      "A convenção só vale para tratados bilaterais",
+      "Ambos são sinônimos, sem efeito jurídico distinto"
     ],
     "correct": 0,
     "explanation": "Convenções-quadro criam uma arquitetura de cooperação, enquanto protocolos podem estabelecer compromissos adicionais."
@@ -3591,8 +3591,8 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual é o objetivo central do Tratado de Não Proliferação de Armas Nucleares?",
     "a": [
       "Criar uma força nuclear da ONU",
-      "Proibir qualquer pesquisa em física nuclear",
-      "Eliminar imediatamente toda energia nuclear civil",
+      "Garantir armas nucleares a todos os Estados",
+      "Proibir o uso civil da energia nuclear",
       "Conter proliferação e apoiar uso pacífico"
     ],
     "correct": 3,
@@ -3718,8 +3718,8 @@ window.QUIZ_QUESTIONS = [
     "a": [
       "Ato Adicional de 1834",
       "Constituição de 1824",
-      "Constituição de 1934",
-      "Constituição de 1891"
+      "Código Criminal de 1830",
+      "Lei Eusébio de Queirós"
     ],
     "correct": 1,
     "explanation": "A Constituição de 1824 estabeleceu quatro poderes, incluindo o Poder Moderador exercido pelo imperador."
@@ -3844,7 +3844,7 @@ window.QUIZ_QUESTIONS = [
     "a": [
       "Aos bancos comerciais autorizados",
       "Ao Conselho Monetário Nacional diretamente",
-      "À União, exercida exclusivamente pelo Banco Central",
+      "À União, por meio do Banco Central",
       "Aos estados, em conjunto"
     ],
     "correct": 2,
@@ -3898,10 +3898,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "A chamada Marcha para o Oeste, intensificada no Estado Novo, tinha como objetivo estratégico:",
     "a": [
-      "Promover ocupação e integração econômica de áreas do interior",
-      "Substituir a agricultura por mineração exclusivamente",
-      "Concentrar a população no litoral",
-      "Transferir a capital para o Sul"
+      "Ocupar e integrar economicamente o interior",
+      "Expandir a ocupação do litoral nordestino",
+      "Incentivar a imigração europeia para as capitais",
+      "Proteger a fronteira sul contra a Argentina"
     ],
     "correct": 0,
     "explanation": "A política buscava integrar e ocupar o interior, associada à expansão territorial e econômica."
@@ -5676,9 +5676,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Conhecimento geral",
     "q": "Qual organela realiza a maior parte da produção aeróbia de ATP?",
     "a": [
-      "Nó",
-      "Byte",
-      "Pacote",
+      "Ribossomo",
+      "Lisossomo",
+      "Complexo de Golgi",
       "Mitocôndria"
     ],
     "correct": 3,
@@ -5705,9 +5705,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Quem formulou o imperativo categórico?",
     "a": [
       "Immanuel Kant",
-      "Kairos",
-      "Logos",
-      "Pathos"
+      "Friedrich Nietzsche",
+      "John Stuart Mill",
+      "David Hume"
     ],
     "correct": 0,
     "explanation": "Kant propôs o imperativo categórico como princípio moral universalizável."
@@ -5942,10 +5942,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Conhecimento geral",
     "q": "O movimento e a deformação da litosfera caracterizam o…",
     "a": [
-      "Pacote",
-      "Nó",
+      "Intemperismo",
+      "Assoreamento",
       "Tectonismo",
-      "Byte"
+      "Eutrofização"
     ],
     "correct": 2,
     "explanation": "Tectonismo reúne processos ligados à movimentação e deformação da litosfera."
@@ -5984,9 +5984,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Conhecimento geral",
     "q": "Qual método data materiais orgânicos por seu carbono radioativo?",
     "a": [
-      "Semelhança formal",
-      "Relação puramente sintática",
-      "Convenção arbitrária",
+      "Urânio-chumbo",
+      "Potássio-argônio",
+      "Termoluminescência",
       "Carbono-14"
     ],
     "correct": 3,
@@ -6152,10 +6152,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Conhecimento geral",
     "q": "Qual é o nome da falácia que ataca a pessoa em vez de refutar seu argumento?",
     "a": [
-      "Viés de ancoragem",
-      "Aversão à perda",
+      "Falso dilema",
+      "Petição de princípio",
       "Ad hominem",
-      "Paz de Vestfália"
+      "Post hoc"
     ],
     "correct": 2,
     "explanation": "A falácia ad hominem desvia o debate para características do interlocutor."
@@ -6223,9 +6223,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual camada do modelo OSI é responsável pelo roteamento?",
     "a": [
       "Camada de rede",
-      "Não aprende nem padrões básicos",
-      "Não usa dados rotulados",
-      "É sempre simples demais"
+      "Camada de transporte",
+      "Camada de enlace",
+      "Camada de aplicação"
     ],
     "correct": 0,
     "explanation": "A camada 3 encaminha pacotes entre redes."
@@ -6236,10 +6236,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Em programação, o que caracteriza uma função pura?",
     "a": [
-      "Um erro exclusivo de compilação",
-      "Uma falha causada por excesso de comentários",
-      "Mesmo resultado para mesmas entradas, sem efeitos colaterais",
-      "Uma execução sem paralelismo"
+      "Função sem parâmetros",
+      "Função que só executa em paralelo",
+      "Mesma saída para a mesma entrada, sem efeitos colaterais",
+      "Função que sempre retorna número"
     ],
     "correct": 2,
     "explanation": "Funções puras não dependem nem alteram estado externo."
@@ -6446,10 +6446,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual a função de um sistema operacional?",
     "a": [
-      "Gerenciar exclusivamente memória RAM",
+      "Traduzir código-fonte para linguagem de máquina",
       "Gerenciar recursos e oferecer serviços aos programas",
-      "Criar automaticamente requisitos",
-      "Executar somente código HTML"
+      "Fornecer conexão com a internet",
+      "Executar apenas aplicativos de escritório"
     ],
     "correct": 1,
     "explanation": "O sistema operacional coordena hardware, processos e arquivos."
@@ -6516,10 +6516,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual técnica de teste verifica unidades isoladas de código?",
     "a": [
-      "Microscopia de contraste de fase",
-      "Microscopia confocal de fluorescência",
+      "Teste de carga",
+      "Teste de penetração",
       "Teste unitário",
-      "Microscopia de campo claro"
+      "Teste de aceitação"
     ],
     "correct": 2,
     "explanation": "Testes unitários avaliam pequenas partes de forma independente."
@@ -6572,10 +6572,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual conceito de banco evita dependências transitivas de atributos não-chave?",
     "a": [
-      "Isolamento",
+      "Primeira forma normal",
       "Terceira forma normal",
-      "Durabilidade",
-      "Consistência"
+      "Segunda forma normal",
+      "Desnormalização"
     ],
     "correct": 1,
     "explanation": "A 3FN reduz dependências transitivas entre atributos."
@@ -6600,10 +6600,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual mecanismo de memória virtual permite páginas não residentes serem carregadas sob demanda?",
     "a": [
-      "Sequenciamento Sanger",
-      "Eletroforese de proteínas",
+      "Escalonamento round-robin",
+      "Particionamento fixo",
       "Paginação sob demanda",
-      "PCR"
+      "Compilação just-in-time"
     ],
     "correct": 2,
     "explanation": "As páginas são trazidas à RAM quando acessadas."
@@ -6797,9 +6797,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual conceito define a política de não alinhamento aos blocos da Guerra Fria?",
     "a": [
       "Não alinhamento",
-      "Criar uma força nuclear da ONU",
-      "Proibir qualquer pesquisa em física nuclear",
-      "Eliminar imediatamente toda energia nuclear civil"
+      "Doutrina da contenção",
+      "Distensão (détente)",
+      "Equilíbrio de poder"
     ],
     "correct": 0,
     "explanation": "O Movimento dos Não Alinhados buscou autonomia diante dos blocos."
@@ -6810,9 +6810,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual tribunal julga controvérsias entre Estados com base no direito internacional?",
     "a": [
-      "Uti possidetis",
-      "Jus soli",
-      "Res communis",
+      "Tribunal Penal Internacional",
+      "Corte Interamericana de Direitos Humanos",
+      "Tribunal de Justiça da União Europeia",
       "Corte Internacional de Justiça"
     ],
     "correct": 3,
@@ -6852,10 +6852,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual princípio reconhece a cada povo o direito de definir seu estatuto político?",
     "a": [
-      "Conselho de Segurança",
+      "Soberania parlamentar",
       "Autodeterminação dos povos",
-      "Jus soli",
-      "Res communis"
+      "Uti possidetis",
+      "Pacta sunt servanda"
     ],
     "correct": 1,
     "explanation": "O princípio reconhece a escolha livre do estatuto político."
@@ -6906,15 +6906,15 @@ window.QUIZ_QUESTIONS = [
     "id": "v18_ga_14",
     "difficulty": "dificil",
     "category": "Geopolítica e atualidades",
-    "q": "Qual país possui soberania sobre as Ilhas Malvinas segundo o Reino Unido?",
+    "q": "Qual país administra atualmente as Ilhas Malvinas (Falkland)?",
     "a": [
+      "Argentina",
       "Chile",
       "Espanha",
-      "Argentina",
       "Reino Unido"
     ],
     "correct": 3,
-    "explanation": "O Reino Unido administra o arquipélago; a Argentina reivindica soberania."
+    "explanation": "O Reino Unido administra as ilhas, cuja soberania é reivindicada pela Argentina."
   },
   {
     "id": "v18_ga_15",
@@ -7049,9 +7049,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual país é atravessado pelo Equador e abriga a maior parte da floresta do Congo?",
     "a": [
       "República Democrática do Congo",
-      "Princípio da autodeterminação econômica absoluta",
-      "Princípio da jurisdição universal automática",
-      "Doutrina Monroe incorporada à Carta"
+      "Angola",
+      "Tanzânia",
+      "Camarões"
     ],
     "correct": 0,
     "explanation": "A bacia do Congo concentra a segunda maior floresta tropical."
@@ -7132,10 +7132,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual organização regula normas internacionais do trabalho?",
     "a": [
-      "Conselho Nórdico",
-      "Canal do Panamá",
+      "Organização Mundial da Saúde",
+      "Organização Mundial do Comércio",
       "Organização Internacional do Trabalho",
-      "Mercosul"
+      "Organização da Aviação Civil Internacional"
     ],
     "correct": 2,
     "explanation": "A OIT formula convenções e recomendações trabalhistas."
@@ -7174,10 +7174,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual região é disputada por Índia e Paquistão desde a partição de 1947?",
     "a": [
-      "OCDE",
-      "Interpol",
+      "Tibete",
+      "Sikkim",
       "Caxemira",
-      "OPEP"
+      "Goa"
     ],
     "correct": 2,
     "explanation": "A região permanece dividida e disputada pelos dois países."
@@ -7259,9 +7259,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual é o nome da zona marítima que pode se estender até 200 milhas náuticas?",
     "a": [
       "Zona econômica exclusiva",
-      "Território terrestre anexado ao mar",
-      "Soberania plena sobre todo o espaço aéreo e marítimo",
-      "Proibição de navegação estrangeira"
+      "Mar territorial",
+      "Zona contígua",
+      "Alto-mar"
     ],
     "correct": 0,
     "explanation": "A ZEE confere direitos soberanos sobre recursos naturais."
@@ -7384,9 +7384,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual cidade foi a primeira capital do Brasil colonial?",
     "a": [
-      "São Paulo",
-      "Ouro Preto",
-      "Tribunal de Contas da União",
+      "Rio de Janeiro",
+      "Recife",
+      "Olinda",
       "Salvador"
     ],
     "correct": 3,
@@ -7412,9 +7412,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual estado brasileiro tem a maior extensão territorial?",
     "a": [
-      "Supremo Tribunal Federal",
-      "Controladoria-Geral da União exclusivamente",
-      "Conselho Monetário Nacional",
+      "Pará",
+      "Mato Grosso",
+      "Minas Gerais",
       "Amazonas"
     ],
     "correct": 3,
@@ -7426,9 +7426,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual é o ponto culminante do Brasil?",
     "a": [
-      "São Paulo",
-      "Salvador",
-      "Ouro Preto",
+      "Pico da Bandeira",
+      "Pico das Agulhas Negras",
+      "Monte Pascoal",
       "Pico da Neblina"
     ],
     "correct": 3,
@@ -7440,10 +7440,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual tratado definiu limites entre Portugal e Espanha em 1750?",
     "a": [
-      "Caatinga",
-      "Fernando de Noronha",
+      "Tratado de Tordesilhas",
+      "Tratado de Utrecht",
       "Tratado de Madri",
-      "Guerra de Canudos"
+      "Tratado de Santo Ildefonso"
     ],
     "correct": 2,
     "explanation": "O tratado utilizou o princípio do uti possidetis."
@@ -7454,9 +7454,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual revolta popular ocorreu em Canudos, no sertão baiano?",
     "a": [
-      "Fernando de Noronha",
-      "Getúlio Vargas",
-      "Tratado de paz de 1872",
+      "Guerra do Contestado",
+      "Cabanagem",
+      "Revolta de Beckman",
       "Guerra de Canudos"
     ],
     "correct": 3,
@@ -7538,10 +7538,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual rio brasileiro é conhecido pelo fenômeno da pororoca?",
     "a": [
-      "Pico da Neblina",
-      "Pampa",
+      "Rio Paraíba do Sul",
+      "Rio São Francisco",
       "Rio Araguari",
-      "Pantanal"
+      "Rio Tietê"
     ],
     "correct": 2,
     "explanation": "A pororoca ocorre em rios amazônicos, incluindo o Araguari."
@@ -7622,10 +7622,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual é a principal bacia hidrográfica inteiramente brasileira em extensão?",
     "a": [
-      "Definir a taxa básica de juros",
+      "Bacia Amazônica",
       "Bacia do Tocantins-Araguaia",
-      "Arrecadar impostos federais",
-      "Regular o sistema eleitoral"
+      "Bacia do Paraná",
+      "Bacia do Uruguai"
     ],
     "correct": 1,
     "explanation": "É a maior bacia totalmente situada em território nacional."
@@ -7664,10 +7664,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual foi a primeira universidade federal criada no Brasil?",
     "a": [
-      "Aos bancos comerciais autorizados",
-      "Aos estados, em conjunto",
+      "Universidade de São Paulo",
+      "Universidade Federal de Minas Gerais",
       "Universidade do Rio de Janeiro",
-      "Tribunal de Contas da União"
+      "Universidade de Brasília"
     ],
     "correct": 2,
     "explanation": "Criada em 1920, é predecessora da atual UFRJ."
@@ -7692,9 +7692,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual tratado encerrou oficialmente a Guerra do Paraguai?",
     "a": [
-      "Roraima",
-      "Amapá",
-      "Tocantins",
+      "Tratado de Petrópolis",
+      "Tratado de Tordesilhas",
+      "Tratado de Madri",
       "Tratado de paz de 1872"
     ],
     "correct": 3,
@@ -7748,10 +7748,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual instituição é responsável pela política monetária brasileira?",
     "a": [
-      "FGV",
-      "IPEA",
+      "Banco do Brasil",
+      "BNDES",
       "Banco Central do Brasil",
-      "Banco Central"
+      "Caixa Econômica Federal"
     ],
     "correct": 2,
     "explanation": "O Banco Central executa a política monetária e regula o sistema financeiro."
@@ -7832,9 +7832,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual revolta urbana de 1904 reagiu à vacinação obrigatória no Rio de Janeiro?",
     "a": [
+      "Revolta da Chibata",
+      "Revolta dos Malês",
       "Sabinada",
-      "Balaiada",
-      "Tratado de paz de 1872",
       "Revolta da Vacina"
     ],
     "correct": 3,
@@ -7846,9 +7846,9 @@ window.QUIZ_QUESTIONS = [
     "category": "História e geografia",
     "q": "Qual império tinha Constantinopla como capital até 1453?",
     "a": [
-      "Inca",
-      "Mali",
-      "Bizantino",
+      "Império Inca",
+      "Império do Mali",
+      "Império Persa",
       "Império Bizantino"
     ],
     "correct": 3,
@@ -7858,15 +7858,15 @@ window.QUIZ_QUESTIONS = [
     "id": "v18_hg_02",
     "difficulty": "muito-dificil",
     "category": "História e geografia",
-    "q": "Qual revolução derrubou a monarquia francesa em 1789?",
+    "q": "Qual revolução, iniciada em 1789, pôs fim ao Antigo Regime na França?",
     "a": [
-      "Industrialização mecanizada",
-      "Uso inicial da eletricidade",
+      "Revolução Gloriosa",
+      "Revolução Russa",
       "Revolução Francesa",
-      "Invenção da imprensa"
+      "Revolução Americana"
     ],
     "correct": 2,
-    "explanation": "A revolução iniciou a queda do Antigo Regime na França."
+    "explanation": "A Revolução Francesa, iniciada em 1789, encerrou o Antigo Regime e levou à queda da monarquia."
   },
   {
     "id": "v18_hg_03",
@@ -7972,10 +7972,10 @@ window.QUIZ_QUESTIONS = [
     "category": "História e geografia",
     "q": "Qual foi a principal rota terrestre que conectava a China ao Mediterrâneo?",
     "a": [
-      "Uso inicial da eletricidade",
+      "Caminho de Santiago",
       "Rota da Seda",
-      "Industrialização mecanizada",
-      "Invenção da imprensa"
+      "Estrada Real",
+      "Rota do Cabo da Boa Esperança"
     ],
     "correct": 1,
     "explanation": "A Rota da Seda reunia caminhos comerciais euroasiáticos."
@@ -8113,9 +8113,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual tratado encerrou a Primeira Guerra Mundial com a Alemanha?",
     "a": [
       "Tratado de Versalhes",
-      "Crise dos mísseis de Cuba",
-      "Revolução Russa",
-      "Invasão da Polônia"
+      "Tratado de Brest-Litovski",
+      "Tratado de Westfália",
+      "Tratado de Utrecht"
     ],
     "correct": 0,
     "explanation": "O tratado foi assinado em 1919."
@@ -8182,10 +8182,10 @@ window.QUIZ_QUESTIONS = [
     "category": "História e geografia",
     "q": "Qual estreito separa a Espanha do Marrocos?",
     "a": [
-      "Cárpatos",
+      "Estreito de Bering",
       "Estreito de Gibraltar",
-      "Alpes Dináricos",
-      "Meridiano de Greenwich"
+      "Estreito de Magalhães",
+      "Estreito de Malaca"
     ],
     "correct": 1,
     "explanation": "A passagem liga o Atlântico ao Mediterrâneo."
@@ -8210,10 +8210,10 @@ window.QUIZ_QUESTIONS = [
     "category": "História e geografia",
     "q": "Qual império dominou grande parte da Anatólia e do sudeste europeu até 1922?",
     "a": [
-      "Alpes Dináricos",
+      "Império Persa",
       "Império Otomano",
-      "Cárpatos",
-      "Montes Urais"
+      "Império Austro-Húngaro",
+      "Império Russo"
     ],
     "correct": 1,
     "explanation": "O império foi dissolvido após a Primeira Guerra Mundial."
@@ -8252,10 +8252,10 @@ window.QUIZ_QUESTIONS = [
     "category": "História e geografia",
     "q": "Qual tipo de fronteira segue elementos naturais como rios e montanhas?",
     "a": [
-      "Meridiano de Greenwich",
-      "Alpes Dináricos",
+      "Fronteira artificial",
+      "Fronteira geométrica",
       "Fronteira natural",
-      "Montes Urais"
+      "Fronteira cultural"
     ],
     "correct": 2,
     "explanation": "Elementos físicos podem servir como limites territoriais."
@@ -8323,9 +8323,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual movimento de 1848 ficou conhecido como Primavera dos Povos?",
     "a": [
       "Revoluções liberais e nacionalistas",
-      "Fossa de Tonga",
-      "Fossa de Java",
-      "Dorsal Mesoatlântica"
+      "Guerra da Crimeia",
+      "Comuna de Paris",
+      "Revolução Russa de 1905"
     ],
     "correct": 0,
     "explanation": "Revoltas ocorreram em diversos territórios europeus."
@@ -8462,9 +8462,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual órgão brasileiro exerce o controle concentrado de constitucionalidade em âmbito federal?",
     "a": [
-      "Administrar eleições municipais",
-      "Criar políticas públicas por decreto",
+      "Superior Tribunal de Justiça",
       "Tribunal Superior Eleitoral",
+      "Conselho Nacional de Justiça",
       "Supremo Tribunal Federal"
     ],
     "correct": 3,
@@ -8504,10 +8504,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual órgão é responsável pela fiscalização contábil, financeira e orçamentária da União?",
     "a": [
-      "Congresso Nacional com auxílio do TCU",
-      "Tribunal de Contas da União",
-      "Câmara dos Deputados",
-      "Conselho Monetário Nacional"
+      "Congresso Nacional, com auxílio do TCU",
+      "Controladoria-Geral da União",
+      "Ministério Público Federal",
+      "Advocacia-Geral da União"
     ],
     "correct": 0,
     "explanation": "O controle externo é exercido pelo Congresso com auxílio do TCU."
@@ -8686,10 +8686,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual órgão realiza o controle externo das contas municipais em regra, onde existe?",
     "a": [
-      "Banco Central",
+      "Ministério Público Estadual",
       "Tribunal de Contas competente",
-      "Defensoria Pública exclusivamente",
-      "Conselho Monetário Nacional"
+      "Controladoria-Geral da União",
+      "Defensoria Pública"
     ],
     "correct": 1,
     "explanation": "Tribunais de contas estaduais ou municipais auxiliam as câmaras."
@@ -8728,10 +8728,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual é a função primordial de uma constituição rígida?",
     "a": [
-      "Eliminar direitos fundamentais",
-      "Permitir alteração por decreto simples",
+      "Permitir alteração por lei ordinária",
+      "Proibir qualquer reforma",
       "Exigir procedimento especial para sua alteração",
-      "Mandado de injunção"
+      "Dispensar o controle de constitucionalidade"
     ],
     "correct": 2,
     "explanation": "A rigidez torna a mudança mais difícil que a lei ordinária."
@@ -8826,10 +8826,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual princípio impede a retroatividade de lei penal mais gravosa?",
     "a": [
-      "Autotutela",
-      "Publicidade",
-      "Irretroatividade penal prejudicial",
-      "Eficiência"
+      "Presunção de inocência",
+      "Individualização da pena",
+      "Irretroatividade da lei penal mais gravosa",
+      "Proporcionalidade"
     ],
     "correct": 2,
     "explanation": "A lei penal mais severa não retroage."
@@ -8868,10 +8868,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual órgão exerce a representação judicial e consultoria jurídica da União?",
     "a": [
-      "Banco Central",
-      "Conselho Monetário Nacional",
+      "Ministério Público Federal",
+      "Controladoria-Geral da União",
       "Advocacia-Geral da União",
-      "Defensoria Pública exclusivamente"
+      "Tribunal de Contas da União"
     ],
     "correct": 2,
     "explanation": "A AGU representa a União e presta consultoria jurídica ao Executivo."
@@ -8924,10 +8924,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual poder tem competência para julgar definitivamente conflitos judiciais?",
     "a": [
-      "Câmara dos Deputados",
+      "Poder Legislativo",
       "Poder Judiciário",
-      "Conselho Monetário Nacional",
-      "Tribunal de Contas da União"
+      "Poder Executivo",
+      "Ministério Público"
     ],
     "correct": 1,
     "explanation": "A função jurisdicional é atribuída ao Judiciário."
@@ -8952,9 +8952,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual princípio determina que a administração não pode renunciar livremente ao interesse público?",
     "a": [
-      "Organizações internacionais substituem todos os governos nacionais",
-      "Tratados nunca podem limitar a soberania",
-      "Congresso Nacional com auxílio do TCU",
+      "Presunção de legitimidade",
+      "Autotutela administrativa",
+      "Supremacia do interesse privado",
       "Indisponibilidade do interesse público"
     ],
     "correct": 3,
@@ -9331,9 +9331,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual orbital tem formato aproximadamente esférico?",
     "a": [
       "Orbital s",
-      "3d",
-      "5s",
-      "4p"
+      "Orbital p",
+      "Orbital d",
+      "Orbital f"
     ],
     "correct": 0,
     "explanation": "Orbitais s apresentam simetria esférica."
@@ -9344,10 +9344,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Química",
     "q": "Qual é a carga formal do nitrogênio em NH₄⁺?",
     "a": [
-      "5",
+      "0",
       "+1",
-      "14",
-      "0"
+      "−1",
+      "+4"
     ],
     "correct": 1,
     "explanation": "No íon amônio, o nitrogênio apresenta carga formal positiva."
@@ -9358,10 +9358,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Química",
     "q": "Qual ácido é predominante no suco gástrico?",
     "a": [
-      "Doador de par de elétrons",
-      "Doador de prótons",
+      "Ácido sulfúrico",
+      "Ácido acético",
       "Ácido clorídrico",
-      "Substância que libera exclusivamente OH−"
+      "Ácido nítrico"
     ],
     "correct": 2,
     "explanation": "O estômago secreta HCl para manter meio muito ácido."
@@ -9372,9 +9372,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Química",
     "q": "Qual processo industrial produz amônia a partir de nitrogênio e hidrogênio?",
     "a": [
-      "Titulação ácido-base",
-      "Calorimetria",
-      "Gravimetria por precipitação exclusivamente",
+      "Processo Ostwald",
+      "Processo Solvay",
+      "Processo de contato",
       "Processo Haber-Bosch"
     ],
     "correct": 3,
@@ -9386,10 +9386,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Química",
     "q": "Qual é o nome da energia necessária para remover um elétron de um átomo gasoso?",
     "a": [
-      "Cetona",
-      "Alcano",
+      "Afinidade eletrônica",
+      "Eletronegatividade",
       "Energia de ionização",
-      "Princípio de Le Chatelier"
+      "Energia de rede"
     ],
     "correct": 2,
     "explanation": "É a energia mínima para retirar um elétron do átomo gasoso."
@@ -9428,10 +9428,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Química",
     "q": "Qual característica define uma solução tampão?",
     "a": [
-      "Isomeria de posição",
-      "Resistir a variações de pH",
-      "0",
-      "5"
+      "Manter a condutividade constante",
+      "Resistir a variações bruscas de pH",
+      "Ter pH sempre igual a 7",
+      "Não conter ácidos nem bases"
     ],
     "correct": 1,
     "explanation": "Tampões contêm par ácido-base conjugado."
@@ -9498,9 +9498,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Química",
     "q": "Qual metal é o principal componente do aço comum?",
     "a": [
-      "+2",
-      "+4",
-      "+6",
+      "Alumínio",
+      "Cobre",
+      "Zinco",
       "Ferro"
     ],
     "correct": 3,
@@ -9526,10 +9526,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Se todo A é B e nenhum B é C, o que se conclui sobre A e C?",
     "a": [
-      "Nada pode ser concluído",
+      "Alguns A são C",
       "Nenhum A é C",
-      "P é verdadeira",
-      "Q implica P"
+      "Todo A é C",
+      "Nada pode ser concluído"
     ],
     "correct": 1,
     "explanation": "A inclusão em B e a exclusão de C impedem interseção."
@@ -9569,9 +9569,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Se hoje é terça-feira, que dia será daqui a 100 dias?",
     "a": [
       "Quinta-feira",
-      "17h05",
-      "18h00",
-      "17h00"
+      "Quarta-feira",
+      "Sexta-feira",
+      "Terça-feira"
     ],
     "correct": 0,
     "explanation": "100 dividido por 7 deixa resto 2."
@@ -9582,10 +9582,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Quantas diagonais tem um hexágono convexo?",
     "a": [
-      "1",
+      "6",
       "9",
-      "4",
-      "3"
+      "12",
+      "18"
     ],
     "correct": 1,
     "explanation": "A fórmula n(n−3)/2 resulta em 9."
@@ -9597,9 +9597,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual é o menor número de pessoas necessário para garantir duas com o mesmo mês de nascimento?",
     "a": [
       "12",
-      "10",
+      "24",
       "13",
-      "24"
+      "25"
     ],
     "correct": 2,
     "explanation": "Com 13 pessoas e 12 meses, ao menos duas compartilham o mês."
@@ -9625,9 +9625,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Em uma sala, cada pessoa cumprimenta todas as outras uma vez. Qual fórmula dá o total para n pessoas?",
     "a": [
       "n(n−1)/2",
-      "90",
-      "1/6",
-      "100"
+      "n(n+1)/2",
+      "n²",
+      "n(n−1)"
     ],
     "correct": 0,
     "explanation": "Cada par de pessoas realiza um cumprimento."
@@ -9638,7 +9638,7 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Qual é o próximo termo da sequência 3, 6, 12, 24, ...?",
     "a": [
-      "40",
+      "36",
       "48",
       "44",
       "54"
@@ -9680,10 +9680,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Qual é o menor ângulo entre os ponteiros às 3h30?",
     "a": [
-      "25",
-      "75 graus",
-      "24",
-      "120"
+      "60°",
+      "75°",
+      "90°",
+      "105°"
     ],
     "correct": 1,
     "explanation": "O ponteiro dos minutos está a 180° e o das horas a 105°."
@@ -9694,9 +9694,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Se um relógio atrasa 5 minutos por hora, quanto atrasa em 12 horas reais?",
     "a": [
-      "17h00",
-      "17h05",
-      "18h00",
+      "30 minutos",
+      "72 minutos",
+      "120 minutos",
       "60 minutos"
     ],
     "correct": 3,
@@ -9708,10 +9708,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Qual é o próximo número: 3, 9, 27, 81, ...?",
     "a": [
-      "44",
-      "36",
+      "162",
+      "240",
       "243",
-      "40"
+      "256"
     ],
     "correct": 2,
     "explanation": "A sequência multiplica cada termo por três."
@@ -9722,10 +9722,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Se nenhum X é Y e algum Z é X, o que é necessariamente verdadeiro?",
     "a": [
-      "A é maior que C",
+      "Todo Z é Y",
       "Algum Z não é Y",
-      "P e Q são falsas",
-      "P é falsa e Q verdadeira"
+      "Nenhum Z é X",
+      "Todo Y é Z"
     ],
     "correct": 1,
     "explanation": "O elemento que é Z e X não pode pertencer a Y."
@@ -9736,10 +9736,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Quantos subconjuntos possui um conjunto com 5 elementos?",
     "a": [
-      "56",
+      "25",
       "32",
-      "16",
-      "5"
+      "10",
+      "64"
     ],
     "correct": 1,
     "explanation": "Um conjunto de n elementos possui 2ⁿ subconjuntos."
@@ -9750,9 +9750,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Qual é a probabilidade de sair soma 7 em dois dados honestos?",
     "a": [
-      "6",
-      "P é falso",
-      "97",
+      "1/9",
+      "1/12",
+      "7/36",
       "1/6"
     ],
     "correct": 3,
@@ -9779,9 +9779,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Se A é maior que B e B é maior que C, qual relação vale?",
     "a": [
       "A é maior que C",
-      "Nada pode ser concluído",
-      "P é verdadeira",
-      "Q implica P"
+      "C é maior que A",
+      "A é igual a C",
+      "B é maior que A"
     ],
     "correct": 0,
     "explanation": "A relação de maior que é transitiva."
@@ -9792,9 +9792,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Quantas permutações distintas tem a palavra ARARA?",
     "a": [
-      "4",
-      "3",
-      "1",
+      "20",
+      "60",
+      "5",
       "10"
     ],
     "correct": 3,
@@ -9806,10 +9806,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Qual é o valor lógico de P ou não P na lógica clássica?",
     "a": [
-      "A ou B",
-      "Se A, então B",
+      "Sempre falso",
+      "Verdadeiro só se P for falsa",
       "Sempre verdadeiro",
-      "Não A e não B"
+      "Indeterminado"
     ],
     "correct": 2,
     "explanation": "A disjunção entre P e sua negação é uma tautologia."
@@ -9821,9 +9821,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Um pai tem 4 filhas e cada filha tem um irmão. Quantos filhos há?",
     "a": [
       "5",
-      "90",
-      "100",
-      "50"
+      "4",
+      "8",
+      "9"
     ],
     "correct": 0,
     "explanation": "As quatro filhas compartilham o mesmo irmão."
@@ -9905,9 +9905,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Quantos caminhos diferentes existem em uma grade 2×2, movendo apenas para direita ou baixo?",
     "a": [
       "6",
-      "100",
-      "50",
-      "90"
+      "4",
+      "8",
+      "9"
     ],
     "correct": 0,
     "explanation": "São permutações de duas direitas e duas descidas."
@@ -9947,9 +9947,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Quantas regiões máximas 4 retas podem formar em um plano?",
     "a": [
       "11",
-      "15",
-      "5",
-      "20"
+      "10",
+      "12",
+      "16"
     ],
     "correct": 0,
     "explanation": "O máximo é n(n+1)/2 + 1."
@@ -9961,9 +9961,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Em uma corrida, você ultrapassa quem está em segundo lugar. Em que posição fica?",
     "a": [
       "Segundo lugar",
-      "15",
-      "32",
-      "16"
+      "Primeiro lugar",
+      "Terceiro lugar",
+      "Último lugar"
     ],
     "correct": 0,
     "explanation": "Você ocupa a posição do corredor ultrapassado."
@@ -9988,9 +9988,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Se a implicação P → Q é falsa, quais são os valores de P e Q?",
     "a": [
-      "Nenhum C existe",
-      "Todos C são A",
-      "Alguns A são C",
+      "P falsa e Q verdadeira",
+      "P e Q verdadeiras",
+      "P e Q falsas",
       "P verdadeira e Q falsa"
     ],
     "correct": 3,
@@ -10002,10 +10002,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Quantos anagramas distintos tem a palavra CASA?",
     "a": [
-      "3",
+      "24",
       "12",
-      "1",
-      "4"
+      "6",
+      "8"
     ],
     "correct": 1,
     "explanation": "São 4!/2!, pois A aparece duas vezes."
@@ -10016,9 +10016,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Lógica e enigmas",
     "q": "Qual é o menor número positivo divisível por 6, 8 e 15?",
     "a": [
-      "25",
       "24",
-      "12",
+      "60",
+      "240",
       "120"
     ],
     "correct": 3,
@@ -10212,10 +10212,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual é a diferença entre receita e lucro?",
     "a": [
-      "A primeira ocorre só em exportações",
-      "A segunda reduz sempre todos os preços",
-      "Estruturar mercado, operação e viabilidade financeira",
-      "Lucro desconta os custos e despesas da receita"
+      "Receita é o valor que sobra após pagar os custos",
+      "Lucro é o total vendido antes de qualquer desconto",
+      "Não há diferença entre os dois conceitos",
+      "Lucro é a receita menos custos e despesas"
     ],
     "correct": 3,
     "explanation": "Receita é entrada bruta; lucro é o resultado após deduções."
@@ -10226,10 +10226,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual documento registra entradas e saídas de caixa em um período?",
     "a": [
-      "Agentes bem informados saem sempre do mercado",
+      "Balanço patrimonial",
       "Demonstração dos fluxos de caixa",
-      "É sinônimo de risco moral",
-      "Influenciar crédito, consumo e inflação"
+      "Demonstração do resultado do exercício",
+      "Demonstração das mutações do patrimônio líquido"
     ],
     "correct": 1,
     "explanation": "A DFC apresenta fluxos operacionais, de investimento e financiamento."
@@ -10311,9 +10311,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual método de custeio considera custos variáveis no produto e custos fixos no período?",
     "a": [
       "Custeio variável",
-      "Integração vertical",
-      "Economia de escala",
-      "Ponto de equilíbrio contábil"
+      "Custeio por absorção",
+      "Custeio baseado em atividades",
+      "Custo-padrão"
     ],
     "correct": 0,
     "explanation": "No custeio variável, custos fixos são despesas do período."
@@ -10324,10 +10324,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual é a principal função de um banco central?",
     "a": [
-      "A inflação cai instantaneamente a zero",
-      "Conduzir política monetária e preservar estabilidade financeira",
-      "Propensão marginal a consumir",
-      "Crédito tende a ficar mais barato"
+      "Arrecadar impostos federais",
+      "Conduzir a política monetária e zelar pela estabilidade",
+      "Emprestar a empresas privadas",
+      "Definir o orçamento do governo"
     ],
     "correct": 1,
     "explanation": "Bancos centrais regulam moeda, crédito e sistema financeiro."
@@ -10465,9 +10465,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual título público brasileiro é indexado à taxa Selic?",
     "a": [
       "Tesouro Selic",
-      "Probabilidade de inadimplência exata",
-      "Volume negociado por dia",
-      "Apenas sua data de vencimento legal"
+      "Tesouro IPCA+",
+      "Tesouro Prefixado",
+      "Tesouro RendA+"
     ],
     "correct": 0,
     "explanation": "O rendimento acompanha a taxa básica, conforme regras do título."
@@ -10478,9 +10478,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual estratégia precifica um produto com base no valor percebido pelo cliente?",
     "a": [
-      "Preço de transferência obrigatório",
-      "Um único ofertante relevante",
       "Preço de custo acrescido",
+      "Preço de penetração",
+      "Preço de transferência",
       "Precificação baseada em valor"
     ],
     "correct": 3,
@@ -10520,9 +10520,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual conceito descreve a vantagem obtida pela especialização e troca?",
     "a": [
-      "Integração vertical",
-      "Ponto de equilíbrio contábil",
       "Economia de escala",
+      "Integração vertical",
+      "Efeito de rede",
       "Vantagem comparativa"
     ],
     "correct": 3,
@@ -10534,10 +10534,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual risco está associado à possibilidade de uma contraparte não pagar?",
     "a": [
-      "Margem EBITDA",
-      "Rendimento que se deixa de obter",
+      "Risco de mercado",
+      "Risco de liquidez",
       "Risco de crédito",
-      "Giro do ativo fixo"
+      "Risco operacional"
     ],
     "correct": 2,
     "explanation": "É o risco de inadimplência de quem deve."
@@ -10579,7 +10579,7 @@ window.QUIZ_QUESTIONS = [
       "ROE",
       "Capitalização de mercado",
       "Margem EBITDA",
-      "Giro do ativo fixo"
+      "Giro do ativo"
     ],
     "correct": 1,
     "explanation": "É o preço da ação multiplicado pelo número de ações."
@@ -10690,8 +10690,8 @@ window.QUIZ_QUESTIONS = [
     "a": [
       "9",
       "3",
-      "8",
-      "11"
+      "6",
+      "27"
     ],
     "correct": 0,
     "explanation": "A primitiva é x³/3; de 0 a 3, o resultado é 9."
@@ -10702,9 +10702,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Qual é a integral de 3x² em relação a x?",
     "a": [
-      "11",
-      "10",
-      "9",
+      "3x³ + C",
+      "x³/3 + C",
+      "6x + C",
       "x³ + C"
     ],
     "correct": 3,
@@ -10758,10 +10758,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Qual é a probabilidade de obter pelo menos uma cara em dois lançamentos de moeda justa?",
     "a": [
-      "5/36",
-      "1/6",
+      "1/2",
+      "1/4",
       "3/4",
-      "1/4"
+      "2/3"
     ],
     "correct": 2,
     "explanation": "Só falha em coroa nos dois lançamentos: 1/4."
@@ -10814,10 +10814,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Qual é o volume de um cone de raio r e altura h?",
     "a": [
-      "3π",
+      "πr²h",
       "πr²h/3",
-      "12π",
-      "9π"
+      "2πrh/3",
+      "πrh/3"
     ],
     "correct": 1,
     "explanation": "O volume do cone equivale a um terço do cilindro correspondente."
@@ -10828,10 +10828,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Qual é a soma dos ângulos internos de um polígono de 12 lados?",
     "a": [
-      "2.700°",
-      "2.520°",
-      "1.800 graus",
-      "2.160°"
+      "1.620°",
+      "2.160°",
+      "1.800°",
+      "1.440°"
     ],
     "correct": 2,
     "explanation": "A soma é (12−2)×180°."
@@ -10842,9 +10842,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Se x+y=10 e xy=21, qual é x²+y²?",
     "a": [
-      "12",
-      "15",
-      "14",
+      "79",
+      "100",
+      "42",
       "58"
     ],
     "correct": 3,
@@ -10898,10 +10898,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Qual é a solução de |2x−6|=8?",
     "a": [
-      "8",
-      "2x/(x²+1)",
+      "x=1 ou x=5",
+      "x=−7 ou x=1",
       "x=−1 ou x=7",
-      "125"
+      "x=1 ou x=7"
     ],
     "correct": 2,
     "explanation": "As equações são 2x−6=8 e 2x−6=−8."
@@ -10912,10 +10912,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Qual é a distância entre (2,1) e (8,9)?",
     "a": [
-      "12",
+      "14",
       "8",
       "10",
-      "9"
+      "12"
     ],
     "correct": 2,
     "explanation": "A distância é √(6²+8²) = 10."
@@ -10996,10 +10996,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Qual é o valor de sen(30°)?",
     "a": [
-      "16",
-      "10",
+      "√3/2",
+      "√2/2",
       "1/2",
-      "25"
+      "1"
     ],
     "correct": 2,
     "explanation": "O seno de 30 graus é metade."
@@ -11011,9 +11011,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual é o MMC de 18, 24 e 30?",
     "a": [
       "360",
-      "17",
-      "15",
-      "11"
+      "180",
+      "720",
+      "120"
     ],
     "correct": 0,
     "explanation": "A fatoração fornece 2³×3²×5."
@@ -11094,10 +11094,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Se a escala de um mapa é 1:50.000, 3 cm representam quantos quilômetros?",
     "a": [
-      "3/4",
+      "0,15 km",
       "1,5 km",
-      "25 km",
-      "1 km"
+      "15 km",
+      "3 km"
     ],
     "correct": 1,
     "explanation": "3 cm no mapa equivalem a 150.000 cm, ou 1,5 km."
@@ -11108,9 +11108,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Qual é a variância populacional de 2, 4 e 6?",
     "a": [
-      "25",
-      "10",
-      "16",
+      "2",
+      "4",
+      "8",
       "8/3"
     ],
     "correct": 3,
@@ -11150,10 +11150,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Matemática e raciocínio",
     "q": "Qual é a equação da circunferência de centro (0,0) e raio 5?",
     "a": [
-      "15",
-      "9",
+      "x²+y²=5",
+      "x+y=25",
       "x²+y²=25",
-      "6"
+      "x²−y²=25"
     ],
     "correct": 2,
     "explanation": "A forma padrão é (x−a)²+(y−b)²=r²."
@@ -11193,9 +11193,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual é o valor de 0,125 em forma de fração irredutível?",
     "a": [
       "1/8",
-      "25",
-      "10",
-      "16"
+      "1/4",
+      "1/6",
+      "1/5"
     ],
     "correct": 0,
     "explanation": "0,125 = 125/1000 = 1/8."
@@ -12592,10 +12592,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual célula forma mielina no sistema nervoso periférico?",
     "a": [
-      "Ligação peptídica",
+      "Oligodendrócito",
       "Célula de Schwann",
-      "Complexo de Golgi",
-      "RNA transportador"
+      "Astrócito",
+      "Micróglia"
     ],
     "correct": 1,
     "explanation": "Células de Schwann mielinizam axônios periféricos."
@@ -12760,10 +12760,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual ligação une aminoácidos em uma proteína?",
     "a": [
-      "RNA transportador",
-      "Célula de Schwann",
+      "Ligação glicosídica",
+      "Ligação fosfodiéster",
       "Ligação peptídica",
-      "Complexo de Golgi"
+      "Ponte de hidrogênio"
     ],
     "correct": 2,
     "explanation": "A ligação peptídica une o grupo carboxila ao grupo amino."
@@ -12816,10 +12816,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual checkpoint verifica a ligação dos cromossomos ao fuso?",
     "a": [
-      "Transformação",
-      "Crossing-over",
+      "Checkpoint G1/S",
+      "Checkpoint G2/M",
       "Checkpoint metafásico",
-      "RNA polimerase"
+      "Checkpoint de replicação"
     ],
     "correct": 2,
     "explanation": "O checkpoint verifica a ligação correta antes da anáfase."
@@ -12872,9 +12872,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual fita de DNA é sintetizada de forma descontínua?",
     "a": [
-      "Cloroplasto",
-      "DNA ligase",
-      "Transdução",
+      "Fita líder",
+      "Fita codificante",
+      "Fita mitocondrial",
       "Fita tardia"
     ],
     "correct": 3,
@@ -12998,10 +12998,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual estrutura dos equinodermos atua na locomoção?",
     "a": [
-      "Epitelial",
+      "Pedicelárias",
       "Pés ambulacrais",
-      "Artrópodes",
-      "Condrictes"
+      "Madreporito",
+      "Lanterna de Aristóteles"
     ],
     "correct": 1,
     "explanation": "Os pés ambulacrais integram o sistema hidrovascular."
@@ -13013,8 +13013,8 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual processo permite a fixação de nitrogênio atmosférico?",
     "a": [
       "Nitrificação",
-      "Nicho ecológico",
-      "Sucessão primária",
+      "Desnitrificação",
+      "Amonificação",
       "Fixação biológica"
     ],
     "correct": 3,
@@ -13111,9 +13111,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual sucessão ocorre sobre rocha sem solo formado?",
     "a": [
       "Sucessão primária",
-      "Nicho ecológico",
-      "Comensalismo",
-      "Fixação biológica"
+      "Sucessão secundária",
+      "Clímax ecológico",
+      "Sucessão cíclica"
     ],
     "correct": 0,
     "explanation": "A sucessão primária começa em substrato sem solo desenvolvido."
@@ -13166,10 +13166,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual ciclo fotossintético concentra CO₂ em plantas tropicais?",
     "a": [
-      "Rubisco",
-      "Clorofila",
+      "Ciclo de Calvin",
+      "Ciclo de Krebs",
       "Ciclo C4",
-      "Estômato"
+      "Fotorrespiração"
     ],
     "correct": 2,
     "explanation": "Plantas C4 fixam CO₂ inicialmente em compostos de quatro carbonos."
@@ -13194,10 +13194,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual etapa da fotossíntese libera oxigênio?",
     "a": [
-      "Clorofila",
-      "Ciclo C4",
+      "Fixação do carbono",
+      "Fosforilação oxidativa",
       "Fotólise da água",
-      "Estômato"
+      "Regeneração da RuBP"
     ],
     "correct": 2,
     "explanation": "A quebra da água no fotossistema II libera O₂."
@@ -13306,9 +13306,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual região do intestino absorve a maior parte dos nutrientes?",
     "a": [
-      "Válvula cardíaca",
-      "Artéria pulmonar",
-      "Seleção negativa",
+      "Estômago",
+      "Intestino grosso",
+      "Esôfago",
       "Intestino delgado"
     ],
     "correct": 3,
@@ -13320,9 +13320,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual enzima pancreática digere triglicerídeos?",
     "a": [
-      "Intestino delgado",
-      "Recombinação V(D)J",
-      "Válvula cardíaca",
+      "Amilase pancreática",
+      "Tripsina",
+      "Pepsina",
       "Lipase pancreática"
     ],
     "correct": 3,
@@ -13362,9 +13362,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual linfócito amadurece no timo?",
     "a": [
-      "Dendritos",
-      "Mesoderma",
-      "Glomérulo",
+      "Linfócito B",
+      "Macrófago",
+      "Neutrófilo",
       "Linfócito T"
     ],
     "correct": 3,
@@ -13390,9 +13390,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Biologia",
     "q": "Qual tipo de seleção elimina linfócitos autorreativos?",
     "a": [
-      "Válvula cardíaca",
-      "Ramo ascendente",
-      "Artéria pulmonar",
+      "Seleção positiva",
+      "Seleção natural",
+      "Seleção clonal",
       "Seleção negativa"
     ],
     "correct": 3,
@@ -13502,9 +13502,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual ensaio mede a consistência do concreto fresco?",
     "a": [
-      "Relação água/cimento",
-      "Silicato tricálcico",
-      "Silicato dicálcico",
+      "Ensaio de compressão axial",
+      "Ensaio de arrancamento",
+      "Ensaio de absorção de água",
       "Ensaio de abatimento"
     ],
     "correct": 3,
@@ -13584,15 +13584,15 @@ window.QUIZ_QUESTIONS = [
     "id": "eng011",
     "difficulty": "dificil",
     "category": "Arquitetura e Engenharia",
-    "q": "Qual agregado reduz a retração em concretos leves?",
+    "q": "Qual tipo de agregado é usado para reduzir a massa específica do concreto?",
     "a": [
-      "Sílica ativa",
-      "Peneiramento",
-      "ABNT NBR 6118",
+      "Brita graduada",
+      "Areia grossa",
+      "Pedra-de-mão",
       "Agregado leve"
     ],
     "correct": 3,
-    "explanation": "Agregados leves reduzem a massa específica do concreto."
+    "explanation": "Agregados leves, como a argila expandida, reduzem a massa específica do concreto."
   },
   {
     "id": "eng012",
@@ -13670,10 +13670,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual fenômeno causa perda de abatimento ao longo do tempo?",
     "a": [
-      "Relação água/cimento",
-      "Rompimento de corpos de prova",
+      "Segregação do agregado",
+      "Exsudação da água",
       "Perda de trabalhabilidade",
-      "Cimento resistente a sulfatos"
+      "Retração plástica"
     ],
     "correct": 2,
     "explanation": "A hidratação e a evaporação reduzem a consistência do concreto."
@@ -13712,10 +13712,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual índice representa a relação entre massa e volume aparente?",
     "a": [
-      "Ensaio Proctor",
-      "Sapata isolada",
+      "Módulo de finura",
+      "Umidade higroscópica",
       "Massa unitária",
-      "Sapata associada"
+      "Índice de vazios"
     ],
     "correct": 2,
     "explanation": "A massa unitária considera os vazios entre partículas."
@@ -13810,9 +13810,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual limite de consistência marca a transição plástico-líquido?",
     "a": [
-      "Selante de juntas",
-      "Sapata associada",
-      "Pavimento flexível",
+      "Limite de plasticidade",
+      "Limite de contração",
+      "Índice de plasticidade",
       "Limite de liquidez"
     ],
     "correct": 3,
@@ -13839,9 +13839,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual ensaio determina a compactação ótima do solo?",
     "a": [
       "Ensaio Proctor",
-      "Planta baixa",
-      "Massa unitária",
-      "Sapata isolada"
+      "Ensaio de granulometria",
+      "Ensaio de adensamento",
+      "Ensaio de cisalhamento direto"
     ],
     "correct": 0,
     "explanation": "O Proctor relaciona teor de umidade e massa específica seca."
@@ -13880,10 +13880,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual pavimento utiliza placas de concreto como revestimento?",
     "a": [
-      "Silicato dicálcico",
-      "Silicato tricálcico",
+      "Pavimento flexível",
+      "Pavimento semirrígido",
       "Pavimento rígido",
-      "ABNT NBR 6118"
+      "Pavimento intertravado"
     ],
     "correct": 2,
     "explanation": "O pavimento rígido tem revestimento em placas de concreto."
@@ -13895,9 +13895,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual pavimento utiliza revestimento asfáltico flexível?",
     "a": [
       "Pavimento flexível",
-      "Selante de juntas",
-      "Sapata associada",
-      "Limite de liquidez"
+      "Pavimento rígido",
+      "Pavimento intertravado",
+      "Pavimento de paralelepípedos"
     ],
     "correct": 0,
     "explanation": "O revestimento asfáltico caracteriza o pavimento flexível."
@@ -14021,9 +14021,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual diagrama representa momento fletor ao longo de uma viga?",
     "a": [
       "Diagrama de momentos",
-      "Limite de escoamento",
-      "Comprimento efetivo",
-      "Estado limite último"
+      "Diagrama de esforços cortantes",
+      "Diagrama tensão-deformação",
+      "Diagrama de Mohr"
     ],
     "correct": 0,
     "explanation": "O diagrama mostra a variação do momento fletor."
@@ -14035,9 +14035,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual apoio impede translação horizontal e vertical, mas permite rotação?",
     "a": [
       "Apoio articulado",
-      "Método da rigidez",
-      "Light steel frame",
-      "Contraventamento"
+      "Apoio móvel",
+      "Engaste",
+      "Apoio elástico"
     ],
     "correct": 0,
     "explanation": "A articulação restringe duas translações e libera a rotação."
@@ -14048,10 +14048,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual apoio restringe apenas o deslocamento vertical em modelo plano?",
     "a": [
-      "Recozimento",
-      "Cisalhamento",
+      "Apoio articulado",
+      "Engaste",
       "Apoio móvel",
-      "Compressão"
+      "Apoio elástico"
     ],
     "correct": 2,
     "explanation": "O apoio móvel permite deslocamento horizontal e rotação."
@@ -14062,9 +14062,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual método analisa pórticos hiperestáticos por deslocamentos?",
     "a": [
-      "Contraventamento",
-      "Estrutura estaiada",
-      "Light steel frame",
+      "Método das forças",
+      "Método de Ritter",
+      "Método dos nós",
       "Método da rigidez"
     ],
     "correct": 3,
@@ -14272,9 +14272,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual sistema BIM organiza informações em um modelo digital?",
     "a": [
-      "Orçamento analítico",
-      "Cross laminated timber",
-      "Coeficiente de aproveitamento",
+      "Desenho assistido por computador",
+      "Cronograma de Gantt",
+      "Planilha orçamentária",
       "Modelagem da Informação da Construção"
     ],
     "correct": 3,
@@ -14342,9 +14342,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual composição de custos considera materiais, mão de obra e equipamentos?",
     "a": [
-      "Alvenaria estrutural",
-      "Curva de nível",
-      "Soldagem",
+      "Curva ABC",
+      "Cronograma físico-financeiro",
+      "BDI",
       "Composição unitária"
     ],
     "correct": 3,
@@ -14398,9 +14398,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual peça reduz a pressão em uma instalação hidráulica?",
     "a": [
-      "Potência aparente",
-      "Fator de potência",
-      "Calhas e condutores",
+      "Válvula de retenção",
+      "Registro de gaveta",
+      "Válvula de esfera",
       "Válvula redutora de pressão"
     ],
     "correct": 3,
@@ -14510,9 +14510,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Arquitetura e Engenharia",
     "q": "Qual curva representa pontos de mesma altitude?",
     "a": [
-      "Soldagem",
-      "Composição unitária",
-      "Elevação",
+      "Perfil longitudinal",
+      "Linha de talvegue",
+      "Ponto cotado",
       "Curva de nível"
     ],
     "correct": 3,

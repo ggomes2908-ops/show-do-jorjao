@@ -26,7 +26,7 @@
 #screen-home{position:relative;isolation:isolate}
 #screen-home::before{
  content:"";position:absolute;z-index:-2;top:-25px;left:50%;transform:translateX(-50%);
- width:min(1080px,135vw);height:520px;background-image:linear-gradient(180deg,rgba(5,10,32,.12),rgba(5,10,32,.76) 72%,var(--bg)),url("logo-show-do-jorjao.png");
+ width:min(1080px,135vw);height:520px;background-image:linear-gradient(180deg,rgba(5,10,32,.12),rgba(5,10,32,.76) 72%,var(--bg)),url("logo-show-do-jorjao.webp");
  background-size:cover;background-position:center 38%;background-repeat:no-repeat;opacity:.32;
  filter:saturate(1.15) drop-shadow(0 0 32px rgba(255,190,38,.18));pointer-events:none
 }

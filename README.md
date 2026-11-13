@@ -1,22 +1,23 @@
-# Show do Jorjão — versão de desenvolvimento
+# Show do Jorjão — V23
 
-Jogo presencial para um único computador, com participantes alternando o dispositivo.
+Jogo de perguntas para jogar presencialmente em um único computador, com participantes alternando o dispositivo.
 
-## Recursos preservados
-- 10 categorias e banco original de perguntas nível gênio.
-- Até 10 jogadores, de 1 a 20 rodadas.
-- Alternativas embaralhadas e Duelo Dourado.
-- Registro local das perguntas já utilizadas.
-
-## Melhorias desta etapa
-- Escolha entre modo clássico e bônus por velocidade.
-- Pontuação do modo velocidade: até 5 segundos = 3 pontos; até 10 segundos = 2 pontos; acima de 10 segundos = 1 ponto. Resposta errada = 0.
-- Ordem inicial sorteada e primeiro jogador rotacionado a cada rodada.
-- Placar exibido ao fim de cada rodada.
-- Hall da fama com partidas, vitórias, pontos, taxa de acerto e conquistas, salvo no localStorage deste navegador.
+## Recursos
+- 13 categorias, 1.040 perguntas (80 por categoria), de 1 a 20 rodadas e até 10 jogadores.
+- Modos clássico e bônus por velocidade; roleta de efeitos; Duelo Dourado de desempate.
+- Hall da fama e histórico no `localStorage` do navegador; perfis, ranking e conquistas opcionais via Supabase.
 
 ## Como executar
-Abra `index.html` em um navegador moderno ou publique os arquivos na raiz do GitHub Pages.
+Use um servidor HTTP local (Live Server do VS Code, por exemplo) ou publique a pasta no GitHub Pages. Não abra o `index.html` direto pelo explorador de arquivos.
+Para usar ranking/perfis, preencha `cloud-config.js` com a URL e a chave **pública** (publishable) do seu projeto Supabase.
 
-## Observação sobre os dados
-O histórico e as estatísticas ficam no armazenamento local do navegador e computador usados para jogar. Limpar os dados do navegador apaga esse histórico. Não há multiplayer nem serviço externo nesta versão.
+## Testes
+```
+node tests/v22-skip-regression.test.cjs
+node tests/v23-question-bank.test.cjs
+```
+
+## Documentação
+- `README-V23.md`: o que mudou nesta versão e o que ainda está pendente.
+- `docs/V23-ALTERACOES-PERGUNTAS.json`: antes e depois de cada pergunta alterada, para revisão.
+- `docs/historico/`: READMEs e relatórios de validação das versões anteriores.
