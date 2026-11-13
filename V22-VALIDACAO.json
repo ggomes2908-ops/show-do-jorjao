@@ -1,0 +1,46 @@
+{
+  "version": "V22 — auditoria técnica adicional",
+  "dataset": {
+    "questions": 1040,
+    "categories": 13,
+    "questions_per_category": {
+      "Conhecimento geral": 80,
+      "Ciência e tecnologia": 80,
+      "Geopolítica e atualidades": 80,
+      "Brasil": 80,
+      "História e geografia": 80,
+      "Política": 80,
+      "Química": 80,
+      "Lógica e enigmas": 80,
+      "Economia e negócios": 80,
+      "Matemática e raciocínio": 80,
+      "Futebol": 80,
+      "Biologia": 80,
+      "Arquitetura e Engenharia": 80
+    },
+    "unique_ids": true,
+    "unique_stems": true,
+    "four_unique_options_each": true,
+    "valid_answer_indices": true,
+    "explanations_present": true,
+    "answer_position_distribution": {
+      "2": 256,
+      "0": 251,
+      "1": 256,
+      "3": 277
+    }
+  },
+  "fixes_in_this_pass": [
+    "Removidas três duplicações de alternativas em v10003, v18_ga_20 e v18_po_03."
+  ],
+  "tests": {
+    "node_check_app_js": "PASS",
+    "node_check_questions_js": "PASS",
+    "question_bank_integrity": "PASS",
+    "skip_logic_unit_scenarios": "PASS (8 cenários sintéticos, não browser end-to-end)",
+    "browser_e2e": "BLOCKED_BY_ADMINISTRATOR ao navegar com Chromium em file:// e localhost",
+    "supabase_live": "NOT_RUN — configuração usa placeholder"
+  },
+  "editorial_status": "PARTIAL — 283/1040 itens tiveram edição direcionada no candidato; revisão factual humana de todas as 1.040 ainda não concluída. Não declarar banco integralmente validado.",
+  "roulette_status": "Correções de fluxo aplicadas ao candidato; a lógica de pular participante foi exercitada em testes unitários sintéticos. Os oito efeitos da roleta e todos os modos ainda não passaram por regressão E2E."
+}

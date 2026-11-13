@@ -1,0 +1,801 @@
+{
+  "version": "V22-prévia técnica",
+  "question_count": 1040,
+  "category_count": 13,
+  "category_counts": {
+    "Conhecimento geral": 80,
+    "Ciência e tecnologia": 80,
+    "Geopolítica e atualidades": 80,
+    "Brasil": 80,
+    "História e geografia": 80,
+    "Política": 80,
+    "Química": 80,
+    "Lógica e enigmas": 80,
+    "Economia e negócios": 80,
+    "Matemática e raciocínio": 80,
+    "Futebol": 80,
+    "Biologia": 80,
+    "Arquitetura e Engenharia": 80
+  },
+  "unique_ids": true,
+  "four_alternatives_all": true,
+  "valid_answer_indices_all": true,
+  "editorial_review_status": "PENDENTE — revisão factual e contextual integral das 1.040 questões ainda não concluída",
+  "automated_length_outliers": 42,
+  "length_outlier_definition": "diferença entre alternativa mais longa e mais curta > max(35 caracteres, 65% do comprimento da mais longa)",
+  "length_outliers": [
+    {
+      "id": "gen18",
+      "category": "Ciência e tecnologia",
+      "question": "Qual estrutura de dados oferece, em média, busca, inserção e remoção em O(1), sob boas condições de dispersão?",
+      "answer_lengths": [
+        59,
+        11,
+        46,
+        20
+      ],
+      "alternatives": [
+        "Fila de prioridade baseada em vetor não ordenado para busca",
+        "Tabela hash",
+        "Árvore binária não balanceada em qualquer caso",
+        "Lista ligada simples"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v5x088",
+      "category": "Política",
+      "question": "O que é voto distrital majoritário?",
+      "answer_lengths": [
+        58,
+        19,
+        37,
+        72
+      ],
+      "alternatives": [
+        "Eleição por distritos, geralmente vencida pelo mais votado",
+        "Votos são sorteados",
+        "Apenas listas fechadas são permitidas",
+        "Cada partido recebe cadeiras estritamente proporcionais ao voto nacional"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "v10003",
+      "category": "Conhecimento geral",
+      "question": "Qual obra de Max Weber relaciona ética protestante e capitalismo?",
+      "answer_lengths": [
+        20,
+        17,
+        9,
+        47
+      ],
+      "alternatives": [
+        "Economia e sociedade",
+        "A condição humana",
+        "O capital",
+        "A ética protestante e o espírito do capitalismo"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": "v10032",
+      "category": "Ciência e tecnologia",
+      "question": "Em astronomia, o limite de Chandrasekhar está relacionado à massa máxima aproximada de:",
+      "answer_lengths": [
+        51,
+        18,
+        14,
+        39
+      ],
+      "alternatives": [
+        "Uma estrela de nêutrons antes de virar buraco negro",
+        "Um planeta rochoso",
+        "Uma anã branca",
+        "Qualquer estrela da sequência principal"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v10108",
+      "category": "Política",
+      "question": "Qual diferença entre legalidade e legitimidade no exercício do poder?",
+      "answer_lengths": [
+        54,
+        47,
+        68,
+        23
+      ],
+      "alternatives": [
+        "Conformidade legal versus reconhecimento da autoridade",
+        "Legitimidade depende apenas de força coercitiva",
+        "Legalidade é aceitação social; legitimidade é conformidade normativa",
+        "São sinônimos absolutos"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "v10129",
+      "category": "Química",
+      "question": "Em uma reação de primeira ordem, qual relação descreve a meia-vida?",
+      "answer_lengths": [
+        64,
+        55,
+        43,
+        21
+      ],
+      "alternatives": [
+        "É constante e igual a ln 2 dividido pela constante de velocidade",
+        "É inversamente proporcional ao quadrado da concentração",
+        "Depende diretamente da concentração inicial",
+        "É sempre igual a 1/k2"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "v10160",
+      "category": "Economia e negócios",
+      "question": "O que mede o índice de Herfindahl-Hirschman (HHI)?",
+      "answer_lengths": [
+        54,
+        34,
+        18,
+        31
+      ],
+      "alternatives": [
+        "Concentração pela soma dos quadrados das participações",
+        "Desigualdade de renda entre países",
+        "Inflação acumulada",
+        "Produtividade total dos fatores"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "v18_cg_32",
+      "category": "Conhecimento geral",
+      "question": "Qual acordo climático foi adotado em 2015?",
+      "answer_lengths": [
+        5,
+        21,
+        40,
+        46
+      ],
+      "alternatives": [
+        "Paris",
+        "Todos cooperam sempre",
+        "A soma dos ganhos é necessariamente zero",
+        "Todos os participantes obtêm o mesmo resultado"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "v18_cg_33",
+      "category": "Conhecimento geral",
+      "question": "Uma matriz quadrada é singular quando seu determinante é…",
+      "answer_lengths": [
+        55,
+        4,
+        44,
+        42
+      ],
+      "alternatives": [
+        "O resultado maximiza necessariamente o bem-estar social",
+        "Zero",
+        "A estratégia dominante é escolhida por todos",
+        "Todos os jogadores obtêm o mesmo pagamento"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_cg_38",
+      "category": "Conhecimento geral",
+      "question": "Qual método filosófico trabalha contradições e tensões?",
+      "answer_lengths": [
+        45,
+        26,
+        43,
+        9
+      ],
+      "alternatives": [
+        "Correlação exige experimento; causalidade não",
+        "São sinônimos estatísticos",
+        "Causalidade só existe em dados qualitativos",
+        "Dialética"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": "v18_ct_01",
+      "category": "Ciência e tecnologia",
+      "question": "Em redes, qual protocolo traduz nomes de domínio em endereços IP?",
+      "answer_lengths": [
+        39,
+        22,
+        36,
+        3
+      ],
+      "alternatives": [
+        "Criptografar o tráfego de ponta a ponta",
+        "Atribuir endereços MAC",
+        "Resolver nomes de domínio localmente",
+        "DNS"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": "v18_ct_04",
+      "category": "Ciência e tecnologia",
+      "question": "Qual algoritmo de busca exige dados previamente ordenados?",
+      "answer_lengths": [
+        13,
+        20,
+        59,
+        46
+      ],
+      "alternatives": [
+        "Busca binária",
+        "Lista ligada simples",
+        "Fila de prioridade baseada em vetor não ordenado para busca",
+        "Árvore binária não balanceada em qualquer caso"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "v18_ct_11",
+      "category": "Ciência e tecnologia",
+      "question": "Qual componente do computador executa instruções e operações lógicas?",
+      "answer_lengths": [
+        39,
+        3,
+        22,
+        36
+      ],
+      "alternatives": [
+        "Criptografar o tráfego de ponta a ponta",
+        "CPU",
+        "Atribuir endereços MAC",
+        "Resolver nomes de domínio localmente"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_ct_15",
+      "category": "Ciência e tecnologia",
+      "question": "Qual formato representa dados estruturados em pares chave-valor?",
+      "answer_lengths": [
+        20,
+        46,
+        4,
+        59
+      ],
+      "alternatives": [
+        "Lista ligada simples",
+        "Árvore binária não balanceada em qualquer caso",
+        "JSON",
+        "Fila de prioridade baseada em vetor não ordenado para busca"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_ct_19",
+      "category": "Ciência e tecnologia",
+      "question": "Qual arquitetura de rede conecta dispositivos em uma área local?",
+      "answer_lengths": [
+        39,
+        27,
+        43,
+        3
+      ],
+      "alternatives": [
+        "Armazena apenas instruções, nunca dados",
+        "Nunca armazena dados da RAM",
+        "É composta exclusivamente por memória flash",
+        "LAN"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": "v18_ct_23",
+      "category": "Ciência e tecnologia",
+      "question": "Qual conceito descreve a execução de várias tarefas em períodos sobrepostos?",
+      "answer_lengths": [
+        59,
+        12,
+        46,
+        20
+      ],
+      "alternatives": [
+        "Fila de prioridade baseada em vetor não ordenado para busca",
+        "Concorrência",
+        "Árvore binária não balanceada em qualquer caso",
+        "Lista ligada simples"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_ct_40",
+      "category": "Ciência e tecnologia",
+      "question": "Qual padrão de codificação representa caracteres Unicode de forma variável e compatível com ASCII?",
+      "answer_lengths": [
+        5,
+        30,
+        45,
+        41
+      ],
+      "alternatives": [
+        "UTF-8",
+        "O número de espécies invasoras",
+        "A quantidade total de energia solar incidente",
+        "A taxa máxima de mutação de uma população"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "v18_ga_05",
+      "category": "Geopolítica e atualidades",
+      "question": "Qual país controla o canal que liga o Mediterrâneo ao Mar Vermelho?",
+      "answer_lengths": [
+        34,
+        35,
+        52,
+        5
+      ],
+      "alternatives": [
+        "Proibição de navegação estrangeira",
+        "Território terrestre anexado ao mar",
+        "Soberania plena sobre todo o espaço aéreo e marítimo",
+        "Egito"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": "v18_ga_08",
+      "category": "Geopolítica e atualidades",
+      "question": "Qual acordo climático estabeleceu metas nacionais de redução de emissões?",
+      "answer_lengths": [
+        34,
+        15,
+        17,
+        59
+      ],
+      "alternatives": [
+        "Criar um governo ambiental mundial",
+        "Acordo de Paris",
+        "Estreito de Ormuz",
+        "Proibir toda produção de combustíveis fósseis imediatamente"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_ga_14",
+      "category": "Geopolítica e atualidades",
+      "question": "Qual país possui soberania sobre as Ilhas Malvinas segundo o Reino Unido?",
+      "answer_lengths": [
+        35,
+        34,
+        11,
+        52
+      ],
+      "alternatives": [
+        "Território terrestre anexado ao mar",
+        "Proibição de navegação estrangeira",
+        "Reino Unido",
+        "Soberania plena sobre todo o espaço aéreo e marítimo"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_ga_16",
+      "category": "Geopolítica e atualidades",
+      "question": "Qual acordo comercial substituiu o NAFTA em 2020?",
+      "answer_lengths": [
+        34,
+        33,
+        5,
+        59
+      ],
+      "alternatives": [
+        "Criar um governo ambiental mundial",
+        "Substituir a Convenção de Genebra",
+        "USMCA",
+        "Proibir toda produção de combustíveis fósseis imediatamente"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_ga_20",
+      "category": "Geopolítica e atualidades",
+      "question": "Qual instituição define regras globais para aviação civil?",
+      "answer_lengths": [
+        4,
+        4,
+        42,
+        37
+      ],
+      "alternatives": [
+        "OCDE",
+        "OPEP",
+        "Organização da Aviação Civil Internacional",
+        "Organização Internacional do Trabalho"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_ga_22",
+      "category": "Geopolítica e atualidades",
+      "question": "Qual bloco sul-americano tem Argentina, Brasil, Paraguai e Uruguai como membros fundadores?",
+      "answer_lengths": [
+        50,
+        5,
+        16,
+        8
+      ],
+      "alternatives": [
+        "Julgar indivíduos por crimes internacionais graves",
+        "ASEAN",
+        "Conselho Nórdico",
+        "Mercosul"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": "v18_ga_28",
+      "category": "Geopolítica e atualidades",
+      "question": "Qual canal é uma passagem estratégica entre o Mar Negro e o Mediterrâneo?",
+      "answer_lengths": [
+        52,
+        7,
+        35,
+        34
+      ],
+      "alternatives": [
+        "Soberania plena sobre todo o espaço aéreo e marítimo",
+        "Bósforo",
+        "Território terrestre anexado ao mar",
+        "Proibição de navegação estrangeira"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_ga_29",
+      "category": "Geopolítica e atualidades",
+      "question": "Qual país sediou a Conferência de Bandung de 1955?",
+      "answer_lengths": [
+        59,
+        9,
+        34,
+        33
+      ],
+      "alternatives": [
+        "Proibir toda produção de combustíveis fósseis imediatamente",
+        "Indonésia",
+        "Criar um governo ambiental mundial",
+        "Substituir a Convenção de Genebra"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_br_04",
+      "category": "Brasil",
+      "question": "Qual presidente instituiu o Estado Novo em 1937?",
+      "answer_lengths": [
+        33,
+        14,
+        53,
+        31
+      ],
+      "alternatives": [
+        "Concentrar a população no litoral",
+        "Getúlio Vargas",
+        "Substituir a agricultura por mineração exclusivamente",
+        "Transferir a capital para o Sul"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_br_15",
+      "category": "Brasil",
+      "question": "Qual política econômica marcou o governo Juscelino Kubitschek?",
+      "answer_lengths": [
+        40,
+        14,
+        58,
+        23
+      ],
+      "alternatives": [
+        "Descentralizar a capital para o Nordeste",
+        "Plano de Metas",
+        "Reduzir a industrialização e priorizar exportação agrícola",
+        "Implantar o padrão-ouro"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_br_21",
+      "category": "Brasil",
+      "question": "Qual estado abriga o Parque Nacional dos Lençóis Maranhenses?",
+      "answer_lengths": [
+        45,
+        36,
+        8,
+        43
+      ],
+      "alternatives": [
+        "Intervenção militar estrangeira e federalismo",
+        "Autonomia sindical e reforma agrária",
+        "Maranhão",
+        "Voto secreto universal e partidos nacionais"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_hg_06",
+      "category": "História e geografia",
+      "question": "Qual fenômeno periódico do Pacífico envolve o aquecimento anômalo das águas superficiais?",
+      "answer_lengths": [
+        33,
+        46,
+        7,
+        43
+      ],
+      "alternatives": [
+        "Debate sobre a tradução da Bíblia",
+        "Disputa pelo controle das rotas de especiarias",
+        "El Niño",
+        "Conflito entre cidades italianas e otomanos"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_hg_21",
+      "category": "História e geografia",
+      "question": "Qual fenômeno climático envolve aquecimento anormal das águas do Pacífico equatorial?",
+      "answer_lengths": [
+        43,
+        7,
+        46,
+        33
+      ],
+      "alternatives": [
+        "Conflito entre cidades italianas e otomanos",
+        "El Niño",
+        "Disputa pelo controle das rotas de especiarias",
+        "Debate sobre a tradução da Bíblia"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_po_03",
+      "category": "Política",
+      "question": "Qual instrumento permite ao Congresso sustar atos normativos do Executivo que excedam o poder regulamentar?",
+      "answer_lengths": [
+        23,
+        47,
+        68,
+        19
+      ],
+      "alternatives": [
+        "São sinônimos absolutos",
+        "Legitimidade depende apenas de força coercitiva",
+        "Legalidade é aceitação social; legitimidade é conformidade normativa",
+        "Decreto legislativo"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": "v18_po_06",
+      "category": "Política",
+      "question": "Qual instrumento constitucional permite ao cidadão propor ação para anular ato lesivo ao patrimônio público?",
+      "answer_lengths": [
+        51,
+        51,
+        12,
+        45
+      ],
+      "alternatives": [
+        "A distribuição de cadeiras por quociente partidário",
+        "A escolha exclusiva de listas partidárias nacionais",
+        "Ação popular",
+        "A inexistência de circunscrições territoriais"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_po_11",
+      "category": "Política",
+      "question": "Qual modelo de Estado distribui competências entre governo central e unidades autônomas?",
+      "answer_lengths": [
+        35,
+        43,
+        11,
+        65
+      ],
+      "alternatives": [
+        "São sinônimos em todos os contextos",
+        "Estado existe apenas em regimes federativos",
+        "Federalismo",
+        "Governo inclui território e população, Estado apenas os ministros"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_po_19",
+      "category": "Política",
+      "question": "Qual é o prazo de mandato dos senadores no Brasil?",
+      "answer_lengths": [
+        35,
+        22,
+        49,
+        9
+      ],
+      "alternatives": [
+        "Condenar criminalmente investigados",
+        "Anular decisões do STF",
+        "Substituir o Ministério Público em todos os casos",
+        "Oito anos"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": "v18_po_29",
+      "category": "Política",
+      "question": "Qual regime político se caracteriza por eleições competitivas e pluralismo?",
+      "answer_lengths": [
+        43,
+        10,
+        46,
+        30
+      ],
+      "alternatives": [
+        "Controle monetário exclusivo dos municípios",
+        "Democracia",
+        "Sistema sem transferências intergovernamentais",
+        "Proibição de arrecadação local"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_po_37",
+      "category": "Política",
+      "question": "Qual ação constitucional combate omissão que inviabiliza direito previsto na Constituição?",
+      "answer_lengths": [
+        38,
+        60,
+        19,
+        38
+      ],
+      "alternatives": [
+        "Transferir decisões ao Poder Executivo",
+        "Garantir que leis ordinárias prevaleçam sobre a Constituição",
+        "Mandado de injunção",
+        "Impedir qualquer emenda constitucional"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_qu_08",
+      "category": "Química",
+      "question": "Qual função orgânica contém o grupo carbonila entre dois carbonos?",
+      "answer_lengths": [
+        41,
+        6,
+        29,
+        52
+      ],
+      "alternatives": [
+        "Aumentar a variação de entalpia da reação",
+        "Cetona",
+        "Tornar espontânea toda reação",
+        "Alterar a constante de equilíbrio a temperatura fixa"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_ec_08",
+      "category": "Economia e negócios",
+      "question": "Qual conceito descreve aumento geral e persistente do nível de preços?",
+      "answer_lengths": [
+        8,
+        46,
+        19,
+        28
+      ],
+      "alternatives": [
+        "Inflação",
+        "Lucro desconta os custos e despesas da receita",
+        "Integração vertical",
+        "Ponto de equilíbrio contábil"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "v18_ec_13",
+      "category": "Economia e negócios",
+      "question": "Qual estrutura de mercado possui poucos vendedores interdependentes?",
+      "answer_lengths": [
+        10,
+        50,
+        40,
+        37
+      ],
+      "alternatives": [
+        "Oligopólio",
+        "Ausência de poder de mercado em qualquer horizonte",
+        "Poucos vendedores com cartel obrigatório",
+        "Produto homogêneo e uma única empresa"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "v18_ec_19",
+      "category": "Economia e negócios",
+      "question": "Qual métrica indica o valor presente dos fluxos de caixa futuros descontados?",
+      "answer_lengths": [
+        23,
+        45,
+        3,
+        39
+      ],
+      "alternatives": [
+        "O projeto não tem risco",
+        "O prazo de retorno é sempre inferior a um ano",
+        "VPL",
+        "O projeto destrói valor necessariamente"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "v18_ec_24",
+      "category": "Economia e negócios",
+      "question": "Qual documento formaliza direitos e obrigações entre empresa e cliente?",
+      "answer_lengths": [
+        13,
+        8,
+        53,
+        18
+      ],
+      "alternatives": [
+        "Margem EBITDA",
+        "Contrato",
+        "Estruturar mercado, operação e viabilidade financeira",
+        "Giro do ativo fixo"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "v18_ec_30",
+      "category": "Economia e negócios",
+      "question": "Qual é o ponto de equilíbrio operacional?",
+      "answer_lengths": [
+        3,
+        5,
+        3,
+        53
+      ],
+      "alternatives": [
+        "200",
+        "1.000",
+        "400",
+        "Nível de vendas em que receitas igualam custos totais"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "gameplay_fix": "NÃO JOGA agora cria registro skipped, não pontua, não conta como resposta e showReveal é tolerante a registros ausentes",
+  "browser_e2e": "não concluído: Chromium bloqueado pelo ambiente",
+  "supabase_live": "não testado: credencial placeholder na configuração recebida",
+  "tests": {
+    "node_check_app_js": "PASS",
+    "node_check_questions_js": "PASS",
+    "skip_helper_shared_mode": "PASS",
+    "skip_helper_individual_mode": "PASS",
+    "skip_duplicate_guard": "PASS",
+    "reveal_missing_record_guard": "PASS",
+    "career_stats_exclude_skipped": "PASS",
+    "category_stats_exclude_skipped": "PASS",
+    "chromium_end_to_end": "NOT RUN — ambiente bloqueou navegação local com ERR_BLOCKED_BY_ADMINISTRATOR",
+    "roulette_all_outcomes_regression": "PENDING",
+    "full_game_modes_regression": "PENDING",
+    "supabase_live": "PENDING"
+  }
+}

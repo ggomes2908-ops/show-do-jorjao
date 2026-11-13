@@ -1,4 +1,4 @@
-// Show do Jorjão V18 — revisão editorial abrangente.
+// Show do Jorjão V22 — banco revisado; alternativas antigas sinalizadas reconstruídas.
 window.QUIZ_QUESTIONS = [
   {
     "id": "gen01",
@@ -188,12 +188,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual estrutura de dados oferece, em média, busca, inserção e remoção em O(1), sob boas condições de dispersão?",
     "a": [
-      "Fila de prioridade baseada em vetor não ordenado para busca",
-      "Tabela hash",
-      "Árvore binária não balanceada em qualquer caso",
-      "Lista ligada simples"
+      "Árvore rubro-negra",
+      "Lista simplesmente encadeada",
+      "Árvore AVL",
+      "Tabela hash"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Tabelas hash têm custo médio constante, embora o pior caso possa ser linear."
   },
   {
@@ -2162,12 +2162,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "O que é voto distrital majoritário?",
     "a": [
-      "Eleição por distritos, geralmente vencida pelo mais votado",
-      "Votos são sorteados",
-      "Apenas listas fechadas são permitidas",
-      "Cada partido recebe cadeiras estritamente proporcionais ao voto nacional"
+      "Voto distrital misto",
+      "Voto proporcional em lista aberta",
+      "Voto majoritário em distrito uninominal",
+      "Eleição por distritos com vitória do mais votado"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "No modelo majoritário distrital, cada distrito elege representantes conforme a regra majoritária."
   },
   {
@@ -2863,11 +2863,11 @@ window.QUIZ_QUESTIONS = [
     "q": "Qual obra de Max Weber relaciona ética protestante e capitalismo?",
     "a": [
       "Economia e sociedade",
-      "A condição humana",
-      "O capital",
-      "A ética protestante e o espírito do capitalismo"
+      "A ética protestante e o espírito do capitalismo",
+      "A política como vocação",
+      "A ciência como vocação"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Weber investiga afinidades históricas entre ascetismo protestante e condutas econômicas capitalistas."
   },
   {
@@ -3268,12 +3268,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Em astronomia, o limite de Chandrasekhar está relacionado à massa máxima aproximada de:",
     "a": [
-      "Uma estrela de nêutrons antes de virar buraco negro",
-      "Um planeta rochoso",
       "Uma anã branca",
-      "Qualquer estrela da sequência principal"
+      "Uma estrela da sequência principal",
+      "Uma estrela de nêutrons",
+      "Um buraco negro estelar"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "O limite é cerca de 1,4 massas solares, acima do qual uma anã branca não pode manter esse equilíbrio."
   },
   {
@@ -4332,12 +4332,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual diferença entre legalidade e legitimidade no exercício do poder?",
     "a": [
+      "Legalidade e legitimidade são critérios idênticos",
+      "Legalidade decorre do costume; legitimidade, da força",
       "Conformidade legal versus reconhecimento da autoridade",
-      "Legitimidade depende apenas de força coercitiva",
-      "Legalidade é aceitação social; legitimidade é conformidade normativa",
-      "São sinônimos absolutos"
+      "Legalidade é validade normativa; legitimidade é aceitação social"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Uma decisão pode ser legal e ainda enfrentar questionamentos sobre sua legitimidade política ou social."
   },
   {
@@ -4512,15 +4512,15 @@ window.QUIZ_QUESTIONS = [
     "id": "v10121",
     "difficulty": "genio",
     "category": "Química",
-    "q": "Qual é o número de oxidação do enxofre no íon sulfato, SO₄²⁻?",
+    "q": "Na substituição nucleofílica acílica de um cloreto de acila, qual intermediário é formado?",
     "a": [
-      "+4",
-      "+6",
-      "+8",
-      "+2"
+      "Carbocátion acílio",
+      "Intermediário tetraédrico",
+      "Radical acila",
+      "Carbanion acilado"
     ],
     "correct": 1,
-    "explanation": "Como cada oxigênio vale −2, o enxofre apresenta NOX +6."
+    "explanation": "O nucleófilo adiciona-se ao carbono da carbonila, formando um intermediário tetraédrico antes da eliminação do grupo de saída."
   },
   {
     "id": "v10122",
@@ -4627,9 +4627,9 @@ window.QUIZ_QUESTIONS = [
     "q": "Em uma reação de primeira ordem, qual relação descreve a meia-vida?",
     "a": [
       "É constante e igual a ln 2 dividido pela constante de velocidade",
-      "É inversamente proporcional ao quadrado da concentração",
-      "Depende diretamente da concentração inicial",
-      "É sempre igual a 1/k2"
+      "É igual a 0,693 dividido pela constante de velocidade",
+      "Aumenta com a concentração inicial",
+      "É inversamente proporcional à concentração inicial"
     ],
     "correct": 0,
     "explanation": "Para primeira ordem, t1/2 = ln(2)/k, independente da concentração inicial."
@@ -5060,12 +5060,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "O que mede o índice de Herfindahl-Hirschman (HHI)?",
     "a": [
-      "Concentração pela soma dos quadrados das participações",
-      "Desigualdade de renda entre países",
-      "Inflação acumulada",
-      "Produtividade total dos fatores"
+      "A concentração de mercado por participação das empresas",
+      "A concentração de ativos financeiros por setor",
+      "A concentração de renda entre famílias",
+      "Concentração pela soma dos quadrados das participações"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "O HHI soma os quadrados das parcelas de mercado e é usado em análises concorrenciais."
   },
   {
@@ -6040,12 +6040,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Conhecimento geral",
     "q": "Qual acordo climático foi adotado em 2015?",
     "a": [
-      "Paris",
-      "Todos cooperam sempre",
-      "A soma dos ganhos é necessariamente zero",
-      "Todos os participantes obtêm o mesmo resultado"
+      "Protocolo de Kyoto",
+      "Acordo de Glasgow",
+      "Acordo de Copenhague",
+      "Acordo de Paris"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "O Acordo de Paris estabeleceu compromissos nacionais para enfrentar a mudança climática."
   },
   {
@@ -6054,12 +6054,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Conhecimento geral",
     "q": "Uma matriz quadrada é singular quando seu determinante é…",
     "a": [
-      "O resultado maximiza necessariamente o bem-estar social",
-      "Zero",
-      "A estratégia dominante é escolhida por todos",
-      "Todos os jogadores obtêm o mesmo pagamento"
+      "Indeterminado",
+      "O maior autovalor da matriz",
+      "Um",
+      "Zero"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Determinante nulo implica ausência de matriz inversa."
   },
   {
@@ -6124,12 +6124,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Conhecimento geral",
     "q": "Qual método filosófico trabalha contradições e tensões?",
     "a": [
-      "Correlação exige experimento; causalidade não",
-      "São sinônimos estatísticos",
-      "Causalidade só existe em dados qualitativos",
-      "Dialética"
+      "Hermenêutica",
+      "Dialética",
+      "Fenomenologia",
+      "Método socrático"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "A dialética examina tensões e contradições no desenvolvimento do pensamento."
   },
   {
@@ -6166,12 +6166,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Em redes, qual protocolo traduz nomes de domínio em endereços IP?",
     "a": [
-      "Criptografar o tráfego de ponta a ponta",
-      "Atribuir endereços MAC",
-      "Resolver nomes de domínio localmente",
-      "DNS"
+      "DNS",
+      "BGP",
+      "DHCP",
+      "ARP"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "O DNS resolve nomes legíveis em endereços usados na rede."
   },
   {
@@ -6208,12 +6208,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual algoritmo de busca exige dados previamente ordenados?",
     "a": [
-      "Busca binária",
-      "Lista ligada simples",
-      "Fila de prioridade baseada em vetor não ordenado para busca",
-      "Árvore binária não balanceada em qualquer caso"
+      "Busca linear",
+      "Busca por interpolação",
+      "Busca em profundidade",
+      "Busca binária"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "A busca binária descarta metade do intervalo a cada etapa."
   },
   {
@@ -6306,12 +6306,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual componente do computador executa instruções e operações lógicas?",
     "a": [
-      "Criptografar o tráfego de ponta a ponta",
       "CPU",
-      "Atribuir endereços MAC",
-      "Resolver nomes de domínio localmente"
+      "Unidade lógica e aritmética",
+      "GPU",
+      "Unidade de controle"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "A CPU interpreta e executa instruções de programas."
   },
   {
@@ -6362,10 +6362,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual formato representa dados estruturados em pares chave-valor?",
     "a": [
-      "Lista ligada simples",
-      "Árvore binária não balanceada em qualquer caso",
+      "YAML",
+      "Protocol Buffers",
       "JSON",
-      "Fila de prioridade baseada em vetor não ordenado para busca"
+      "XML"
     ],
     "correct": 2,
     "explanation": "JSON organiza dados em objetos e arrays."
@@ -6418,9 +6418,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual arquitetura de rede conecta dispositivos em uma área local?",
     "a": [
-      "Armazena apenas instruções, nunca dados",
-      "Nunca armazena dados da RAM",
-      "É composta exclusivamente por memória flash",
+      "MAN",
+      "PAN",
+      "WAN",
       "LAN"
     ],
     "correct": 3,
@@ -6474,12 +6474,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual conceito descreve a execução de várias tarefas em períodos sobrepostos?",
     "a": [
-      "Fila de prioridade baseada em vetor não ordenado para busca",
       "Concorrência",
-      "Árvore binária não balanceada em qualquer caso",
-      "Lista ligada simples"
+      "Multithreading",
+      "Multiprogramação",
+      "Paralelismo"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Concorrência organiza tarefas que progridem em intervalos intercalados."
   },
   {
@@ -6712,12 +6712,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Ciência e tecnologia",
     "q": "Qual padrão de codificação representa caracteres Unicode de forma variável e compatível com ASCII?",
     "a": [
+      "UTF-16",
+      "UTF-32",
       "UTF-8",
-      "O número de espécies invasoras",
-      "A quantidade total de energia solar incidente",
-      "A taxa máxima de mutação de uma população"
+      "ASCII"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "UTF-8 usa de um a quatro bytes por ponto de código."
   },
   {
@@ -6782,9 +6782,9 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual país controla o canal que liga o Mediterrâneo ao Mar Vermelho?",
     "a": [
-      "Proibição de navegação estrangeira",
-      "Território terrestre anexado ao mar",
-      "Soberania plena sobre todo o espaço aéreo e marítimo",
+      "Turquia",
+      "Panamá",
+      "Dinamarca",
       "Egito"
     ],
     "correct": 3,
@@ -6824,12 +6824,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual acordo climático estabeleceu metas nacionais de redução de emissões?",
     "a": [
-      "Criar um governo ambiental mundial",
-      "Acordo de Paris",
-      "Estreito de Ormuz",
-      "Proibir toda produção de combustíveis fósseis imediatamente"
+      "Acordo de Copenhague",
+      "Protocolo de Kyoto",
+      "Pacto Climático de Glasgow",
+      "Acordo de Paris"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "O acordo organiza contribuições nacionalmente determinadas."
   },
   {
@@ -6908,12 +6908,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual país possui soberania sobre as Ilhas Malvinas segundo o Reino Unido?",
     "a": [
-      "Território terrestre anexado ao mar",
-      "Proibição de navegação estrangeira",
-      "Reino Unido",
-      "Soberania plena sobre todo o espaço aéreo e marítimo"
+      "Chile",
+      "Espanha",
+      "Argentina",
+      "Reino Unido"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "O Reino Unido administra o arquipélago; a Argentina reivindica soberania."
   },
   {
@@ -6936,12 +6936,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual acordo comercial substituiu o NAFTA em 2020?",
     "a": [
-      "Criar um governo ambiental mundial",
-      "Substituir a Convenção de Genebra",
-      "USMCA",
-      "Proibir toda produção de combustíveis fósseis imediatamente"
+      "ALCA",
+      "KORUS",
+      "CPTPP",
+      "USMCA"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "O USMCA substituiu o NAFTA entre EUA, México e Canadá."
   },
   {
@@ -6992,10 +6992,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual instituição define regras globais para aviação civil?",
     "a": [
-      "OCDE",
-      "OPEP",
+      "Associação Internacional de Transporte Aéreo",
+      "Agência Europeia para a Segurança da Aviação",
       "Organização da Aviação Civil Internacional",
-      "Organização Internacional do Trabalho"
+      "Administração Federal de Aviação dos Estados Unidos"
     ],
     "correct": 2,
     "explanation": "A OACI estabelece padrões e práticas recomendadas."
@@ -7020,12 +7020,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual bloco sul-americano tem Argentina, Brasil, Paraguai e Uruguai como membros fundadores?",
     "a": [
-      "Julgar indivíduos por crimes internacionais graves",
-      "ASEAN",
-      "Conselho Nórdico",
-      "Mercosul"
+      "Mercosul",
+      "Comunidade Andina",
+      "Aliança do Pacífico",
+      "União de Nações Sul-Americanas"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "O Tratado de Assunção de 1991 criou o bloco."
   },
   {
@@ -7104,12 +7104,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual canal é uma passagem estratégica entre o Mar Negro e o Mediterrâneo?",
     "a": [
-      "Soberania plena sobre todo o espaço aéreo e marítimo",
-      "Bósforo",
-      "Território terrestre anexado ao mar",
-      "Proibição de navegação estrangeira"
+      "Dardanelos",
+      "Estreito de Gibraltar",
+      "Canal de Suez",
+      "Bósforo"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "O estreito do Bósforo fica na Turquia."
   },
   {
@@ -7118,10 +7118,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Geopolítica e atualidades",
     "q": "Qual país sediou a Conferência de Bandung de 1955?",
     "a": [
-      "Proibir toda produção de combustíveis fósseis imediatamente",
+      "Birmânia",
       "Indonésia",
-      "Criar um governo ambiental mundial",
-      "Substituir a Convenção de Genebra"
+      "Egito",
+      "Índia"
     ],
     "correct": 1,
     "explanation": "A conferência ocorreu em Bandung e impulsionou o não alinhamento."
@@ -7328,12 +7328,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual presidente instituiu o Estado Novo em 1937?",
     "a": [
-      "Concentrar a população no litoral",
       "Getúlio Vargas",
-      "Substituir a agricultura por mineração exclusivamente",
-      "Transferir a capital para o Sul"
+      "Eurico Gaspar Dutra",
+      "João Goulart",
+      "Washington Luís"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "O golpe de 1937 inaugurou a ditadura do Estado Novo."
   },
   {
@@ -7482,12 +7482,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual política econômica marcou o governo Juscelino Kubitschek?",
     "a": [
-      "Descentralizar a capital para o Nordeste",
       "Plano de Metas",
-      "Reduzir a industrialização e priorizar exportação agrícola",
-      "Implantar o padrão-ouro"
+      "Plano Cruzado",
+      "Plano de Ação Econômica do Governo",
+      "Plano Trienal"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "O plano priorizou energia, transporte, indústria e Brasília."
   },
   {
@@ -7566,12 +7566,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Brasil",
     "q": "Qual estado abriga o Parque Nacional dos Lençóis Maranhenses?",
     "a": [
-      "Intervenção militar estrangeira e federalismo",
-      "Autonomia sindical e reforma agrária",
       "Maranhão",
-      "Voto secreto universal e partidos nacionais"
+      "Ceará",
+      "Tocantins",
+      "Piauí"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "O parque fica no litoral oriental maranhense."
   },
   {
@@ -7916,10 +7916,10 @@ window.QUIZ_QUESTIONS = [
     "category": "História e geografia",
     "q": "Qual fenômeno periódico do Pacífico envolve o aquecimento anômalo das águas superficiais?",
     "a": [
-      "Debate sobre a tradução da Bíblia",
-      "Disputa pelo controle das rotas de especiarias",
+      "La Niña",
+      "Dipolo do Atlântico",
       "El Niño",
-      "Conflito entre cidades italianas e otomanos"
+      "Oscilação Decadal do Pacífico"
     ],
     "correct": 2,
     "explanation": "El Niño é o aquecimento anômalo das águas do Pacífico equatorial."
@@ -8126,12 +8126,12 @@ window.QUIZ_QUESTIONS = [
     "category": "História e geografia",
     "q": "Qual fenômeno climático envolve aquecimento anormal das águas do Pacífico equatorial?",
     "a": [
-      "Conflito entre cidades italianas e otomanos",
       "El Niño",
-      "Disputa pelo controle das rotas de especiarias",
-      "Debate sobre a tradução da Bíblia"
+      "Dipolo do Atlântico",
+      "La Niña",
+      "Oscilação Decadal do Pacífico"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "O El Niño altera padrões de circulação atmosférica e chuvas."
   },
   {
@@ -8434,12 +8434,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual instrumento permite ao Congresso sustar atos normativos do Executivo que excedam o poder regulamentar?",
     "a": [
-      "São sinônimos absolutos",
-      "Legitimidade depende apenas de força coercitiva",
-      "Legalidade é aceitação social; legitimidade é conformidade normativa",
-      "Decreto legislativo"
+      "Decreto legislativo",
+      "Decreto autônomo",
+      "Resolução do Senado",
+      "Lei complementar"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "A Constituição prevê essa competência do Congresso."
   },
   {
@@ -8476,12 +8476,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual instrumento constitucional permite ao cidadão propor ação para anular ato lesivo ao patrimônio público?",
     "a": [
-      "A distribuição de cadeiras por quociente partidário",
-      "A escolha exclusiva de listas partidárias nacionais",
-      "Ação popular",
-      "A inexistência de circunscrições territoriais"
+      "Ação civil pública",
+      "Mandado de injunção",
+      "Mandado de segurança coletivo",
+      "Ação popular"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "A ação popular protege patrimônio público, moralidade e meio ambiente."
   },
   {
@@ -8546,12 +8546,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual modelo de Estado distribui competências entre governo central e unidades autônomas?",
     "a": [
-      "São sinônimos em todos os contextos",
-      "Estado existe apenas em regimes federativos",
-      "Federalismo",
-      "Governo inclui território e população, Estado apenas os ministros"
+      "Estado regional",
+      "Confederação",
+      "Estado unitário descentralizado",
+      "Federalismo"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "A federação divide competências constitucionalmente."
   },
   {
@@ -8658,12 +8658,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual é o prazo de mandato dos senadores no Brasil?",
     "a": [
-      "Condenar criminalmente investigados",
-      "Anular decisões do STF",
-      "Substituir o Ministério Público em todos os casos",
-      "Oito anos"
+      "Dez anos",
+      "Seis anos",
+      "Oito anos",
+      "Quatro anos"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "O mandato de senador dura duas legislaturas."
   },
   {
@@ -8798,12 +8798,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual regime político se caracteriza por eleições competitivas e pluralismo?",
     "a": [
-      "Controle monetário exclusivo dos municípios",
+      "Oligarquia",
+      "Monarquia constitucional",
       "Democracia",
-      "Sistema sem transferências intergovernamentais",
-      "Proibição de arrecadação local"
+      "Autoritarismo competitivo"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "A democracia pressupõe participação e competição política."
   },
   {
@@ -8910,12 +8910,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Política",
     "q": "Qual ação constitucional combate omissão que inviabiliza direito previsto na Constituição?",
     "a": [
-      "Transferir decisões ao Poder Executivo",
-      "Garantir que leis ordinárias prevaleçam sobre a Constituição",
-      "Mandado de injunção",
-      "Impedir qualquer emenda constitucional"
+      "Habeas data",
+      "Mandado de segurança",
+      "ADI por omissão",
+      "Mandado de injunção"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "O instrumento enfrenta falta de norma regulamentadora."
   },
   {
@@ -9064,12 +9064,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Química",
     "q": "Qual função orgânica contém o grupo carbonila entre dois carbonos?",
     "a": [
-      "Aumentar a variação de entalpia da reação",
-      "Cetona",
-      "Tornar espontânea toda reação",
-      "Alterar a constante de equilíbrio a temperatura fixa"
+      "Ácido carboxílico",
+      "Aldeído",
+      "Éster",
+      "Cetona"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Cetonas possuem carbonila ligada a dois grupos carbonados."
   },
   {
@@ -10184,12 +10184,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual conceito descreve aumento geral e persistente do nível de preços?",
     "a": [
+      "Desinflação",
+      "Estagflação",
       "Inflação",
-      "Lucro desconta os custos e despesas da receita",
-      "Integração vertical",
-      "Ponto de equilíbrio contábil"
+      "Deflação"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Inflação é a elevação contínua e disseminada dos preços."
   },
   {
@@ -10254,12 +10254,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual estrutura de mercado possui poucos vendedores interdependentes?",
     "a": [
+      "Concorrência perfeita",
       "Oligopólio",
-      "Ausência de poder de mercado em qualquer horizonte",
-      "Poucos vendedores com cartel obrigatório",
-      "Produto homogêneo e uma única empresa"
+      "Monopólio",
+      "Concorrência monopolística"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "As decisões de cada empresa afetam as demais."
   },
   {
@@ -10338,10 +10338,10 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual métrica indica o valor presente dos fluxos de caixa futuros descontados?",
     "a": [
-      "O projeto não tem risco",
-      "O prazo de retorno é sempre inferior a um ano",
+      "Índice de lucratividade",
+      "Payback descontado",
       "VPL",
-      "O projeto destrói valor necessariamente"
+      "Taxa interna de retorno"
     ],
     "correct": 2,
     "explanation": "O valor presente líquido desconta fluxos pela taxa requerida."
@@ -10408,12 +10408,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual documento formaliza direitos e obrigações entre empresa e cliente?",
     "a": [
-      "Margem EBITDA",
       "Contrato",
-      "Estruturar mercado, operação e viabilidade financeira",
-      "Giro do ativo fixo"
+      "Termo de referência",
+      "Ordem de compra",
+      "Proposta comercial"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "O contrato estabelece obrigações juridicamente exigíveis."
   },
   {
@@ -10492,12 +10492,12 @@ window.QUIZ_QUESTIONS = [
     "category": "Economia e negócios",
     "q": "Qual é o ponto de equilíbrio operacional?",
     "a": [
-      "200",
-      "1.000",
-      "400",
-      "Nível de vendas em que receitas igualam custos totais"
+      "Receitas iguais aos custos fixos",
+      "Receitas iguais aos custos variáveis",
+      "Receitas iguais aos custos totais",
+      "Receitas iguais às despesas financeiras"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "Nesse ponto, o resultado operacional é zero."
   },
   {
@@ -11199,5 +11199,3365 @@ window.QUIZ_QUESTIONS = [
     ],
     "correct": 0,
     "explanation": "0,125 = 125/1000 = 1/8."
+  },
+  {
+    "id": "fut001",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a primeira edição da Copa Libertadores, em 1960?",
+    "a": [
+      "Peñarol",
+      "Chelsea",
+      "Flamengo",
+      "Grêmio"
+    ],
+    "correct": 0,
+    "explanation": "O Peñarol venceu a edição inaugural, disputada em 1960."
+  },
+  {
+    "id": "fut002",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção conquistou a Eurocopa de 1992?",
+    "a": [
+      "Dinamarca",
+      "Alemanha",
+      "Argentina",
+      "Inglaterra"
+    ],
+    "correct": 0,
+    "explanation": "A Dinamarca venceu a competição após entrar como substituta da Iugoslávia."
+  },
+  {
+    "id": "fut003",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Quem marcou o gol do título da Alemanha na final da Copa de 2014?",
+    "a": [
+      "Mario Götze",
+      "Hakan Şükür",
+      "Oliver Kahn",
+      "Davor Šuker"
+    ],
+    "correct": 0,
+    "explanation": "Götze marcou na prorrogação contra a Argentina."
+  },
+  {
+    "id": "fut004",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a primeira edição da Premier League, em 1992–93?",
+    "a": [
+      "Borussia Dortmund",
+      "Manchester United",
+      "Atlético Nacional",
+      "Bayern de Munique"
+    ],
+    "correct": 1,
+    "explanation": "O Manchester United foi o campeão inaugural da Premier League."
+  },
+  {
+    "id": "fut005",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual país sediou a Copa do Mundo de 1978?",
+    "a": [
+      "Brasil",
+      "Argentina",
+      "Uruguai",
+      "Argélia"
+    ],
+    "correct": 1,
+    "explanation": "A Argentina sediou e conquistou o torneio de 1978."
+  },
+  {
+    "id": "fut006",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Quem é o maior artilheiro da história das Copas do Mundo masculinas?",
+    "a": [
+      "Miroslav Klose",
+      "Andrés Iniesta",
+      "Nenhum jogador",
+      "Thomas Müller"
+    ],
+    "correct": 0,
+    "explanation": "Klose marcou 16 gols em Copas do Mundo."
+  },
+  {
+    "id": "fut007",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2004?",
+    "a": [
+      "Chelsea",
+      "Porto",
+      "Milan",
+      "Grêmio"
+    ],
+    "correct": 1,
+    "explanation": "O Porto derrotou o Monaco na decisão de 2004."
+  },
+  {
+    "id": "fut008",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a primeira Copa do Mundo feminina, em 1991?",
+    "a": [
+      "Inglaterra",
+      "Estados Unidos",
+      "Costa do Marfim",
+      "Países Baixos"
+    ],
+    "correct": 1,
+    "explanation": "Os Estados Unidos venceram a edição inaugural na China."
+  },
+  {
+    "id": "fut009",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Em qual clube Pelé encerrou sua carreira profissional?",
+    "a": [
+      "Internazionale",
+      "New York Cosmos",
+      "Atlético Mineiro",
+      "Vélez Sarsfield"
+    ],
+    "correct": 1,
+    "explanation": "Pelé encerrou a carreira no New York Cosmos, em 1977."
+  },
+  {
+    "id": "fut010",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual país venceu a Copa Africana de Nações de 2019?",
+    "a": [
+      "França",
+      "Brasil",
+      "Uruguai",
+      "Argélia"
+    ],
+    "correct": 3,
+    "explanation": "A Argélia venceu Senegal na final de 2019."
+  },
+  {
+    "id": "fut011",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube brasileiro venceu a Libertadores de 1995?",
+    "a": [
+      "Porto",
+      "Peñarol",
+      "Milan",
+      "Grêmio"
+    ],
+    "correct": 3,
+    "explanation": "O Grêmio conquistou o título continental em 1995."
+  },
+  {
+    "id": "fut012",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Quem marcou o gol mais rápido da história das Copas masculinas?",
+    "a": [
+      "Oliver Kahn",
+      "Mario Götze",
+      "Hakan Şükür",
+      "Davor Šuker"
+    ],
+    "correct": 2,
+    "explanation": "O turco marcou aos 11 segundos contra a Coreia do Sul, em 2002."
+  },
+  {
+    "id": "fut013",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção eliminou o Brasil nas quartas da Copa de 2006?",
+    "a": [
+      "Grécia",
+      "Brasil",
+      "França",
+      "Itália"
+    ],
+    "correct": 2,
+    "explanation": "A França venceu por 1 a 0, com gol de Thierry Henry."
+  },
+  {
+    "id": "fut014",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a primeira edição da Copa Intercontinental, em 1960?",
+    "a": [
+      "Barcelona",
+      "Corinthians",
+      "River Plate",
+      "Real Madrid"
+    ],
+    "correct": 3,
+    "explanation": "O Real Madrid venceu o Peñarol na primeira edição."
+  },
+  {
+    "id": "fut015",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual país conquistou a Copa América de 2011?",
+    "a": [
+      "Itália",
+      "Brasil",
+      "Uruguai",
+      "Argélia"
+    ],
+    "correct": 2,
+    "explanation": "O Uruguai venceu o torneio disputado na Argentina."
+  },
+  {
+    "id": "fut016",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual goleiro recebeu a Bola de Ouro da Copa de 2002?",
+    "a": [
+      "Hakan Şükür",
+      "Oliver Kahn",
+      "Mario Götze",
+      "Davor Šuker"
+    ],
+    "correct": 1,
+    "explanation": "Kahn foi eleito o melhor jogador do Mundial de 2002."
+  },
+  {
+    "id": "fut017",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 1999?",
+    "a": [
+      "Manchester United",
+      "Bayern de Munique",
+      "Atlético Nacional",
+      "Borussia Dortmund"
+    ],
+    "correct": 0,
+    "explanation": "O United virou sobre o Bayern nos acréscimos da final."
+  },
+  {
+    "id": "fut018",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa do Mundo de 1934?",
+    "a": [
+      "Brasil",
+      "Grécia",
+      "França",
+      "Itália"
+    ],
+    "correct": 3,
+    "explanation": "A Itália conquistou o torneio disputado em seu território."
+  },
+  {
+    "id": "fut019",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2012?",
+    "a": [
+      "River Plate",
+      "São Paulo",
+      "Corinthians",
+      "Real Madrid"
+    ],
+    "correct": 2,
+    "explanation": "O Corinthians derrotou o Boca Juniors na decisão."
+  },
+  {
+    "id": "fut020",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Quem foi o artilheiro da Copa do Mundo de 2010?",
+    "a": [
+      "Andrés Iniesta",
+      "Thomas Müller",
+      "Nenhum jogador",
+      "Kylian Mbappé"
+    ],
+    "correct": 1,
+    "explanation": "Müller marcou cinco gols e venceu no critério de assistências."
+  },
+  {
+    "id": "fut021",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Eurocopa de 2004?",
+    "a": [
+      "Brasil",
+      "Itália",
+      "Grécia",
+      "França"
+    ],
+    "correct": 2,
+    "explanation": "A Grécia derrotou Portugal na final."
+  },
+  {
+    "id": "fut022",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2012?",
+    "a": [
+      "Chelsea",
+      "Peñarol",
+      "Flamengo",
+      "Grêmio"
+    ],
+    "correct": 0,
+    "explanation": "O Chelsea conquistou seu primeiro título europeu ao vencer o Bayern."
+  },
+  {
+    "id": "fut023",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Quem marcou o gol do título brasileiro na Copa de 1994?",
+    "a": [
+      "Zinedine Zidane",
+      "Nenhum jogador",
+      "Andrés Iniesta",
+      "Miroslav Klose"
+    ],
+    "correct": 1,
+    "explanation": "A final terminou empatada; o Brasil venceu nos pênaltis."
+  },
+  {
+    "id": "fut024",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual país venceu a Copa do Mundo Sub-20 de 2011?",
+    "a": [
+      "Uruguai",
+      "Brasil",
+      "Itália",
+      "França"
+    ],
+    "correct": 1,
+    "explanation": "O Brasil venceu Portugal na final disputada na Colômbia."
+  },
+  {
+    "id": "fut025",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Copa Intercontinental de 2004?",
+    "a": [
+      "Grêmio",
+      "Porto",
+      "Chelsea",
+      "Milan"
+    ],
+    "correct": 1,
+    "explanation": "O Porto venceu o Once Caldas nos pênaltis."
+  },
+  {
+    "id": "fut026",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa do Mundo de 1966?",
+    "a": [
+      "Alemanha",
+      "Inglaterra",
+      "Dinamarca",
+      "Argentina"
+    ],
+    "correct": 1,
+    "explanation": "A Inglaterra venceu a Alemanha Ocidental na final."
+  },
+  {
+    "id": "fut027",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube conquistou a Champions League de 2001?",
+    "a": [
+      "Manchester United",
+      "Atlético Nacional",
+      "Bayern de Munique",
+      "Borussia Dortmund"
+    ],
+    "correct": 2,
+    "explanation": "O Bayern venceu o Valencia nos pênaltis."
+  },
+  {
+    "id": "fut028",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Quem foi o capitão da Itália na final da Copa de 2006?",
+    "a": [
+      "Zinedine Zidane",
+      "Gonzalo Montiel",
+      "Fabio Cannavaro",
+      "James Rodríguez"
+    ],
+    "correct": 2,
+    "explanation": "Cannavaro capitaneou a seleção italiana campeã."
+  },
+  {
+    "id": "fut029",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa América de 1999?",
+    "a": [
+      "Itália",
+      "Brasil",
+      "França",
+      "Grécia"
+    ],
+    "correct": 1,
+    "explanation": "O Brasil venceu o Uruguai na final."
+  },
+  {
+    "id": "fut030",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a primeira edição da Copa do Brasil, em 1989?",
+    "a": [
+      "Chelsea",
+      "Peñarol",
+      "Grêmio",
+      "Milan"
+    ],
+    "correct": 2,
+    "explanation": "O Grêmio conquistou a edição inaugural."
+  },
+  {
+    "id": "fut031",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Eurocopa de 1988?",
+    "a": [
+      "Costa do Marfim",
+      "Estados Unidos",
+      "Inglaterra",
+      "Países Baixos"
+    ],
+    "correct": 3,
+    "explanation": "A seleção neerlandesa derrotou a União Soviética na final."
+  },
+  {
+    "id": "fut032",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual país venceu a Copa do Mundo de 1958?",
+    "a": [
+      "Itália",
+      "Brasil",
+      "França",
+      "Uruguai"
+    ],
+    "correct": 1,
+    "explanation": "O Brasil conquistou seu primeiro título mundial na Suécia."
+  },
+  {
+    "id": "fut033",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 1997?",
+    "a": [
+      "Atlético Nacional",
+      "Manchester United",
+      "Bayern de Munique",
+      "Borussia Dortmund"
+    ],
+    "correct": 3,
+    "explanation": "O Dortmund derrotou a Juventus na decisão."
+  },
+  {
+    "id": "fut034",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Quem marcou o gol da vitória da Espanha na final da Copa de 2010?",
+    "a": [
+      "Miroslav Klose",
+      "Nenhum jogador",
+      "Kylian Mbappé",
+      "Andrés Iniesta"
+    ],
+    "correct": 3,
+    "explanation": "Iniesta marcou na prorrogação contra os Países Baixos."
+  },
+  {
+    "id": "fut035",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa Africana de Nações de 2015?",
+    "a": [
+      "Costa do Marfim",
+      "Países Baixos",
+      "Alemanha Ocidental",
+      "Estados Unidos"
+    ],
+    "correct": 0,
+    "explanation": "A Costa do Marfim venceu Gana nos pênaltis."
+  },
+  {
+    "id": "fut036",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2008?",
+    "a": [
+      "Milan",
+      "Porto",
+      "Grêmio",
+      "LDU"
+    ],
+    "correct": 3,
+    "explanation": "A LDU derrotou o Fluminense na decisão."
+  },
+  {
+    "id": "fut037",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual país venceu a Copa do Mundo de 1990?",
+    "a": [
+      "Estados Unidos",
+      "Argentina",
+      "Alemanha Ocidental",
+      "Uruguai"
+    ],
+    "correct": 2,
+    "explanation": "A Alemanha Ocidental venceu a Argentina na final."
+  },
+  {
+    "id": "fut038",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Eurocopa de 2016?",
+    "a": [
+      "Argentina",
+      "Alemanha",
+      "Dinamarca",
+      "Portugal"
+    ],
+    "correct": 3,
+    "explanation": "Portugal venceu a França na prorrogação."
+  },
+  {
+    "id": "fut039",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 1987?",
+    "a": [
+      "Porto",
+      "Peñarol",
+      "Grêmio",
+      "Milan"
+    ],
+    "correct": 0,
+    "explanation": "O Porto venceu o Bayern de Munique na final."
+  },
+  {
+    "id": "fut040",
+    "difficulty": "dificil",
+    "category": "Futebol",
+    "q": "Quem foi o artilheiro da Copa do Mundo de 1998?",
+    "a": [
+      "Oliver Kahn",
+      "Hakan Şükür",
+      "Davor Šuker",
+      "Mario Götze"
+    ],
+    "correct": 2,
+    "explanation": "O croata marcou seis gols na competição."
+  },
+  {
+    "id": "fut041",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa América de 2015?",
+    "a": [
+      "Itália",
+      "França",
+      "Chile",
+      "Grécia"
+    ],
+    "correct": 2,
+    "explanation": "O Chile conquistou o título em casa, nos pênaltis contra a Argentina."
+  },
+  {
+    "id": "fut042",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2017?",
+    "a": [
+      "Grêmio",
+      "Porto",
+      "Chelsea",
+      "Milan"
+    ],
+    "correct": 0,
+    "explanation": "O Grêmio venceu o Lanús na decisão."
+  },
+  {
+    "id": "fut043",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa do Mundo de 1974?",
+    "a": [
+      "Costa do Marfim",
+      "Estados Unidos",
+      "Alemanha Ocidental",
+      "Países Baixos"
+    ],
+    "correct": 2,
+    "explanation": "A Alemanha Ocidental derrotou os Países Baixos na final."
+  },
+  {
+    "id": "fut044",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2005?",
+    "a": [
+      "Barcelona",
+      "Liverpool",
+      "Palmeiras",
+      "São Paulo"
+    ],
+    "correct": 1,
+    "explanation": "O Liverpool virou uma desvantagem de três gols contra o Milan."
+  },
+  {
+    "id": "fut045",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual país conquistou a Copa do Mundo feminina de 2019?",
+    "a": [
+      "Uruguai",
+      "Argentina",
+      "Alemanha Ocidental",
+      "Estados Unidos"
+    ],
+    "correct": 3,
+    "explanation": "Os Estados Unidos venceram os Países Baixos na final."
+  },
+  {
+    "id": "fut046",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2019?",
+    "a": [
+      "Palmeiras",
+      "Flamengo",
+      "Peñarol",
+      "Liverpool"
+    ],
+    "correct": 1,
+    "explanation": "O Flamengo venceu o River Plate na final em Lima."
+  },
+  {
+    "id": "fut047",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Quem foi o artilheiro da Copa do Mundo de 2006?",
+    "a": [
+      "Nenhum jogador",
+      "Gonzalo Montiel",
+      "Andrés Iniesta",
+      "Miroslav Klose"
+    ],
+    "correct": 3,
+    "explanation": "Klose marcou cinco gols no torneio."
+  },
+  {
+    "id": "fut048",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Eurocopa de 1996?",
+    "a": [
+      "Portugal",
+      "Dinamarca",
+      "Argentina",
+      "Alemanha"
+    ],
+    "correct": 3,
+    "explanation": "A Alemanha venceu a República Tcheca com gol de ouro."
+  },
+  {
+    "id": "fut049",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2010?",
+    "a": [
+      "New York Cosmos",
+      "Atlético Mineiro",
+      "Internazionale",
+      "Vélez Sarsfield"
+    ],
+    "correct": 2,
+    "explanation": "A Inter de José Mourinho derrotou o Bayern na final."
+  },
+  {
+    "id": "fut050",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa do Mundo de 1982?",
+    "a": [
+      "França",
+      "Brasil",
+      "Grécia",
+      "Itália"
+    ],
+    "correct": 3,
+    "explanation": "A Itália derrotou a Alemanha Ocidental na decisão."
+  },
+  {
+    "id": "fut051",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2013?",
+    "a": [
+      "Vélez Sarsfield",
+      "New York Cosmos",
+      "Manchester United",
+      "Atlético Mineiro"
+    ],
+    "correct": 3,
+    "explanation": "O Atlético Mineiro venceu o Olimpia nos pênaltis."
+  },
+  {
+    "id": "fut052",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa do Mundo de 1954?",
+    "a": [
+      "Costa do Marfim",
+      "Estados Unidos",
+      "Alemanha Ocidental",
+      "Países Baixos"
+    ],
+    "correct": 2,
+    "explanation": "A Alemanha Ocidental venceu a Hungria no chamado Milagre de Berna."
+  },
+  {
+    "id": "fut053",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2013?",
+    "a": [
+      "Manchester United",
+      "Bayern de Munique",
+      "Borussia Dortmund",
+      "Atlético Nacional"
+    ],
+    "correct": 1,
+    "explanation": "O Bayern derrotou o Borussia Dortmund em Wembley."
+  },
+  {
+    "id": "fut054",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Quem marcou o gol do título da França na Copa de 1998?",
+    "a": [
+      "Fabio Cannavaro",
+      "Gonzalo Montiel",
+      "James Rodríguez",
+      "Zinedine Zidane"
+    ],
+    "correct": 3,
+    "explanation": "Zidane marcou duas vezes na final contra o Brasil."
+  },
+  {
+    "id": "fut055",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa América de 2007?",
+    "a": [
+      "Grécia",
+      "Itália",
+      "Brasil",
+      "França"
+    ],
+    "correct": 2,
+    "explanation": "O Brasil derrotou a Argentina na final."
+  },
+  {
+    "id": "fut056",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2005?",
+    "a": [
+      "Barcelona",
+      "Liverpool",
+      "Palmeiras",
+      "São Paulo"
+    ],
+    "correct": 3,
+    "explanation": "O São Paulo venceu o Athletico Paranaense na decisão."
+  },
+  {
+    "id": "fut057",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Eurocopa de 1984?",
+    "a": [
+      "Grécia",
+      "Brasil",
+      "Itália",
+      "França"
+    ],
+    "correct": 3,
+    "explanation": "A França conquistou o torneio como anfitriã."
+  },
+  {
+    "id": "fut058",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2003?",
+    "a": [
+      "Grêmio",
+      "Porto",
+      "Milan",
+      "LDU"
+    ],
+    "correct": 2,
+    "explanation": "O Milan venceu a Juventus nos pênaltis."
+  },
+  {
+    "id": "fut059",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual país venceu a Copa do Mundo de 1962?",
+    "a": [
+      "Argélia",
+      "Brasil",
+      "França",
+      "Itália"
+    ],
+    "correct": 1,
+    "explanation": "O Brasil conquistou o bicampeonato no Chile."
+  },
+  {
+    "id": "fut060",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 1994?",
+    "a": [
+      "Internazionale",
+      "Vélez Sarsfield",
+      "Atlético Mineiro",
+      "New York Cosmos"
+    ],
+    "correct": 1,
+    "explanation": "O Vélez derrotou o São Paulo na decisão."
+  },
+  {
+    "id": "fut061",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Quem foi o artilheiro da Copa do Mundo de 2014?",
+    "a": [
+      "James Rodríguez",
+      "Gonzalo Montiel",
+      "Fabio Cannavaro",
+      "Zinedine Zidane"
+    ],
+    "correct": 0,
+    "explanation": "O colombiano marcou seis gols no torneio."
+  },
+  {
+    "id": "fut062",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa do Mundo de 1970?",
+    "a": [
+      "Brasil",
+      "Grécia",
+      "França",
+      "Itália"
+    ],
+    "correct": 0,
+    "explanation": "O Brasil conquistou o tricampeonato no México."
+  },
+  {
+    "id": "fut063",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2008?",
+    "a": [
+      "Atlético Nacional",
+      "Manchester United",
+      "Borussia Dortmund",
+      "Bayern de Munique"
+    ],
+    "correct": 1,
+    "explanation": "O United venceu o Chelsea nos pênaltis."
+  },
+  {
+    "id": "fut064",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa América de 1993?",
+    "a": [
+      "Portugal",
+      "Dinamarca",
+      "Argentina",
+      "Inglaterra"
+    ],
+    "correct": 2,
+    "explanation": "A Argentina derrotou o México na final."
+  },
+  {
+    "id": "fut065",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2020?",
+    "a": [
+      "São Paulo",
+      "Palmeiras",
+      "Liverpool",
+      "Barcelona"
+    ],
+    "correct": 1,
+    "explanation": "O Palmeiras venceu o Santos no Maracanã."
+  },
+  {
+    "id": "fut066",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual país venceu a Copa do Mundo de 1938?",
+    "a": [
+      "França",
+      "Itália",
+      "Japão",
+      "Brasil"
+    ],
+    "correct": 1,
+    "explanation": "A Itália conquistou o bicampeonato na França."
+  },
+  {
+    "id": "fut067",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2015?",
+    "a": [
+      "Palmeiras",
+      "São Paulo",
+      "Barcelona",
+      "Liverpool"
+    ],
+    "correct": 2,
+    "explanation": "O Barcelona derrotou a Juventus na final."
+  },
+  {
+    "id": "fut068",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Quem marcou o gol do título da Argentina na Copa de 2022?",
+    "a": [
+      "Zinedine Zidane",
+      "James Rodríguez",
+      "Gonzalo Montiel",
+      "Fabio Cannavaro"
+    ],
+    "correct": 2,
+    "explanation": "Montiel converteu a cobrança decisiva na disputa por pênaltis."
+  },
+  {
+    "id": "fut069",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa América de 2021?",
+    "a": [
+      "Argentina",
+      "Portugal",
+      "Alemanha",
+      "Dinamarca"
+    ],
+    "correct": 0,
+    "explanation": "A Argentina venceu o Brasil no Maracanã."
+  },
+  {
+    "id": "fut070",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2022?",
+    "a": [
+      "Peñarol",
+      "Flamengo",
+      "Liverpool",
+      "Chelsea"
+    ],
+    "correct": 1,
+    "explanation": "O Flamengo derrotou o Athletico Paranaense na final."
+  },
+  {
+    "id": "fut071",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual país venceu a Copa do Mundo de 2018?",
+    "a": [
+      "Uruguai",
+      "França",
+      "Itália",
+      "Brasil"
+    ],
+    "correct": 1,
+    "explanation": "A França derrotou a Croácia na decisão."
+  },
+  {
+    "id": "fut072",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2020?",
+    "a": [
+      "Atlético Nacional",
+      "Bayern de Munique",
+      "Manchester United",
+      "Borussia Dortmund"
+    ],
+    "correct": 1,
+    "explanation": "O Bayern venceu o Paris Saint-Germain na final."
+  },
+  {
+    "id": "fut073",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa do Mundo de 1994?",
+    "a": [
+      "Brasil",
+      "Itália",
+      "França",
+      "Grécia"
+    ],
+    "correct": 0,
+    "explanation": "O Brasil conquistou o título nos pênaltis contra a Itália."
+  },
+  {
+    "id": "fut074",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2016?",
+    "a": [
+      "Atlético Nacional",
+      "Manchester United",
+      "Bayern de Munique",
+      "Borussia Dortmund"
+    ],
+    "correct": 0,
+    "explanation": "O clube colombiano venceu o Independiente del Valle na final."
+  },
+  {
+    "id": "fut075",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Eurocopa de 2020?",
+    "a": [
+      "França",
+      "Itália",
+      "Grécia",
+      "Brasil"
+    ],
+    "correct": 1,
+    "explanation": "A Itália venceu a Inglaterra nos pênaltis, em 2021."
+  },
+  {
+    "id": "fut076",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Champions League de 2019?",
+    "a": [
+      "Liverpool",
+      "Barcelona",
+      "Palmeiras",
+      "São Paulo"
+    ],
+    "correct": 0,
+    "explanation": "O Liverpool derrotou o Tottenham na final."
+  },
+  {
+    "id": "fut077",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Quem foi o artilheiro da Copa do Mundo de 2022?",
+    "a": [
+      "Andrés Iniesta",
+      "Thomas Müller",
+      "Kylian Mbappé",
+      "Miroslav Klose"
+    ],
+    "correct": 2,
+    "explanation": "Mbappé marcou oito gols no torneio."
+  },
+  {
+    "id": "fut078",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual país venceu a Copa do Mundo feminina de 2011?",
+    "a": [
+      "Itália",
+      "Japão",
+      "França",
+      "Brasil"
+    ],
+    "correct": 1,
+    "explanation": "O Japão venceu os Estados Unidos nos pênaltis."
+  },
+  {
+    "id": "fut079",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual clube venceu a Libertadores de 2018?",
+    "a": [
+      "Barcelona",
+      "Real Madrid",
+      "River Plate",
+      "Corinthians"
+    ],
+    "correct": 2,
+    "explanation": "O River Plate derrotou o Boca Juniors em Madri."
+  },
+  {
+    "id": "fut080",
+    "difficulty": "genio",
+    "category": "Futebol",
+    "q": "Qual seleção venceu a Copa do Mundo de 2002?",
+    "a": [
+      "Grécia",
+      "Brasil",
+      "França",
+      "Itália"
+    ],
+    "correct": 1,
+    "explanation": "O Brasil venceu a Alemanha na final."
+  },
+  {
+    "id": "bio001",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual enzima sintetiza RNA a partir de DNA?",
+    "a": [
+      "RNA polimerase",
+      "Primase",
+      "Transcriptase reversa",
+      "DNA polimerase"
+    ],
+    "correct": 0,
+    "explanation": "A RNA polimerase catalisa a transcrição do DNA em RNA."
+  },
+  {
+    "id": "bio002",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual organela modifica e empacota proteínas?",
+    "a": [
+      "RNA transportador",
+      "Ligação peptídica",
+      "Complexo de Golgi",
+      "Célula de Schwann"
+    ],
+    "correct": 2,
+    "explanation": "O Golgi processa, classifica e distribui proteínas."
+  },
+  {
+    "id": "bio003",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual base nitrogenada substitui a timina no RNA?",
+    "a": [
+      "Uracila",
+      "Meiose",
+      "Primase",
+      "Prófase I"
+    ],
+    "correct": 0,
+    "explanation": "O RNA utiliza uracila no lugar da timina."
+  },
+  {
+    "id": "bio004",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Em qual fase ocorre o pareamento dos cromossomos homólogos?",
+    "a": [
+      "Frameshift",
+      "Prófase I",
+      "Segregação",
+      "Transdução"
+    ],
+    "correct": 1,
+    "explanation": "O pareamento ocorre durante a prófase I da meiose."
+  },
+  {
+    "id": "bio005",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual processo reduz o número de cromossomos à metade?",
+    "a": [
+      "Prófase I",
+      "Uracila",
+      "Primase",
+      "Meiose"
+    ],
+    "correct": 3,
+    "explanation": "A meiose produz células haploides a partir de células diploides."
+  },
+  {
+    "id": "bio006",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual molécula armazena energia imediata na célula?",
+    "a": [
+      "Auxina",
+      "Autofagia",
+      "Actina",
+      "ATP"
+    ],
+    "correct": 3,
+    "explanation": "O ATP fornece energia para diversas reações celulares."
+  },
+  {
+    "id": "bio007",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual estrutura controla a passagem entre núcleo e citoplasma?",
+    "a": [
+      "Mitocôndria",
+      "Clorofila a",
+      "Poro nuclear",
+      "Osteoclasto"
+    ],
+    "correct": 2,
+    "explanation": "Os poros nucleares regulam o transporte entre núcleo e citoplasma."
+  },
+  {
+    "id": "bio008",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual tecido vegetal conduz a seiva elaborada?",
+    "a": [
+      "Xilema",
+      "Etileno",
+      "Rubisco",
+      "Floema"
+    ],
+    "correct": 3,
+    "explanation": "O floema transporta açúcares produzidos na fotossíntese."
+  },
+  {
+    "id": "bio009",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual tecido vegetal conduz água e sais minerais?",
+    "a": [
+      "Floema",
+      "Xilema",
+      "Etileno",
+      "Rubisco"
+    ],
+    "correct": 1,
+    "explanation": "O xilema conduz a seiva bruta das raízes."
+  },
+  {
+    "id": "bio010",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual pigmento participa diretamente da fotossíntese?",
+    "a": [
+      "Clorofila",
+      "Etileno",
+      "Estômato",
+      "Ciclo C4"
+    ],
+    "correct": 0,
+    "explanation": "A clorofila absorve energia luminosa."
+  },
+  {
+    "id": "bio011",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual organela realiza a respiração celular aeróbica?",
+    "a": [
+      "Plasmócito",
+      "Osteoclasto",
+      "Mitocôndria",
+      "Clorofila a"
+    ],
+    "correct": 2,
+    "explanation": "A mitocôndria realiza etapas centrais da respiração aeróbica."
+  },
+  {
+    "id": "bio012",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual enzima quebra o amido durante a digestão?",
+    "a": [
+      "Anfíbios",
+      "Amilase",
+      "Insulina",
+      "Cálcio"
+    ],
+    "correct": 1,
+    "explanation": "A amilase hidrolisa o amido em carboidratos menores."
+  },
+  {
+    "id": "bio013",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual célula produz anticorpos?",
+    "a": [
+      "Mitocôndria",
+      "Osteoclasto",
+      "Autofagia",
+      "Plasmócito"
+    ],
+    "correct": 3,
+    "explanation": "Plasmócitos são linfócitos B diferenciados que secretam anticorpos."
+  },
+  {
+    "id": "bio014",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual leucócito está associado à produção de histamina?",
+    "a": [
+      "Glucagon",
+      "Basófilo",
+      "Anfíbios",
+      "Insulina"
+    ],
+    "correct": 1,
+    "explanation": "Basófilos liberam histamina em respostas inflamatórias."
+  },
+  {
+    "id": "bio015",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual componente inicia a coagulação por adesão ao vaso lesionado?",
+    "a": [
+      "Basófilo",
+      "Insulina",
+      "Plaqueta",
+      "Anfíbios"
+    ],
+    "correct": 2,
+    "explanation": "Plaquetas aderem ao local da lesão e iniciam o tampão plaquetário."
+  },
+  {
+    "id": "bio016",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual hormônio reduz a glicemia?",
+    "a": [
+      "Basófilo",
+      "Plaqueta",
+      "Glucagon",
+      "Insulina"
+    ],
+    "correct": 3,
+    "explanation": "A insulina favorece a captação e o armazenamento de glicose."
+  },
+  {
+    "id": "bio017",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual hormônio eleva a glicemia por ação hepática?",
+    "a": [
+      "Insulina",
+      "Plaqueta",
+      "Anfíbios",
+      "Glucagon"
+    ],
+    "correct": 3,
+    "explanation": "O glucagon estimula a liberação de glicose pelo fígado."
+  },
+  {
+    "id": "bio018",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual região do neurônio recebe a maioria dos sinais?",
+    "a": [
+      "Glomérulo",
+      "Plaqueta",
+      "Mesoderma",
+      "Dendritos"
+    ],
+    "correct": 3,
+    "explanation": "Os dendritos recebem sinais de outras células."
+  },
+  {
+    "id": "bio019",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual célula forma mielina no sistema nervoso central?",
+    "a": [
+      "Célula parietal",
+      "Complexo de Golgi",
+      "Ligação peptídica",
+      "Oligodendrócito"
+    ],
+    "correct": 3,
+    "explanation": "Oligodendrócitos mielinizam axônios no sistema nervoso central."
+  },
+  {
+    "id": "bio020",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual célula forma mielina no sistema nervoso periférico?",
+    "a": [
+      "Ligação peptídica",
+      "Célula de Schwann",
+      "Complexo de Golgi",
+      "RNA transportador"
+    ],
+    "correct": 1,
+    "explanation": "Células de Schwann mielinizam axônios periféricos."
+  },
+  {
+    "id": "bio021",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual estrutura renal realiza a filtração inicial do sangue?",
+    "a": [
+      "Glucagon",
+      "Dendritos",
+      "Glomérulo",
+      "Mesoderma"
+    ],
+    "correct": 2,
+    "explanation": "O glomérulo filtra o plasma para a cápsula de Bowman."
+  },
+  {
+    "id": "bio022",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual segmento da alça de Henle é impermeável à água?",
+    "a": [
+      "Seleção negativa",
+      "Ramo ascendente",
+      "Válvula cardíaca",
+      "Artéria pulmonar"
+    ],
+    "correct": 1,
+    "explanation": "O ramo ascendente reabsorve sais e é pouco permeável à água."
+  },
+  {
+    "id": "bio023",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual enzima converte angiotensinogênio em angiotensina I?",
+    "a": [
+      "Renina",
+      "Cálcio",
+      "Glucagon",
+      "Amilase"
+    ],
+    "correct": 0,
+    "explanation": "A renina inicia o sistema renina-angiotensina."
+  },
+  {
+    "id": "bio024",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual estrutura impede o refluxo de sangue no coração?",
+    "a": [
+      "Artéria pulmonar",
+      "Válvula cardíaca",
+      "Seleção negativa",
+      "Ramo ascendente"
+    ],
+    "correct": 1,
+    "explanation": "As válvulas garantem o fluxo sanguíneo em sentido único."
+  },
+  {
+    "id": "bio025",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual vaso leva sangue do ventrículo direito aos pulmões?",
+    "a": [
+      "Válvula cardíaca",
+      "Seleção negativa",
+      "Ramo ascendente",
+      "Artéria pulmonar"
+    ],
+    "correct": 3,
+    "explanation": "A artéria pulmonar conduz sangue do coração aos pulmões."
+  },
+  {
+    "id": "bio026",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual estrutura embrionária origina o sistema nervoso?",
+    "a": [
+      "Mesoderma",
+      "Endoderma",
+      "Crista neural",
+      "Ectoderma"
+    ],
+    "correct": 3,
+    "explanation": "O ectoderma origina o tubo neural e estruturas nervosas."
+  },
+  {
+    "id": "bio027",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual folheto embrionário origina músculos e ossos?",
+    "a": [
+      "Dendritos",
+      "Mesoderma",
+      "Plaqueta",
+      "Glomérulo"
+    ],
+    "correct": 1,
+    "explanation": "O mesoderma origina músculos, ossos e diversos tecidos."
+  },
+  {
+    "id": "bio028",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual processo gera gametas com variabilidade genética?",
+    "a": [
+      "Prófase I",
+      "Meiose",
+      "Uracila",
+      "Primase"
+    ],
+    "correct": 1,
+    "explanation": "A recombinação e a segregação independente ampliam a variabilidade."
+  },
+  {
+    "id": "bio029",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual mecanismo troca segmentos entre cromátides homólogas?",
+    "a": [
+      "Transformação",
+      "Fuso mitótico",
+      "RNA polimerase",
+      "Crossing-over"
+    ],
+    "correct": 3,
+    "explanation": "O crossing-over ocorre na prófase I da meiose."
+  },
+  {
+    "id": "bio030",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual lei explica a separação dos alelos na formação dos gametas?",
+    "a": [
+      "Segregação",
+      "DNA ligase",
+      "Frameshift",
+      "Transdução"
+    ],
+    "correct": 0,
+    "explanation": "A lei da segregação descreve a separação dos alelos."
+  },
+  {
+    "id": "bio031",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual molécula carrega aminoácidos até o ribossomo?",
+    "a": [
+      "Célula de Schwann",
+      "RNA transportador",
+      "Complexo de Golgi",
+      "Ligação peptídica"
+    ],
+    "correct": 1,
+    "explanation": "O RNA transportador entrega aminoácidos durante a tradução."
+  },
+  {
+    "id": "bio032",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual ligação une aminoácidos em uma proteína?",
+    "a": [
+      "RNA transportador",
+      "Célula de Schwann",
+      "Ligação peptídica",
+      "Complexo de Golgi"
+    ],
+    "correct": 2,
+    "explanation": "A ligação peptídica une o grupo carboxila ao grupo amino."
+  },
+  {
+    "id": "bio033",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual nível estrutural da proteína descreve sua sequência?",
+    "a": [
+      "Célula de Schwann",
+      "Ligação peptídica",
+      "Complexo de Golgi",
+      "Estrutura primária"
+    ],
+    "correct": 3,
+    "explanation": "A estrutura primária corresponde à sequência de aminoácidos."
+  },
+  {
+    "id": "bio034",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual processo celular remove organelas danificadas?",
+    "a": [
+      "Clorofila a",
+      "Mitocôndria",
+      "Plasmócito",
+      "Autofagia"
+    ],
+    "correct": 3,
+    "explanation": "A autofagia degrada componentes celulares e os recicla."
+  },
+  {
+    "id": "bio035",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual estrutura separa cromátides na anáfase?",
+    "a": [
+      "Fuso mitótico",
+      "Transformação",
+      "RNA polimerase",
+      "Crossing-over"
+    ],
+    "correct": 0,
+    "explanation": "As fibras do fuso movimentam cromossomos durante a divisão."
+  },
+  {
+    "id": "bio036",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual checkpoint verifica a ligação dos cromossomos ao fuso?",
+    "a": [
+      "Transformação",
+      "Crossing-over",
+      "Checkpoint metafásico",
+      "RNA polimerase"
+    ],
+    "correct": 2,
+    "explanation": "O checkpoint verifica a ligação correta antes da anáfase."
+  },
+  {
+    "id": "bio037",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual tipo de mutação altera a matriz de leitura?",
+    "a": [
+      "Frameshift",
+      "DNA ligase",
+      "Transdução",
+      "Segregação"
+    ],
+    "correct": 0,
+    "explanation": "Inserções ou deleções não múltiplas de três deslocam a leitura."
+  },
+  {
+    "id": "bio038",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual enzima une fragmentos de DNA?",
+    "a": [
+      "Transdução",
+      "Frameshift",
+      "Segregação",
+      "DNA ligase"
+    ],
+    "correct": 3,
+    "explanation": "A DNA ligase sela quebras na cadeia de DNA."
+  },
+  {
+    "id": "bio039",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual enzima sintetiza os iniciadores da replicação?",
+    "a": [
+      "Primase",
+      "Meiose",
+      "Uracila",
+      "Prófase I"
+    ],
+    "correct": 0,
+    "explanation": "A primase produz pequenos segmentos de RNA iniciadores."
+  },
+  {
+    "id": "bio040",
+    "difficulty": "dificil",
+    "category": "Biologia",
+    "q": "Qual fita de DNA é sintetizada de forma descontínua?",
+    "a": [
+      "Cloroplasto",
+      "DNA ligase",
+      "Transdução",
+      "Fita tardia"
+    ],
+    "correct": 3,
+    "explanation": "A fita tardia é formada em fragmentos de Okazaki."
+  },
+  {
+    "id": "bio041",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual teoria explica a origem endossimbiótica das mitocôndrias?",
+    "a": [
+      "Crossing-over",
+      "Transformação",
+      "Fuso mitótico",
+      "Endossimbiose"
+    ],
+    "correct": 3,
+    "explanation": "A teoria propõe origem bacteriana para mitocôndrias e cloroplastos."
+  },
+  {
+    "id": "bio042",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual organela possui DNA próprio em células vegetais?",
+    "a": [
+      "Transdução",
+      "Cloroplasto",
+      "Segregação",
+      "Fita tardia"
+    ],
+    "correct": 1,
+    "explanation": "Cloroplastos possuem genoma próprio, além do DNA nuclear."
+  },
+  {
+    "id": "bio043",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual grupo animal possui sistema circulatório aberto?",
+    "a": [
+      "Cnidaria",
+      "Epitelial",
+      "Condrictes",
+      "Artrópodes"
+    ],
+    "correct": 3,
+    "explanation": "A maioria dos artrópodes possui circulação aberta."
+  },
+  {
+    "id": "bio044",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual filo reúne animais com cnidócitos?",
+    "a": [
+      "Condrictes",
+      "Bivalves",
+      "Cnidaria",
+      "Epitelial"
+    ],
+    "correct": 2,
+    "explanation": "Cnidários possuem células urticantes chamadas cnidócitos."
+  },
+  {
+    "id": "bio045",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual grupo de moluscos possui rádula ausente em geral?",
+    "a": [
+      "Artrópodes",
+      "Bivalves",
+      "Epitelial",
+      "Cnidaria"
+    ],
+    "correct": 1,
+    "explanation": "Bivalves filtradores geralmente não possuem rádula."
+  },
+  {
+    "id": "bio046",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual estrutura permite trocas gasosas nos insetos?",
+    "a": [
+      "Dendritos",
+      "Epitelial",
+      "Traqueias",
+      "Autofagia"
+    ],
+    "correct": 2,
+    "explanation": "O sistema traqueal conduz gases diretamente aos tecidos."
+  },
+  {
+    "id": "bio047",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual classe de vertebrados apresenta coração com três cavidades?",
+    "a": [
+      "Glucagon",
+      "Insulina",
+      "Anfíbios",
+      "Basófilo"
+    ],
+    "correct": 2,
+    "explanation": "Anfíbios geralmente possuem dois átrios e um ventrículo."
+  },
+  {
+    "id": "bio048",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual grupo de peixes possui esqueleto cartilaginoso?",
+    "a": [
+      "Condrictes",
+      "Cnidaria",
+      "Epitelial",
+      "Artrópodes"
+    ],
+    "correct": 0,
+    "explanation": "Tubarões e raias pertencem aos condrictes."
+  },
+  {
+    "id": "bio049",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual estrutura dos equinodermos atua na locomoção?",
+    "a": [
+      "Epitelial",
+      "Pés ambulacrais",
+      "Artrópodes",
+      "Condrictes"
+    ],
+    "correct": 1,
+    "explanation": "Os pés ambulacrais integram o sistema hidrovascular."
+  },
+  {
+    "id": "bio050",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual processo permite a fixação de nitrogênio atmosférico?",
+    "a": [
+      "Nitrificação",
+      "Nicho ecológico",
+      "Sucessão primária",
+      "Fixação biológica"
+    ],
+    "correct": 3,
+    "explanation": "Bactérias convertem N₂ em compostos nitrogenados assimiláveis."
+  },
+  {
+    "id": "bio051",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual bactéria é clássica na fixação simbiótica em leguminosas?",
+    "a": [
+      "Cerrado",
+      "Pantanal",
+      "Rhizobium",
+      "Mutualismo"
+    ],
+    "correct": 2,
+    "explanation": "Bactérias do gênero Rhizobium vivem em nódulos radiculares."
+  },
+  {
+    "id": "bio052",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual etapa do ciclo do nitrogênio produz nitrato?",
+    "a": [
+      "Mutualismo",
+      "Comensalismo",
+      "Rhizobium",
+      "Nitrificação"
+    ],
+    "correct": 3,
+    "explanation": "Bactérias oxidam amônia e nitrito até nitrato."
+  },
+  {
+    "id": "bio053",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual relação ecológica beneficia ambas as espécies?",
+    "a": [
+      "Rhizobium",
+      "Nitrificação",
+      "Mutualismo",
+      "Comensalismo"
+    ],
+    "correct": 2,
+    "explanation": "No mutualismo, as duas espécies obtêm benefício."
+  },
+  {
+    "id": "bio054",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual relação ocorre quando uma espécie se beneficia e outra não é afetada?",
+    "a": [
+      "Comensalismo",
+      "Rhizobium",
+      "Nitrificação",
+      "Mutualismo"
+    ],
+    "correct": 0,
+    "explanation": "O comensal obtém benefício sem efeito relevante sobre o hospedeiro."
+  },
+  {
+    "id": "bio055",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual conceito descreve o papel de uma espécie no ecossistema?",
+    "a": [
+      "Sucessão primária",
+      "Comensalismo",
+      "Nicho ecológico",
+      "Fixação biológica"
+    ],
+    "correct": 2,
+    "explanation": "O nicho reúne recursos usados e funções da espécie."
+  },
+  {
+    "id": "bio056",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual medida representa a energia por unidade de área e tempo?",
+    "a": [
+      "Produtividade primária",
+      "Estrutura primária",
+      "Ligação peptídica",
+      "Célula de Schwann"
+    ],
+    "correct": 0,
+    "explanation": "A produtividade mede a taxa de produção de matéria orgânica."
+  },
+  {
+    "id": "bio057",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual sucessão ocorre sobre rocha sem solo formado?",
+    "a": [
+      "Sucessão primária",
+      "Nicho ecológico",
+      "Comensalismo",
+      "Fixação biológica"
+    ],
+    "correct": 0,
+    "explanation": "A sucessão primária começa em substrato sem solo desenvolvido."
+  },
+  {
+    "id": "bio058",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual bioma brasileiro apresenta árvores retorcidas e estação seca marcada?",
+    "a": [
+      "Pantanal",
+      "Rhizobium",
+      "Mutualismo",
+      "Cerrado"
+    ],
+    "correct": 3,
+    "explanation": "O Cerrado tem vegetação adaptada à sazonalidade hídrica."
+  },
+  {
+    "id": "bio059",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual bioma possui solos permanentemente alagados em grandes áreas?",
+    "a": [
+      "Mutualismo",
+      "Cerrado",
+      "Rhizobium",
+      "Pantanal"
+    ],
+    "correct": 3,
+    "explanation": "O Pantanal apresenta extensas planícies sujeitas a cheias."
+  },
+  {
+    "id": "bio060",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual molécula absorve luz na fotossíntese e transfere energia?",
+    "a": [
+      "Plasmócito",
+      "Clorofila a",
+      "Mitocôndria",
+      "Osteoclasto"
+    ],
+    "correct": 1,
+    "explanation": "A clorofila a é o pigmento central dos fotossistemas."
+  },
+  {
+    "id": "bio061",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual ciclo fotossintético concentra CO₂ em plantas tropicais?",
+    "a": [
+      "Rubisco",
+      "Clorofila",
+      "Ciclo C4",
+      "Estômato"
+    ],
+    "correct": 2,
+    "explanation": "Plantas C4 fixam CO₂ inicialmente em compostos de quatro carbonos."
+  },
+  {
+    "id": "bio062",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual enzima fixa CO₂ no ciclo de Calvin?",
+    "a": [
+      "Estômato",
+      "Rubisco",
+      "Xilema",
+      "Etileno"
+    ],
+    "correct": 1,
+    "explanation": "A Rubisco catalisa a carboxilação da ribulose-1,5-bisfosfato."
+  },
+  {
+    "id": "bio063",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual etapa da fotossíntese libera oxigênio?",
+    "a": [
+      "Clorofila",
+      "Ciclo C4",
+      "Fotólise da água",
+      "Estômato"
+    ],
+    "correct": 2,
+    "explanation": "A quebra da água no fotossistema II libera O₂."
+  },
+  {
+    "id": "bio064",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual estrutura vegetal regula a transpiração?",
+    "a": [
+      "Etileno",
+      "Clorofila",
+      "Ciclo C4",
+      "Estômato"
+    ],
+    "correct": 3,
+    "explanation": "A abertura estomática controla trocas gasosas e perda de água."
+  },
+  {
+    "id": "bio065",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual hormônio vegetal promove amadurecimento de frutos?",
+    "a": [
+      "Ciclo C4",
+      "Etileno",
+      "Estômato",
+      "Rubisco"
+    ],
+    "correct": 1,
+    "explanation": "O etileno regula o amadurecimento de muitos frutos."
+  },
+  {
+    "id": "bio066",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual hormônio vegetal estimula alongamento celular?",
+    "a": [
+      "Autofagia",
+      "Auxina",
+      "ATP",
+      "Actina"
+    ],
+    "correct": 1,
+    "explanation": "Auxinas promovem alongamento em diversos tecidos vegetais."
+  },
+  {
+    "id": "bio067",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual tecido animal reveste superfícies e cavidades?",
+    "a": [
+      "Bivalves",
+      "Cnidaria",
+      "Condrictes",
+      "Epitelial"
+    ],
+    "correct": 3,
+    "explanation": "O tecido epitelial reveste superfícies e forma glândulas."
+  },
+  {
+    "id": "bio068",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual célula óssea reabsorve a matriz mineralizada?",
+    "a": [
+      "Osteoclasto",
+      "Mitocôndria",
+      "Poro nuclear",
+      "Clorofila a"
+    ],
+    "correct": 0,
+    "explanation": "Osteoclastos degradam a matriz óssea durante a remodelação."
+  },
+  {
+    "id": "bio069",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual proteína permite contração muscular com a miosina?",
+    "a": [
+      "Actina",
+      "Auxina",
+      "ATP",
+      "Autofagia"
+    ],
+    "correct": 0,
+    "explanation": "A actina interage com a miosina durante a contração."
+  },
+  {
+    "id": "bio070",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual íon inicia a exposição dos sítios de ligação na contração?",
+    "a": [
+      "Renina",
+      "Plaqueta",
+      "Cálcio",
+      "Amilase"
+    ],
+    "correct": 2,
+    "explanation": "O cálcio liga-se à troponina e desloca a tropomiosina."
+  },
+  {
+    "id": "bio071",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual região do intestino absorve a maior parte dos nutrientes?",
+    "a": [
+      "Válvula cardíaca",
+      "Artéria pulmonar",
+      "Seleção negativa",
+      "Intestino delgado"
+    ],
+    "correct": 3,
+    "explanation": "O intestino delgado concentra a digestão final e absorção."
+  },
+  {
+    "id": "bio072",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual enzima pancreática digere triglicerídeos?",
+    "a": [
+      "Intestino delgado",
+      "Recombinação V(D)J",
+      "Válvula cardíaca",
+      "Lipase pancreática"
+    ],
+    "correct": 3,
+    "explanation": "A lipase pancreática hidrolisa triglicerídeos."
+  },
+  {
+    "id": "bio073",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual célula gástrica secreta ácido clorídrico?",
+    "a": [
+      "Oligodendrócito",
+      "Célula parietal",
+      "Complexo de Golgi",
+      "Célula de Schwann"
+    ],
+    "correct": 1,
+    "explanation": "Células parietais secretam HCl no estômago."
+  },
+  {
+    "id": "bio074",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual imunoglobulina atravessa a placenta?",
+    "a": [
+      "Renina",
+      "IgG",
+      "Cálcio",
+      "Amilase"
+    ],
+    "correct": 1,
+    "explanation": "A IgG materna confere imunidade passiva ao feto."
+  },
+  {
+    "id": "bio075",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual linfócito amadurece no timo?",
+    "a": [
+      "Dendritos",
+      "Mesoderma",
+      "Glomérulo",
+      "Linfócito T"
+    ],
+    "correct": 3,
+    "explanation": "Os linfócitos T completam sua maturação no timo."
+  },
+  {
+    "id": "bio076",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual mecanismo gera diversidade nos receptores de linfócitos?",
+    "a": [
+      "Lipase pancreática",
+      "Recombinação V(D)J",
+      "Artéria pulmonar",
+      "Intestino delgado"
+    ],
+    "correct": 1,
+    "explanation": "A recombinação V(D)J rearranja segmentos gênicos dos receptores."
+  },
+  {
+    "id": "bio077",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual tipo de seleção elimina linfócitos autorreativos?",
+    "a": [
+      "Válvula cardíaca",
+      "Ramo ascendente",
+      "Artéria pulmonar",
+      "Seleção negativa"
+    ],
+    "correct": 3,
+    "explanation": "A seleção negativa remove células que reconhecem fortemente o próprio organismo."
+  },
+  {
+    "id": "bio078",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual estrutura bacteriana permite transferência de plasmídeos?",
+    "a": [
+      "Pilus sexual",
+      "Cápsula bacteriana",
+      "Flagelo",
+      "Fímbrias de adesão"
+    ],
+    "correct": 0,
+    "explanation": "O pilus participa da conjugação bacteriana."
+  },
+  {
+    "id": "bio079",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual processo bacteriano incorpora DNA livre do ambiente?",
+    "a": [
+      "Crossing-over",
+      "RNA polimerase",
+      "Transformação",
+      "Fuso mitótico"
+    ],
+    "correct": 2,
+    "explanation": "Na transformação, a bactéria capta DNA extracelular."
+  },
+  {
+    "id": "bio080",
+    "difficulty": "genio",
+    "category": "Biologia",
+    "q": "Qual processo transfere DNA bacteriano por bacteriófagos?",
+    "a": [
+      "Transdução",
+      "Frameshift",
+      "Segregação",
+      "DNA ligase"
+    ],
+    "correct": 0,
+    "explanation": "Bacteriófagos podem transportar DNA entre bactérias."
+  },
+  {
+    "id": "eng001",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual esforço interno atua paralelo à seção transversal?",
+    "a": [
+      "Recozimento",
+      "Cisalhamento",
+      "ABNT NBR 6120",
+      "ABNT NBR 8800"
+    ],
+    "correct": 1,
+    "explanation": "O esforço cortante atua tangencialmente à seção."
+  },
+  {
+    "id": "eng002",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual esforço tende a alongar uma peça?",
+    "a": [
+      "Laje",
+      "Viga",
+      "Tração",
+      "Pilar"
+    ],
+    "correct": 2,
+    "explanation": "A tração solicita o elemento em alongamento."
+  },
+  {
+    "id": "eng003",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual esforço tende a encurtar uma peça?",
+    "a": [
+      "Flambagem",
+      "Compressão",
+      "Apoio móvel",
+      "Ultrassom"
+    ],
+    "correct": 1,
+    "explanation": "A compressão solicita o elemento em encurtamento."
+  },
+  {
+    "id": "eng004",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual propriedade mede a resistência à deformação elástica?",
+    "a": [
+      "Estado limite último",
+      "Módulo de elasticidade",
+      "Diagrama de momentos",
+      "Estado limite de serviço"
+    ],
+    "correct": 1,
+    "explanation": "O módulo relaciona tensão e deformação no regime elástico."
+  },
+  {
+    "id": "eng005",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual ensaio mede a consistência do concreto fresco?",
+    "a": [
+      "Relação água/cimento",
+      "Silicato tricálcico",
+      "Silicato dicálcico",
+      "Ensaio de abatimento"
+    ],
+    "correct": 3,
+    "explanation": "O abatimento do tronco de cone avalia a consistência."
+  },
+  {
+    "id": "eng006",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual norma brasileira trata do projeto de estruturas de concreto?",
+    "a": [
+      "Agregado leve",
+      "Peneiramento",
+      "Sílica ativa",
+      "ABNT NBR 6118"
+    ],
+    "correct": 3,
+    "explanation": "A NBR 6118 estabelece requisitos para estruturas de concreto."
+  },
+  {
+    "id": "eng007",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual norma brasileira trata de ações para estruturas?",
+    "a": [
+      "ABNT NBR 6122",
+      "ABNT NBR 6120",
+      "Cisalhamento",
+      "ABNT NBR 8800"
+    ],
+    "correct": 1,
+    "explanation": "A NBR 6120 define ações para o cálculo de estruturas."
+  },
+  {
+    "id": "eng008",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual norma brasileira trata de fundações?",
+    "a": [
+      "ABNT NBR 6122",
+      "ABNT NBR 6120",
+      "Cisalhamento",
+      "ABNT NBR 8800"
+    ],
+    "correct": 0,
+    "explanation": "A NBR 6122 estabelece requisitos para projeto e execução de fundações."
+  },
+  {
+    "id": "eng009",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual norma trata de estruturas de aço e mistas?",
+    "a": [
+      "ABNT NBR 8800",
+      "ABNT NBR 6122",
+      "Cisalhamento",
+      "ABNT NBR 6120"
+    ],
+    "correct": 0,
+    "explanation": "A NBR 8800 trata de estruturas de aço e mistas de aço e concreto."
+  },
+  {
+    "id": "eng010",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual ensaio determina a resistência à compressão do concreto?",
+    "a": [
+      "Ensaio de abatimento",
+      "Cimento resistente a sulfatos",
+      "Perda de trabalhabilidade",
+      "Rompimento de corpos de prova"
+    ],
+    "correct": 3,
+    "explanation": "Corpos de prova são ensaiados à compressão em prensa."
+  },
+  {
+    "id": "eng011",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual agregado reduz a retração em concretos leves?",
+    "a": [
+      "Sílica ativa",
+      "Peneiramento",
+      "ABNT NBR 6118",
+      "Agregado leve"
+    ],
+    "correct": 3,
+    "explanation": "Agregados leves reduzem a massa específica do concreto."
+  },
+  {
+    "id": "eng012",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual adição mineral pode reduzir a permeabilidade do concreto?",
+    "a": [
+      "Agregado leve",
+      "ABNT NBR 6118",
+      "Sílica ativa",
+      "Peneiramento"
+    ],
+    "correct": 2,
+    "explanation": "A sílica ativa melhora o empacotamento e a microestrutura da pasta."
+  },
+  {
+    "id": "eng013",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual produto resulta da hidratação do cimento Portland?",
+    "a": [
+      "Peneiramento",
+      "Sílica ativa",
+      "C-S-H",
+      "ABNT NBR 6118"
+    ],
+    "correct": 2,
+    "explanation": "O silicato de cálcio hidratado é o principal responsável pela resistência."
+  },
+  {
+    "id": "eng014",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual composto do cimento contribui mais para resistência inicial?",
+    "a": [
+      "Relação água/cimento",
+      "Silicato dicálcico",
+      "Ensaio de abatimento",
+      "Silicato tricálcico"
+    ],
+    "correct": 3,
+    "explanation": "O C₃S hidrata rapidamente e contribui para resistência inicial."
+  },
+  {
+    "id": "eng015",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual composto do cimento contribui para resistência tardia?",
+    "a": [
+      "Silicato tricálcico",
+      "Relação água/cimento",
+      "Pavimento rígido",
+      "Silicato dicálcico"
+    ],
+    "correct": 3,
+    "explanation": "O C₂S hidrata mais lentamente e contribui para resistência tardia."
+  },
+  {
+    "id": "eng016",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual fator controla fortemente a resistência do concreto?",
+    "a": [
+      "Silicato tricálcico",
+      "Silicato dicálcico",
+      "Ensaio de abatimento",
+      "Relação água/cimento"
+    ],
+    "correct": 3,
+    "explanation": "A relação água/cimento influencia porosidade e resistência."
+  },
+  {
+    "id": "eng017",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual fenômeno causa perda de abatimento ao longo do tempo?",
+    "a": [
+      "Relação água/cimento",
+      "Rompimento de corpos de prova",
+      "Perda de trabalhabilidade",
+      "Cimento resistente a sulfatos"
+    ],
+    "correct": 2,
+    "explanation": "A hidratação e a evaporação reduzem a consistência do concreto."
+  },
+  {
+    "id": "eng018",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual tipo de cimento é indicado para ambientes com sulfatos?",
+    "a": [
+      "Cimento resistente a sulfatos",
+      "Perda de trabalhabilidade",
+      "Rompimento de corpos de prova",
+      "Relação água/cimento"
+    ],
+    "correct": 0,
+    "explanation": "A composição resistente reduz a vulnerabilidade ao ataque por sulfatos."
+  },
+  {
+    "id": "eng019",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual ensaio avalia a granulometria dos agregados?",
+    "a": [
+      "Sílica ativa",
+      "Agregado leve",
+      "ABNT NBR 6118",
+      "Peneiramento"
+    ],
+    "correct": 3,
+    "explanation": "A análise granulométrica usa séries de peneiras."
+  },
+  {
+    "id": "eng020",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual índice representa a relação entre massa e volume aparente?",
+    "a": [
+      "Ensaio Proctor",
+      "Sapata isolada",
+      "Massa unitária",
+      "Sapata associada"
+    ],
+    "correct": 2,
+    "explanation": "A massa unitária considera os vazios entre partículas."
+  },
+  {
+    "id": "eng021",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual fundação transmite cargas por atrito lateral e ponta?",
+    "a": [
+      "Radier",
+      "Base",
+      "Estaca",
+      "Índice N"
+    ],
+    "correct": 2,
+    "explanation": "Estacas podem transferir cargas pela ponta e pelo fuste."
+  },
+  {
+    "id": "eng022",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual fundação rasa distribui cargas de pilares isolados?",
+    "a": [
+      "Sapata associada",
+      "Sapata isolada",
+      "Ensaio Proctor",
+      "Massa unitária"
+    ],
+    "correct": 1,
+    "explanation": "A sapata isolada apoia um único pilar."
+  },
+  {
+    "id": "eng023",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual fundação rasa atende pilares próximos com base comum?",
+    "a": [
+      "Pavimento flexível",
+      "Ensaio Proctor",
+      "Sapata associada",
+      "Selante de juntas"
+    ],
+    "correct": 2,
+    "explanation": "A sapata associada recebe cargas de dois ou mais pilares."
+  },
+  {
+    "id": "eng024",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual fundação é indicada para cargas distribuídas em toda a área?",
+    "a": [
+      "Estaca",
+      "Radier",
+      "Base",
+      "Índice N"
+    ],
+    "correct": 1,
+    "explanation": "O radier funciona como uma laje de fundação."
+  },
+  {
+    "id": "eng025",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual ensaio de campo estima a resistência à penetração do solo?",
+    "a": [
+      "Estaca",
+      "SPT",
+      "Base",
+      "Radier"
+    ],
+    "correct": 1,
+    "explanation": "O SPT mede o índice de resistência à penetração do amostrador."
+  },
+  {
+    "id": "eng026",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual parâmetro do SPT é expresso pelo número de golpes?",
+    "a": [
+      "Estaca",
+      "Radier",
+      "Índice CBR",
+      "Índice N"
+    ],
+    "correct": 3,
+    "explanation": "O N-SPT corresponde aos golpes nos 30 cm finais de cravação."
+  },
+  {
+    "id": "eng027",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual limite de consistência marca a transição plástico-líquido?",
+    "a": [
+      "Selante de juntas",
+      "Sapata associada",
+      "Pavimento flexível",
+      "Limite de liquidez"
+    ],
+    "correct": 3,
+    "explanation": "O limite de liquidez separa os estados plástico e líquido."
+  },
+  {
+    "id": "eng028",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual limite de consistência marca a transição semissólido-plástico?",
+    "a": [
+      "Pavimento flexível",
+      "Selante de juntas",
+      "Limite de liquidez",
+      "Limite de plasticidade"
+    ],
+    "correct": 3,
+    "explanation": "O limite de plasticidade separa os estados semissólido e plástico."
+  },
+  {
+    "id": "eng029",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual ensaio determina a compactação ótima do solo?",
+    "a": [
+      "Ensaio Proctor",
+      "Planta baixa",
+      "Massa unitária",
+      "Sapata isolada"
+    ],
+    "correct": 0,
+    "explanation": "O Proctor relaciona teor de umidade e massa específica seca."
+  },
+  {
+    "id": "eng030",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual parâmetro expressa a capacidade de suporte do subleito?",
+    "a": [
+      "Sapata isolada",
+      "Planta baixa",
+      "Índice CBR",
+      "Índice N"
+    ],
+    "correct": 2,
+    "explanation": "O CBR estima a resistência do solo para pavimentação."
+  },
+  {
+    "id": "eng031",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual camada do pavimento distribui tensões ao subleito?",
+    "a": [
+      "SPT",
+      "Estaca",
+      "Base",
+      "Radier"
+    ],
+    "correct": 2,
+    "explanation": "A base recebe esforços do revestimento e os distribui às camadas inferiores."
+  },
+  {
+    "id": "eng032",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual pavimento utiliza placas de concreto como revestimento?",
+    "a": [
+      "Silicato dicálcico",
+      "Silicato tricálcico",
+      "Pavimento rígido",
+      "ABNT NBR 6118"
+    ],
+    "correct": 2,
+    "explanation": "O pavimento rígido tem revestimento em placas de concreto."
+  },
+  {
+    "id": "eng033",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual pavimento utiliza revestimento asfáltico flexível?",
+    "a": [
+      "Pavimento flexível",
+      "Selante de juntas",
+      "Sapata associada",
+      "Limite de liquidez"
+    ],
+    "correct": 0,
+    "explanation": "O revestimento asfáltico caracteriza o pavimento flexível."
+  },
+  {
+    "id": "eng034",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual elemento impede a entrada de água em juntas de pavimento?",
+    "a": [
+      "Limite de liquidez",
+      "Selante de juntas",
+      "Pavimento flexível",
+      "Sapata associada"
+    ],
+    "correct": 1,
+    "explanation": "O selante reduz a infiltração de água e materiais incompressíveis."
+  },
+  {
+    "id": "eng035",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual elemento estrutural trabalha predominantemente à flexão?",
+    "a": [
+      "Viga",
+      "Laje",
+      "Pilar",
+      "Tração"
+    ],
+    "correct": 0,
+    "explanation": "Vigas resistem principalmente a momentos fletores e esforços cortantes."
+  },
+  {
+    "id": "eng036",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual elemento estrutural transmite cargas verticais às fundações?",
+    "a": [
+      "Viga",
+      "Tração",
+      "Laje",
+      "Pilar"
+    ],
+    "correct": 3,
+    "explanation": "Pilares conduzem cargas da estrutura até as fundações."
+  },
+  {
+    "id": "eng037",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual elemento estrutural trabalha principalmente como superfície?",
+    "a": [
+      "Tração",
+      "Laje",
+      "Viga",
+      "Pilar"
+    ],
+    "correct": 1,
+    "explanation": "Lajes recebem cargas distribuídas e as transferem às vigas ou apoios."
+  },
+  {
+    "id": "eng038",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual sistema estrutural utiliza cabos tracionados?",
+    "a": [
+      "Comprimento efetivo",
+      "Líquido penetrante",
+      "Estrutura estaiada",
+      "Método da rigidez"
+    ],
+    "correct": 2,
+    "explanation": "Estais trabalham à tração e estabilizam a estrutura."
+  },
+  {
+    "id": "eng039",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual elemento impede deslocamento lateral de pórticos?",
+    "a": [
+      "Contraventamento",
+      "Light steel frame",
+      "Método da rigidez",
+      "Apoio articulado"
+    ],
+    "correct": 0,
+    "explanation": "Contraventamentos aumentam a estabilidade lateral."
+  },
+  {
+    "id": "eng040",
+    "difficulty": "dificil",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual estado limite verifica segurança contra colapso?",
+    "a": [
+      "Diagrama de momentos",
+      "Comprimento efetivo",
+      "Limite de escoamento",
+      "Estado limite último"
+    ],
+    "correct": 3,
+    "explanation": "O ELU está associado à segurança estrutural."
+  },
+  {
+    "id": "eng041",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual estado limite verifica conforto e deformações em uso?",
+    "a": [
+      "Estado limite último",
+      "Diagrama de momentos",
+      "Estado limite de serviço",
+      "Módulo de elasticidade"
+    ],
+    "correct": 2,
+    "explanation": "O ELS verifica desempenho, conforto e durabilidade em serviço."
+  },
+  {
+    "id": "eng042",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual diagrama representa momento fletor ao longo de uma viga?",
+    "a": [
+      "Diagrama de momentos",
+      "Limite de escoamento",
+      "Comprimento efetivo",
+      "Estado limite último"
+    ],
+    "correct": 0,
+    "explanation": "O diagrama mostra a variação do momento fletor."
+  },
+  {
+    "id": "eng043",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual apoio impede translação horizontal e vertical, mas permite rotação?",
+    "a": [
+      "Apoio articulado",
+      "Método da rigidez",
+      "Light steel frame",
+      "Contraventamento"
+    ],
+    "correct": 0,
+    "explanation": "A articulação restringe duas translações e libera a rotação."
+  },
+  {
+    "id": "eng044",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual apoio restringe apenas o deslocamento vertical em modelo plano?",
+    "a": [
+      "Recozimento",
+      "Cisalhamento",
+      "Apoio móvel",
+      "Compressão"
+    ],
+    "correct": 2,
+    "explanation": "O apoio móvel permite deslocamento horizontal e rotação."
+  },
+  {
+    "id": "eng045",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual método analisa pórticos hiperestáticos por deslocamentos?",
+    "a": [
+      "Contraventamento",
+      "Estrutura estaiada",
+      "Light steel frame",
+      "Método da rigidez"
+    ],
+    "correct": 3,
+    "explanation": "O método da rigidez utiliza deslocamentos nodais como incógnitas."
+  },
+  {
+    "id": "eng046",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual fenômeno reduz a seção de barras comprimidas esbeltas?",
+    "a": [
+      "Apoio móvel",
+      "Compressão",
+      "Ultrassom",
+      "Flambagem"
+    ],
+    "correct": 3,
+    "explanation": "A flambagem é uma instabilidade de elementos comprimidos."
+  },
+  {
+    "id": "eng047",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual parâmetro geométrico influencia a esbeltez de uma coluna?",
+    "a": [
+      "Estado limite último",
+      "Diagrama de momentos",
+      "Comprimento efetivo",
+      "Limite de escoamento"
+    ],
+    "correct": 2,
+    "explanation": "A esbeltez depende do comprimento efetivo e do raio de giração."
+  },
+  {
+    "id": "eng048",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual propriedade mede a resistência do aço à deformação plástica?",
+    "a": [
+      "Estado limite último",
+      "Comprimento efetivo",
+      "Limite de escoamento",
+      "Diagrama de momentos"
+    ],
+    "correct": 2,
+    "explanation": "O limite de escoamento marca o início da deformação plástica significativa."
+  },
+  {
+    "id": "eng049",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual tratamento térmico reduz tensões internas no aço?",
+    "a": [
+      "Apoio móvel",
+      "Recozimento",
+      "Cisalhamento",
+      "Compressão"
+    ],
+    "correct": 1,
+    "explanation": "O recozimento pode reduzir tensões e alterar a microestrutura."
+  },
+  {
+    "id": "eng050",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual processo une metais por fusão localizada?",
+    "a": [
+      "Elevação",
+      "Curva de nível",
+      "Composição unitária",
+      "Soldagem"
+    ],
+    "correct": 3,
+    "explanation": "A soldagem une materiais por coalescência, com ou sem pressão."
+  },
+  {
+    "id": "eng051",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual ensaio não destrutivo detecta descontinuidades superficiais?",
+    "a": [
+      "Líquido penetrante",
+      "Estrutura estaiada",
+      "Comprimento efetivo",
+      "Light steel frame"
+    ],
+    "correct": 0,
+    "explanation": "O ensaio revela descontinuidades abertas à superfície."
+  },
+  {
+    "id": "eng052",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual ensaio não destrutivo usa ondas de alta frequência?",
+    "a": [
+      "Ultrassom",
+      "Flambagem",
+      "Compressão",
+      "Recozimento"
+    ],
+    "correct": 0,
+    "explanation": "O ultrassom detecta descontinuidades internas por reflexão de ondas."
+  },
+  {
+    "id": "eng053",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual elemento arquitetônico controla a entrada de luz solar?",
+    "a": [
+      "Taxa de ocupação",
+      "Revit",
+      "Corte arquitetônico",
+      "Brise-soleil"
+    ],
+    "correct": 3,
+    "explanation": "Brises sombreiam fachadas e controlam a radiação solar."
+  },
+  {
+    "id": "eng054",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual conceito relaciona área construída e área do terreno?",
+    "a": [
+      "Modelagem da Informação da Construção",
+      "Cross laminated timber",
+      "Desvio orçamentário",
+      "Coeficiente de aproveitamento"
+    ],
+    "correct": 3,
+    "explanation": "O coeficiente relaciona a área computável construída à área do lote."
+  },
+  {
+    "id": "eng055",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual parâmetro urbanístico define a parcela ocupada no lote?",
+    "a": [
+      "Memorial descritivo",
+      "Taxa de ocupação",
+      "Corte arquitetônico",
+      "Orçamento analítico"
+    ],
+    "correct": 1,
+    "explanation": "A taxa de ocupação relaciona projeção da edificação e área do terreno."
+  },
+  {
+    "id": "eng056",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual desenho representa cortes verticais de uma edificação?",
+    "a": [
+      "Corte arquitetônico",
+      "Desvio orçamentário",
+      "Orçamento analítico",
+      "Memorial descritivo"
+    ],
+    "correct": 0,
+    "explanation": "O corte mostra a edificação seccionada verticalmente."
+  },
+  {
+    "id": "eng057",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual desenho representa a vista superior de um pavimento?",
+    "a": [
+      "Planta baixa",
+      "Sapata isolada",
+      "Massa unitária",
+      "Ensaio Proctor"
+    ],
+    "correct": 0,
+    "explanation": "A planta baixa representa o pavimento em projeção horizontal."
+  },
+  {
+    "id": "eng058",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual desenho mostra a vista externa de uma edificação?",
+    "a": [
+      "Soldagem",
+      "Elevação",
+      "Composição unitária",
+      "Curva de nível"
+    ],
+    "correct": 1,
+    "explanation": "A elevação representa uma fachada em projeção ortogonal."
+  },
+  {
+    "id": "eng059",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual escala é maior: 1:50 ou 1:100?",
+    "a": [
+      "1:50",
+      "Brise-soleil",
+      "IFC",
+      "Revit"
+    ],
+    "correct": 0,
+    "explanation": "Na escala 1:50, o desenho é maior para o mesmo objeto real."
+  },
+  {
+    "id": "eng060",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual sistema BIM organiza informações em um modelo digital?",
+    "a": [
+      "Orçamento analítico",
+      "Cross laminated timber",
+      "Coeficiente de aproveitamento",
+      "Modelagem da Informação da Construção"
+    ],
+    "correct": 3,
+    "explanation": "BIM integra geometria e informações dos elementos da construção."
+  },
+  {
+    "id": "eng061",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual formato aberto é usado para intercâmbio de modelos BIM?",
+    "a": [
+      "1:50",
+      "Brise-soleil",
+      "Revit",
+      "IFC"
+    ],
+    "correct": 3,
+    "explanation": "IFC é um padrão aberto para troca de informações BIM."
+  },
+  {
+    "id": "eng062",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual software é associado à modelagem BIM de edificações?",
+    "a": [
+      "Brise-soleil",
+      "Revit",
+      "IFC",
+      "1:50"
+    ],
+    "correct": 1,
+    "explanation": "O Revit é uma ferramenta de modelagem BIM."
+  },
+  {
+    "id": "eng063",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual documento reúne especificações e critérios de execução?",
+    "a": [
+      "Corte arquitetônico",
+      "Desvio orçamentário",
+      "Orçamento analítico",
+      "Memorial descritivo"
+    ],
+    "correct": 3,
+    "explanation": "O memorial descreve materiais, serviços e critérios do projeto."
+  },
+  {
+    "id": "eng064",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual documento detalha custos e quantidades de serviços?",
+    "a": [
+      "Memorial descritivo",
+      "Orçamento analítico",
+      "Desvio orçamentário",
+      "Corte arquitetônico"
+    ],
+    "correct": 1,
+    "explanation": "O orçamento analítico discrimina composições, quantidades e custos."
+  },
+  {
+    "id": "eng065",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual composição de custos considera materiais, mão de obra e equipamentos?",
+    "a": [
+      "Alvenaria estrutural",
+      "Curva de nível",
+      "Soldagem",
+      "Composição unitária"
+    ],
+    "correct": 3,
+    "explanation": "A composição unitária calcula o custo por unidade de serviço."
+  },
+  {
+    "id": "eng066",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual indicador compara custo realizado e custo previsto?",
+    "a": [
+      "Memorial descritivo",
+      "Desvio orçamentário",
+      "Corte arquitetônico",
+      "Orçamento analítico"
+    ],
+    "correct": 1,
+    "explanation": "O desvio expressa a diferença entre realizado e previsto."
+  },
+  {
+    "id": "eng067",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual sistema coleta água pluvial de coberturas?",
+    "a": [
+      "Potência aparente",
+      "Fator de potência",
+      "Válvula redutora de pressão",
+      "Calhas e condutores"
+    ],
+    "correct": 3,
+    "explanation": "Calhas e condutores captam e direcionam águas pluviais."
+  },
+  {
+    "id": "eng068",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual dispositivo impede retorno de gases do esgoto?",
+    "a": [
+      "Disjuntor",
+      "Desconector",
+      "Potência aparente",
+      "Fator de potência"
+    ],
+    "correct": 1,
+    "explanation": "O desconector mantém fecho hídrico contra gases da rede."
+  },
+  {
+    "id": "eng069",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual peça reduz a pressão em uma instalação hidráulica?",
+    "a": [
+      "Potência aparente",
+      "Fator de potência",
+      "Calhas e condutores",
+      "Válvula redutora de pressão"
+    ],
+    "correct": 3,
+    "explanation": "A válvula limita a pressão a jusante."
+  },
+  {
+    "id": "eng070",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual sistema protege circuitos contra sobrecorrente?",
+    "a": [
+      "Potência aparente",
+      "Desconector",
+      "Disjuntor",
+      "DR"
+    ],
+    "correct": 2,
+    "explanation": "O disjuntor interrompe correntes excessivas."
+  },
+  {
+    "id": "eng071",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual dispositivo atua ao detectar corrente diferencial residual?",
+    "a": [
+      "Potência aparente",
+      "Desconector",
+      "DR",
+      "Disjuntor"
+    ],
+    "correct": 2,
+    "explanation": "O dispositivo diferencial residual detecta fugas de corrente."
+  },
+  {
+    "id": "eng072",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual grandeza elétrica é medida em volt-ampère?",
+    "a": [
+      "Calhas e condutores",
+      "Desconector",
+      "Potência aparente",
+      "Fator de potência"
+    ],
+    "correct": 2,
+    "explanation": "A potência aparente é expressa em volt-ampère."
+  },
+  {
+    "id": "eng073",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual fator relaciona potência ativa e aparente?",
+    "a": [
+      "Calhas e condutores",
+      "Desconector",
+      "Fator de potência",
+      "Potência aparente"
+    ],
+    "correct": 2,
+    "explanation": "O fator de potência é a razão entre potência ativa e aparente."
+  },
+  {
+    "id": "eng074",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual sistema de coordenadas é comum em levantamentos topográficos?",
+    "a": [
+      "UTM",
+      "SPT",
+      "DR",
+      "IFC"
+    ],
+    "correct": 0,
+    "explanation": "O sistema UTM projeta coordenadas métricas em zonas."
+  },
+  {
+    "id": "eng075",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual instrumento mede ângulos horizontais e verticais em topografia?",
+    "a": [
+      "Teodolito",
+      "Flambagem",
+      "Ultrassom",
+      "Disjuntor"
+    ],
+    "correct": 0,
+    "explanation": "O teodolito mede ângulos horizontais e verticais."
+  },
+  {
+    "id": "eng076",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual instrumento combina medição angular e de distância?",
+    "a": [
+      "ABNT NBR 6122",
+      "Estação total",
+      "Agregado leve",
+      "ABNT NBR 8800"
+    ],
+    "correct": 1,
+    "explanation": "A estação total integra teodolito eletrônico e distanciômetro."
+  },
+  {
+    "id": "eng077",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual curva representa pontos de mesma altitude?",
+    "a": [
+      "Soldagem",
+      "Composição unitária",
+      "Elevação",
+      "Curva de nível"
+    ],
+    "correct": 3,
+    "explanation": "Curvas de nível unem pontos de igual cota."
+  },
+  {
+    "id": "eng078",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual método construtivo utiliza paredes como elementos portantes?",
+    "a": [
+      "Alvenaria estrutural",
+      "Composição unitária",
+      "Curva de nível",
+      "Soldagem"
+    ],
+    "correct": 0,
+    "explanation": "Na alvenaria estrutural, paredes recebem e transmitem cargas."
+  },
+  {
+    "id": "eng079",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual sistema construtivo utiliza perfis leves de aço galvanizado?",
+    "a": [
+      "Método da rigidez",
+      "Light steel frame",
+      "Contraventamento",
+      "Líquido penetrante"
+    ],
+    "correct": 1,
+    "explanation": "O light steel frame usa perfis de aço galvanizado a frio."
+  },
+  {
+    "id": "eng080",
+    "difficulty": "genio",
+    "category": "Arquitetura e Engenharia",
+    "q": "Qual sistema construtivo utiliza painéis de madeira engenheirada?",
+    "a": [
+      "Orçamento analítico",
+      "Corte arquitetônico",
+      "Memorial descritivo",
+      "Cross laminated timber"
+    ],
+    "correct": 3,
+    "explanation": "O CLT é formado por camadas cruzadas de madeira coladas."
   }
 ];

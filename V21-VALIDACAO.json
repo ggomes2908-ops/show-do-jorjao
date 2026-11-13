@@ -1,0 +1,73 @@
+{
+  "total_perguntas": 1040,
+  "categorias": {
+    "Conhecimento geral": 80,
+    "Ciência e tecnologia": 80,
+    "Geopolítica e atualidades": 80,
+    "Brasil": 80,
+    "História e geografia": 80,
+    "Política": 80,
+    "Química": 80,
+    "Lógica e enigmas": 80,
+    "Economia e negócios": 80,
+    "Matemática e raciocínio": 80,
+    "Futebol": 80,
+    "Biologia": 80,
+    "Arquitetura e Engenharia": 80
+  },
+  "novas_categorias": {
+    "Futebol": {
+      "dificil": 40,
+      "genio": 40
+    },
+    "Biologia": {
+      "dificil": 40,
+      "genio": 40
+    },
+    "Arquitetura e Engenharia": {
+      "dificil": 40,
+      "genio": 40
+    }
+  },
+  "ids_unicos": 1040,
+  "alternativas_validas": true,
+  "indices_corretos_validos": true,
+  "imagens_nas_novas_perguntas": false,
+  "observacao": "Validação estrutural e estática aprovada. Teste E2E em navegador e integração real com Supabase não puderam ser concluídos neste ambiente. Revisão factual/editorial humana recomendada.",
+  "testes_adicionais": {
+    "sintaxe_app_js": "aprovado",
+    "sintaxe_questions_js": "aprovado",
+    "integridade_zip": "aprovado",
+    "ids_html_duplicados": 0,
+    "referencias_locais_ausentes": 0,
+    "categorias_no_seletor": {
+      "Futebol": 1,
+      "Biologia": 1,
+      "Arquitetura e Engenharia": 1
+    },
+    "alternativas_repetidas_nas_novas_perguntas": 0,
+    "distribuicao_indice_resposta": {
+      "Futebol": [
+        17,
+        20,
+        28,
+        15
+      ],
+      "Biologia": [
+        21,
+        22,
+        18,
+        19
+      ],
+      "Arquitetura e Engenharia": [
+        22,
+        17,
+        21,
+        20
+      ]
+    },
+    "titulo_documento": "atualizado para V21",
+    "teste_browser_automatizado": "nao concluido: Chromium headless travou neste ambiente antes de gerar DOM",
+    "teste_supabase_real": "nao concluido: cloud-config.js ainda contem placeholder para anonKey"
+  }
+}
